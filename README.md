@@ -60,7 +60,7 @@ By sharing your analysis and contributing to this repository you help the global
 
 Special thanks to our closest collaborators and their teams: 
 
-<blank />
+<br />
 
 <img align="left" width="200" src="https://user-images.githubusercontent.com/64998301/143174086-aebdf1ed-fe4a-400f-95b2-0269cd10498b.png">
 <img align="left" width="200" src="https://user-images.githubusercontent.com/64998301/143174037-d110437c-b89c-45c7-85ab-392d983813e0.png">
@@ -71,12 +71,8 @@ Special thanks to our closest collaborators and their teams:
 <img align="right" width="200" src="https://user-images.githubusercontent.com/64998301/143174322-d354b5a2-5d86-493e-bc55-fd104bc331fb.png">
 
 
-<blank />
-<blank />
-<blank />
-
-
-<blank />
+<br />
+ 
 ### Strucutre
 
 This GitHub contains the following resources: 
