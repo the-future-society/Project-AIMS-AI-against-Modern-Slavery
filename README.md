@@ -68,7 +68,7 @@ By sharing your analysis and contributing to this repository you help the global
 
 >_“This tool will be an innovative way to hold companies to account. It means our teams can speed up the analysis of company statements and it will allow us to focus on the investigation of different sectors and highlight areas that require improvement. Going forward, this will lead to better disclosure of company action to tackle modern slavery in global supply chains.”  -  Katharine Bryant, European Engagement Lead Walk Free Initiative_
 
-Join us community. We will meet once per month and disucss the projects. 
+Join our community on Slack and come to our regular meetings where we disucss recent research and developent on the project. 
 - 🗓️ Next meeting **xx/xx/xxxx**
 
 ### Prerequisites
@@ -79,20 +79,6 @@ Join us community. We will meet once per month and disucss the projects.
 ### Quickstart
 
 It's recommended that you use a virtual environment such as [virtualenv](https://virtualenv.pypa.io/en/latest/), [pipenv](https://pipenv-fork.readthedocs.io/en/latest/) or similar.
-
-
-### Resoruces
-
-Read our publication on: Digital Insights: 
-The prototype of Project AIMS, developed by Adriana in 2019
-
-### Project AIMS in the media and more:
-
-Walk Free Foundation Press Release.
-Publication: Digital Insights into Modern Slavery Reporting: Challenges and opportunities of machine readability
-DATA FOR FUTURE podcast episode #17: AI AGAINST MODERN SLAVERY – with Adriana Bora talking about AI governance and the conceptualization of Project AIMS
-
-[UNWDF (TA3.09) Measuring and combatting modern slavery with data-driven solutions in times of a pandemic](https://www.youtube.com/watch?v=1iDmSXJwClA)
 
 
 
@@ -140,15 +126,25 @@ Take a look at colab notebooks based on the modern slavery corpus:
 
 
 
+
+### Project AIMS in the media and more:
+
+- Walk Free Foundation Press Release.
+- Read our publication on: Digital Insights: 
+- The prototype of Project AIMS, developed by Adriana in 2019
+- Publication: Digital Insights into Modern Slavery Reporting: Challenges and opportunities of machine readability
+- DATA FOR FUTURE podcast episode #17: AI AGAINST MODERN SLAVERY – with Adriana Bora talking about AI governance and the conceptualization of Project AIMS
+- [UNWDF (TA3.09) Measuring and combatting modern slavery with data-driven solutions in times of a pandemic](https://www.youtube.com/watch?v=1iDmSXJwClA)
+
+
+
 ## Get in touch 💬
 If you'd like to get help with domain expertise or technical requirements and implementations then get in touch with [Adriana](mailto:adriana.bora@thefuturesociety.org).
 
 
 ## Citation 📝 
 
-If you intend to share any form of public research and analysis based on the data from this repository and the `modern-slavery-dataset` bucket in AWS S3, then please include the following citation to your publication:
-
-- The Future Society. (2020) Project AIMS (AI against Modern Slavery). Retrieved from https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery
+If you intend to share any form of public research and analysis based on the data or code provided on this this repository, then please include the following citation to your publication: _The Future Society. (2020) Project AIMS (AI against Modern Slavery). Retrieved from https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery _ 
 
 
 
