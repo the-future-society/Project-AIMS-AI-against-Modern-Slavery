@@ -61,13 +61,13 @@ The analysis of the statements takes into account a list of “metrics”, adapt
 
 ## JOIN US ⭐
 
-[The team](https://thefuturesociety.org/our-team/) at The Future Society is now making the work developed between April 2020 to June 2021 ©️ open source, for the wider community to contribute to the fight against modern slavery.
+<img align="right" width="400" src="https://cdn.dribbble.com/users/472667/screenshots/15669289/media/d18929f9db262c8c118740dd65d8a395.gif">
+
+[The Future Society](https://thefuturesociety.org/our-team/) is now making the work developed between April 2020 to June 2021 ©️ open source, inviting the wider community to contribute to the fight against modern slavery.
 
 By sharing your analysis and contributing to this repository you help the global community to hold multi-national corporations accountable for how they are addressing modern slavery in their supply chains. 
 
 >_“This tool will be an innovative way to hold companies to account. It means our teams can speed up the analysis of company statements and it will allow us to focus on the investigation of different sectors and highlight areas that require improvement. Going forward, this will lead to better disclosure of company action to tackle modern slavery in global supply chains.”  -  Katharine Bryant, European Engagement Lead Walk Free Initiative_
-
-<img align="right" width="400" src="https://cdn.dribbble.com/users/472667/screenshots/15669289/media/d18929f9db262c8c118740dd65d8a395.gif">
 
 Join us community. We will meet once per month and disucss the projects. 
 - 🗓️ Next meeting **xx/xx/xxxx**
