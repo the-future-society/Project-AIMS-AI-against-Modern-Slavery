@@ -59,9 +59,12 @@ The analysis of the statements takes into account a list of “metrics”, adapt
 2. Provide policymakers and legislators with a greater understanding of these new methods of analysis, fostering their use in other contexts, such as other non-financial reporting initiatives.
 3. Encourage software developers, data scientists, and social scientists to apply their domain expertise to AI for social good projects and combat modern slavery.
 
-## JOIN US ⭐
+## JOIN US 
 
 <img align="right" width="400" src="https://cdn.dribbble.com/users/472667/screenshots/15669289/media/d18929f9db262c8c118740dd65d8a395.gif">
+
+<img align="right" width="400" src="https://cdn.dribbble.com/users/5347836/screenshots/16434209/media/7f6997363572f609fe21966cdab11f0c.gif">
+
 
 [The Future Society](https://thefuturesociety.org/our-team/) is now making the work developed between April 2020 to June 2021 ©️ open source, inviting the wider community to contribute to the fight against modern slavery.
 
