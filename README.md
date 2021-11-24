@@ -18,15 +18,11 @@ This repository contains the work developed so far under Porject AIMS under an o
 This GitHub contains the following resources: 
 
 1. The notebooks developed under Project AIMS from April 2020 to June 2021, clearly documented , ideally for anyone who would like to reproduce our project to be able to get similar results. Those notebooks are organsied in the following format: 
-   - Data and text extraction
-   - 🔭 Exploration for labeling functions and binary classification for core metrics
-   - Model for multi-class and multi-label classification for core metrics 
+   - 🗄️ Data and text extraction
+   - 📔 Exploration for **labeling functions** and **binary classification** for core metrics
+   - 📔 Model for **multi-class** and **multi-label classification** for core metrics 
 
-2. Sub-projects for multi-class and multi-label classification for core metrics designed for the community to pick up and develop further. Those include a clear scope, questions, expected outcomes, a proposed methodology and resources.
-Details on engagement 
-
-
-
+2. 💡 Sub-projects for multi-class and multi-label classification for core metrics designed for the community to pick up and develop further. Those include a clear scope, questions, expected outcomes, a proposed methodology and resources.
 
 
 ## Introduction
@@ -139,11 +135,11 @@ DATA FOR FUTURE podcast episode #17: AI AGAINST MODERN SLAVERY – with Adriana 
 
 
 
-## Get Help
+## Get in touch 💬
 If you'd like to get help with domain expertise or technical requirements and implementations then get in touch with [Adriana](mailto:adriana.bora@thefuturesociety.org).
 
 
-## Citation
+## Citation 📝 
 
 If you intend to share any form of public research and analysis based on the data from this repository and the `modern-slavery-dataset` bucket in AWS S3, then please include the following citation to your publication:
 
