@@ -44,7 +44,7 @@ An estimated 12,000 - 17,000 modern slavery statements are published each year b
 
 Manually assessing statements is labor intensive and time consuming. Currently it takes approximately 1 hour for volunteers to manually assess one statement and for the researchers to validate their results.
 
-[![UK Modern Slavery Act Research](hhttps://dq06ugkuram52.cloudfront.net/files/1829233/13991647-medium.png)](https://wikirate.org/uk_modern_slavery_act_research)
+[(hhttps://dq06ugkuram52.cloudfront.net/files/1829233/13991647-medium.png)](https://wikirate.org/uk_modern_slavery_act_research)
 
 
 
