@@ -11,7 +11,6 @@
 # Hi 👋  welcome to Project AIMS (AI against Modern Slavery) 
 
 This repository contains the work developed so far under Porject AIMS under an open source licence. It contains a collection of experiments and analyses performed on the Modern Slavery statements, as well as a set of sub-projects designed to encourage the community to apply data science and AI skills in analysising those stamtents. 
-<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/2646423/screenshots/5507196/computer.gif">
 
 
 ## Strucutre
@@ -111,6 +110,7 @@ Take a look at colab notebooks based on the modern slavery corpus:
 - Daniel Hilgart's [Exploratory Data Analysis of the hackathon dataset](https://github.com/the-future-society/modern-slavery-statements-research/blob/master/notebooks/EDA.ipynb)
 
 
+<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/2646423/screenshots/5507196/computer.gif">
 
 ### Prerequisites
 
