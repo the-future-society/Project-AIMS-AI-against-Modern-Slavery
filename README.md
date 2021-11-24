@@ -94,7 +94,7 @@ Walk Free Foundation Press Release.
 Publication: Digital Insights into Modern Slavery Reporting: Challenges and opportunities of machine readability
 DATA FOR FUTURE podcast episode #17: AI AGAINST MODERN SLAVERY – with Adriana Bora talking about AI governance and the conceptualization of Project AIMS
 
-[![UNWDF (TA3.09) Measuring and combatting modern slavery with data-driven solutions in times of a pandemic](https://www.youtube.com/watch?v=1iDmSXJwClA)
+[UNWDF (TA3.09) Measuring and combatting modern slavery with data-driven solutions in times of a pandemic](https://www.youtube.com/watch?v=1iDmSXJwClA)
 
 
 
