@@ -64,7 +64,7 @@ Walk Free Initiative
 ### 🤝 Collaborators
 
 Special thanks to our closest collaborators and their teams: 
-![image](https://user-images.githubusercontent.com/64998301/143174086-aebdf1ed-fe4a-400f-95b2-0269cd10498b.png)
+<img align="right" alt="Coding" width="50" src="https://user-images.githubusercontent.com/64998301/143174086-aebdf1ed-fe4a-400f-95b2-0269cd10498b.png">
 ![image](https://user-images.githubusercontent.com/64998301/143174037-d110437c-b89c-45c7-85ab-392d983813e0.png)
 ![image](https://user-images.githubusercontent.com/64998301/143174131-743f4dc5-c5b3-4b3f-ba2d-83e0fc413a13.png)
 ![image](https://user-images.githubusercontent.com/64998301/143174221-0d87e69e-3014-46b1-ad8c-b46d8e9ee4cc.png)
