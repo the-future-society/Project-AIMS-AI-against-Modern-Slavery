@@ -34,6 +34,7 @@ This GitHub contains the following resources:
 Slavery is a multi-billion-dollar transnational crime, and according to the 2018, [the Global Slavery Index](https://www.globalslaveryindex.org/2018/findings/highlights/) it affects more than 40.3 M peopleworldwide - 1 in 4 of whom are children. Of these, 16 million are in forced labor in the private sector, meaning they form part of the supply chains of international corporations supplying our goods and services.
 
 #### Modern slavery legislation
+<img align="right" width="300" src="https://media.business-humanrights.org/media/images/MSA.max-1300x900.jpg">
 
 In response to those shoking statistics, the UK introduced the first national legal framework for combatting modern slavery, the Modern Slavey Act of 2015. California, Australia, the EU, France and the Netherlands have similar legislation, with many more countries expected to follow in the coming years. 
 
