@@ -60,7 +60,7 @@ By sharing your analysis and contributing to this repository you help the global
 
 Special thanks to our closest collaborators and their teams: 
 
-.details ul {
+.details > div:not(.concise) > ul {
   padding-top: calc(1em + 0.05in); 
 }
 
@@ -73,7 +73,7 @@ Special thanks to our closest collaborators and their teams:
 <img align="right" width="200" src="https://user-images.githubusercontent.com/64998301/143174322-d354b5a2-5d86-493e-bc55-fd104bc331fb.png">
 
 
-.details ul {
+.details > div:not(.concise) > ul {
   padding-top: calc(1em + 0.05in); 
 }
 
