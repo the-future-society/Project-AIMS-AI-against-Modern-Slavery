@@ -6,12 +6,8 @@
 ![MasterHead](https://cdn.walkfree.org/content/uploads/2020/10/07102204/16-Akash-woman-panning-etched.png)
 
 # Project-AIMS-AI-against-Modern-Slavery
-GitHub README - Main Page
 
-
-README 
-
-# Hi 👋  welcome to Project AIMS (AI against Modern Slavery) 
+## Hi 👋  welcome to Project AIMS (AI against Modern Slavery) 
 
 This repository contains the work developed so far under Porject AIMS under an open source licence. It contains a collection of experiments and analyses performed on the Modern Slavery statements, as well as a set of sub-projects designed to encourage the community to apply data science and AI skills in analysising those stamtents. 
 
