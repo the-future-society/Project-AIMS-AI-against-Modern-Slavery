@@ -109,6 +109,19 @@ Take a look at colab notebooks based on the modern slavery corpus:
 - Goutham Venkatesh's  [Clustering Analysis of Modern Slavery data](https://colab.research.google.com/drive/1bkM7WEe0_nPCCUCnvDC05g9xxGNtbcmM?usp=sharing)
 - Rey Farhan's [Modern Slavery Statements NLP - Word2Vec w/ Bigrams (rey farhan) v1.2.ipynb](https://colab.research.google.com/drive/1S0EM1LFJ0KppuENMxiALe7ZikYjNhTLP#scrollTo=aWUYZx9KZbKL)
 - Daniel Hilgart's [Exploratory Data Analysis of the hackathon dataset](https://github.com/the-future-society/modern-slavery-statements-research/blob/master/notebooks/EDA.ipynb)
+
+
+
+### Prerequisites
+
+- [Python 3.6+](https://www.python.org/downloads/release/python-3611/) installed on your system
+- If you'd like to use the provided tutorials, you also need access to a [Jupyter notebook](https://jupyter.org/install.html)
+
+### Quickstart
+
+It's recommended that you use a virtual environment such as [virtualenv](https://virtualenv.pypa.io/en/latest/), [pipenv](https://pipenv-fork.readthedocs.io/en/latest/) or similar.
+
+
 ### Resoruces
 
 Read our publication on: Digital Insights: 
