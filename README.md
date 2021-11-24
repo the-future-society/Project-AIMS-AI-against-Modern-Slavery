@@ -35,8 +35,7 @@ Manually assessing statements is labor intensive and time consuming. Currently i
 
 The analysis of the statements takes into account a list of “metrics”, adapted from requirements set by the UK Modern Slavery Act. Each metric is a question about the quality of a company’s modern slavery statement. For example, is the statement signed? Is it approved by the Board of Directors? Does the company have a mechanism to facilitate whistle-blowing or the reporting of suspected incidents of slavery?
 
-Project AIMS seeks to capture the potential of artificial intelligence to help solve pressing social issues in new ways, to ultimately uphold human dignity. With this innovative machine learning tool, our goal is two-fold: empower civil society and legislators to hold businesses and governments to account; and pave the way for a new type of public policy and legislation, which embraces the full power of data mining and processing
-– Nicolas Miailhe, co-founder and president of The Future Society
+*"Project AIMS seeks to capture the potential of artificial intelligence to help solve pressing social issues in new ways, to ultimately uphold human dignity. With this innovative machine learning tool, our goal is two-fold: empower civil society and legislators to hold businesses and governments to account; and pave the way for a new type of public policy and legislation, which embraces the full power of data mining and processing" – Nicolas Miailhe, co-founder and president of The Future Society
  
 #### Objectives
 
@@ -50,11 +49,7 @@ Encourage software developers, data scientists, and social scientists to apply t
 
 By sharing your analysis and contributing to this repository you help the global community to hold multi-national corporations accountable for how they are addressing modern slavery in their supply chains. 
 
-“This tool will be an innovative way to hold companies to account. It means our teams can speed up the analysis of company statements and it will allow us to focus on the investigation of different sectors and highlight areas that require improvement. Going forward, this will lead to better disclosure of company action to tackle modern slavery in global supply chains.” 
-
-- Katharine Bryant,
-European Engagement Lead
-Walk Free Initiative 
+*“This tool will be an innovative way to hold companies to account. It means our teams can speed up the analysis of company statements and it will allow us to focus on the investigation of different sectors and highlight areas that require improvement. Going forward, this will lead to better disclosure of company action to tackle modern slavery in global supply chains.”  -  Katharine Bryant, European Engagement Lead Walk Free Initiative 
 
 
 
@@ -64,7 +59,7 @@ Walk Free Initiative
 ### 🤝 Collaborators
 
 Special thanks to our closest collaborators and their teams: 
-<pre>
+
 
 <img align="left" width="200" src="https://user-images.githubusercontent.com/64998301/143174086-aebdf1ed-fe4a-400f-95b2-0269cd10498b.png">
 <img align="left" width="200" src="https://user-images.githubusercontent.com/64998301/143174037-d110437c-b89c-45c7-85ab-392d983813e0.png">
