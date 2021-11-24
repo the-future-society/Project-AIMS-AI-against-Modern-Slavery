@@ -1,5 +1,5 @@
 
-[![MasterHead](https://cdn.walkfree.org/content/uploads/2020/10/07102204/16-Akash-woman-panning-etched.png)]
+![MasterHead](https://cdn.walkfree.org/content/uploads/2020/10/07102204/16-Akash-woman-panning-etched.png)
 
 
 
