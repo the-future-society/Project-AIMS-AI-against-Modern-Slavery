@@ -65,9 +65,9 @@ Walk Free Initiative
 
 Special thanks to our closest collaborators and their teams: 
 
-
-
-
+#
+#
+#
 <img align="left" width="200" src="https://user-images.githubusercontent.com/64998301/143174086-aebdf1ed-fe4a-400f-95b2-0269cd10498b.png">
 <img align="left" width="200" src="https://user-images.githubusercontent.com/64998301/143174037-d110437c-b89c-45c7-85ab-392d983813e0.png">
 <img align="left" width="200" src="https://user-images.githubusercontent.com/64998301/143174131-743f4dc5-c5b3-4b3f-ba2d-83e0fc413a13.png">
@@ -77,10 +77,10 @@ Special thanks to our closest collaborators and their teams:
 <img align="right" width="200" src="https://user-images.githubusercontent.com/64998301/143174322-d354b5a2-5d86-493e-bc55-fd104bc331fb.png">
 
 
-
-
-
-
+#
+#
+#
+#
 ### Strucutre
 
 This GitHub contains the following resources: 
