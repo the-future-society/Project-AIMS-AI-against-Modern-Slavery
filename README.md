@@ -125,7 +125,7 @@ Publication: Digital Insights into Modern Slavery Reporting: Challenges and oppo
 DATA FOR FUTURE podcast episode #17: AI AGAINST MODERN SLAVERY – with Adriana Bora talking about AI governance and the conceptualization of Project AIMS
 
 [![UNWDF (TA3.09) Measuring and combatting modern slavery with data-driven solutions in times of a pandemic
-](path to source address of image)](https://www.youtube.com/watch?v=1iDmSXJwClA)
+](https://www.google.com/url?sa=i&url=https%3A%2F%2Froadtobern.swiss%2F2021%2F07%2F09%2Funwdf-2021-to-be-held-in-october-in-hybrid-format%2F&psig=AOvVaw1kv63OenNkMfARMGQU4ziQ&ust=1637813346129000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCPj716iQsPQCFQAAAAAdAAAAABAD)](https://www.youtube.com/watch?v=1iDmSXJwClA)
 
 
 ## Contributions
