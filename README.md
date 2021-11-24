@@ -36,6 +36,10 @@ Slavery is a multi-billion-dollar transnational crime, and according to the 2018
 #### Modern slavery legislation
 <img align="right" width="300" src="https://media.business-humanrights.org/media/images/MSA.max-1300x900.jpg">
 
+<<img align="right" width="300" src="https://cdn.dribbble.com/users/745861/screenshots/15380971/media/cc616fe8ef9ee288f82bebf81fb5a44d.png">
+
+
+
 In response to those shoking statistics, the UK introduced the first national legal framework for combatting modern slavery, the Modern Slavey Act of 2015. California, Australia, the EU, France and the Netherlands have similar legislation, with many more countries expected to follow in the coming years. 
 
 An estimated 12,000 - 17,000 modern slavery statements are published each year by UK businesses, with thousands more expected from other countries.
