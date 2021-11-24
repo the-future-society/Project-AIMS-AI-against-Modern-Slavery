@@ -72,8 +72,11 @@ Special thanks to our closest collaborators and their teams:
 
 
 <blank />
+<blank />
+<blank />
 
 
+<blank />
 ### Strucutre
 
 This GitHub contains the following resources: 
