@@ -44,6 +44,11 @@ An estimated 12,000 - 17,000 modern slavery statements are published each year b
 
 Manually assessing statements is labor intensive and time consuming. Currently it takes approximately 1 hour for volunteers to manually assess one statement and for the researchers to validate their results.
 
+[![UK Modern Slavery Act Research](hhttps://dq06ugkuram52.cloudfront.net/files/1829233/13991647-medium.png)](https://wikirate.org/uk_modern_slavery_act_research)
+
+
+
+
 [The Future Society](https://thefuturesociety.org/), an independent nonprofit think-and-do tank [launched a partnership](https://thefuturesociety.org/2020/06/23/project-aims-artificial-intelligence-against-modern-slavery/) with the [Walk Free Initiative](https://www.minderoo.org/walk-free/) to automate the analysis of modern slavery statements produced by businesses to boost compliance and help combat and eradicate modern slavery. 
 
 The analysis of the statements takes into account a list of “metrics”, adapted from requirements set by the UK Modern Slavery Act. Each metric is a question about the quality of a company’s modern slavery statement. For example, is the statement signed? Is it approved by the Board of Directors? Does the company have a mechanism to facilitate whistle-blowing or the reporting of suspected incidents of slavery?
