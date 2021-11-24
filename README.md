@@ -10,14 +10,14 @@
 
 # Hi 👋  welcome to Project AIMS (AI against Modern Slavery) 
 
-This repository presents the work developed so far in Porject AIMS under an ©️ open source licence. It contains a collection of experiments and analyses performed on the Modern Slavery statements, as well as a set of sub-projects designed to encourage the community to apply data science and AI skills in analysising those stamtents and fight against modern slavery. 
+This repository presents the work developed so far in Project AIMS under an ©️ open source licence. It contains a collection of experiments and analyses performed on the Modern Slavery statements, as well as a set of sub-projects designed to encourage the community to apply data science and AI skills in analysing those statements and fighting against modern slavery. 
 
 
-## Strucutre
+## Structure
 
 This GitHub contains the following resources: 
 
-1. The notebooks developed under Project AIMS from April 2020 to June 2021, clearly documented , ideally for anyone who would like to reproduce our project to be able to get similar results. Those notebooks are organsied in the following format: 
+1. The notebooks developed under Project AIMS from April 2020 to June 2021, clearly documented, ideally for anyone who would like to reproduce our project to be able to get similar results. Those notebooks are organised in the following format: 
    - 🗄️ Data and text extraction
    - 📔 Exploration for **labeling functions** and **binary classification** for core metrics
    - 📔 Model for **multi-class** and **multi-label classification** for core metrics 
@@ -31,9 +31,9 @@ This GitHub contains the following resources:
 [The UN Sustainable Development Goal 8.7](https://sustainabledevelopment.un.org/sdg8) states:
 “Take immediate and effective measures to eradicate forced labour, end modern slavery and human trafficking and secure the prohibition and elimination of the worst forms of child labour, including recruitment and use of child soldiers, and by 2025 end child labour in all its forms.”
 
-Slavery is a multi-billion-dollar transnational crime, and according to the 2018, [the Global Slavery Index](https://www.globalslaveryindex.org/2018/findings/highlights/) it affects more than 40.3 M peopleworldwide - 1 in 4 of whom are children. Of these, 16 million are in forced labor in the private sector, meaning they form part of the supply chains of international corporations supplying our goods and services.
+Slavery is a multi-billion-dollar transnational crime, and according to the 2018, [Global Slavery Index](https://www.globalslaveryindex.org/2018/findings/highlights/) it affects more than 40.3 M people worldwide - 1 in 4 of whom are children. Of these, 16 million are in forced labor in the private sector, meaning they form part of the supply chains of international corporations supplying our goods and services.
 
-In response to those shoking statistics, the UK introduced the first national legal framework for combatting modern slavery, the Modern Slavey Act of 2015. California, Australia, the EU, France and the Netherlands have similar legislation, with many more countries expected to follow in the coming years. 
+In response to those shocking statistics, the UK introduced the first national legal framework for combatting modern slavery, the Modern Slavery Act of 2015. California, Australia, the EU, France and the Netherlands have similar legislation, with many more countries expected to follow in the coming years. 
 
 #### The need for a scalable solution
 
@@ -41,7 +41,7 @@ In response to those shoking statistics, the UK introduced the first national le
 
 An estimated 12,000 - 17,000 modern slavery statements are published each year by UK businesses, with thousands more expected from other countries.
 
-Manually assessing statements is labor intensive and time consuming. Currently it takes approximately [1 hour for volunteers to manually assess one statement and for the researchers to validate their results](https://wikirate.org/uk_modern_slavery_act_research).
+Manually assessing statements is labor intensive and time consuming. Currently, it takes approximately [1 hour for volunteers to manually assess one statement and for the researchers to validate their results](https://wikirate.org/uk_modern_slavery_act_research).
 
 
 
@@ -68,7 +68,7 @@ By sharing your analysis and contributing to this repository you help the global
 
 >_“This tool will be an innovative way to hold companies to account. It means our teams can speed up the analysis of company statements and it will allow us to focus on the investigation of different sectors and highlight areas that require improvement. Going forward, this will lead to better disclosure of company action to tackle modern slavery in global supply chains.”  -  Katharine Bryant, European Engagement Lead Walk Free Initiative_
 
-Join our community on Slack and come to our regular meetings where we disucss recent research and developent on the project. 
+Join our community on Slack and come to our regular meetings where we discuss recent research and development on the project. 
 - 🗓️ Next meeting **xx/xx/xxxx**
 
 ### Prerequisites
@@ -111,7 +111,7 @@ Special thanks to our closest collaborators and their teams:
 If you'd like to contribute to the research then take a look at any of the [issues](https://github.com/the-future-society/modern-slavery-statements-research/issues) or get in touch with [Adriana](mailto:adriana.bora@thefuturesociety.org)
 
 
-Take a look at colab notebooks based on the modern slavery corpus:
+Take a look at Colab notebooks based on the modern slavery corpus:
 
 - Rey Farhan's initial exploration [Modern Slavery Statements NLP (rey farhan) v1.0.ipynb](https://colab.research.google.com/drive/1Xk3TZ-30CfNmUxxiDRrWh9S3nR74pZlj?usp=sharing).
 - Parth Shah's [exploration of knowledge graphs based on subject-object syntactic relations](https://colab.research.google.com/drive/1Nig3YyHy8MEx5a1gmw_Hj95uYDAO30DV?usp=sharing)
@@ -130,7 +130,7 @@ Take a look at colab notebooks based on the modern slavery corpus:
 ### Project AIMS in the media and more:
 
 - Walk Free Foundation Press Release.
-- Read our publication on: Digital Insights: 
+- Read our publication on Digital Insights: 
 - The prototype of Project AIMS, developed by Adriana in 2019
 - Publication: Digital Insights into Modern Slavery Reporting: Challenges and opportunities of machine readability
 - DATA FOR FUTURE podcast episode #17: AI AGAINST MODERN SLAVERY – with Adriana Bora talking about AI governance and the conceptualization of Project AIMS
@@ -144,7 +144,8 @@ If you'd like to get help with domain expertise or technical requirements and im
 
 ## Citation 📝 
 
-If you intend to share any form of public research and analysis based on the data or code provided on this this repository, then please include the following citation to your publication: _The Future Society. (2020) Project AIMS (AI against Modern Slavery). Retrieved from https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery _ 
+If you intend to share any form of public research and analysis based on the data or code provided on this repository, then please include the following citation to your publication: _The Future Society. (2020) Project AIMS (AI against Modern Slavery). Retrieved from https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery _ 
+
 
 
 
