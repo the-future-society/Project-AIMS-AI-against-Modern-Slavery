@@ -82,6 +82,9 @@ Model for multi-class and multi-label classification for core metrics
 Sub-projects for multi-class and multi-label classification for core metrics designed for the community to pick up and develop further. Those include a clear scope, questions, expected outcomes, a proposed methodology and resources.
 Details on engagement 
 
+(img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/264642...")
+
+
 
 
 ### Prerequisites
