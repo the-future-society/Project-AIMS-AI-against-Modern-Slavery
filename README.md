@@ -34,8 +34,6 @@ This GitHub contains the following resources:
 Slavery is a multi-billion-dollar transnational crime, and according to the 2018, [the Global Slavery Index](https://www.globalslaveryindex.org/2018/findings/highlights/) it affects more than 40.3 M peopleworldwide - 1 in 4 of whom are children. Of these, 16 million are in forced labor in the private sector, meaning they form part of the supply chains of international corporations supplying our goods and services.
 
 #### Modern slavery legislation
-<img align="right" width="300" src="https://media.business-humanrights.org/media/images/MSA.max-1300x900.jpg">
-
 
 In response to those shoking statistics, the UK introduced the first national legal framework for combatting modern slavery, the Modern Slavey Act of 2015. California, Australia, the EU, France and the Netherlands have similar legislation, with many more countries expected to follow in the coming years. 
 
@@ -45,7 +43,7 @@ An estimated 12,000 - 17,000 modern slavery statements are published each year b
 
 Manually assessing statements is labor intensive and time consuming. Currently it takes approximately [1 hour for volunteers to manually assess one statement and for the researchers to validate their results](https://wikirate.org/uk_modern_slavery_act_research).
 
-<<img align="right"  src="https://cdn.dribbble.com/users/458522/screenshots/16034588/media/f2e9bcf8eed4d50c909863e9c51f0f21.png?compress=1&resize=1600x1200">
+<img align="right" width="400" src="https://cdn.dribbble.com/users/458522/screenshots/16034588/media/f2e9bcf8eed4d50c909863e9c51f0f21.png?compress=1&resize=1600x1200">
 
 
 [The Future Society](https://thefuturesociety.org/), an independent nonprofit think-and-do tank [launched a partnership](https://thefuturesociety.org/2020/06/23/project-aims-artificial-intelligence-against-modern-slavery/) with the [Walk Free Initiative](https://www.minderoo.org/walk-free/) to automate the analysis of modern slavery statements produced by businesses to boost compliance and help combat and eradicate modern slavery. 
