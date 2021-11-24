@@ -63,8 +63,6 @@ The analysis of the statements takes into account a list of “metrics”, adapt
 
 <img align="right" width="400" src="https://cdn.dribbble.com/users/472667/screenshots/15669289/media/d18929f9db262c8c118740dd65d8a395.gif">
 
-<img align="right" width="400" src="https://cdn.dribbble.com/users/5347836/screenshots/16434209/media/7f6997363572f609fe21966cdab11f0c.gif">
-
 
 [The Future Society](https://thefuturesociety.org/our-team/) is now making the work developed between April 2020 to June 2021 ©️ open source, inviting the wider community to contribute to the fight against modern slavery.
 
@@ -74,48 +72,6 @@ By sharing your analysis and contributing to this repository you help the global
 
 Join us community. We will meet once per month and disucss the projects. 
 - 🗓️ Next meeting **xx/xx/xxxx**
-
-
-## 🤝 Collaborators
-
-Special thanks to our closest collaborators and their teams: 
-
-<br />
-
-<img align="left" width="200" src="https://user-images.githubusercontent.com/64998301/143174086-aebdf1ed-fe4a-400f-95b2-0269cd10498b.png">
-<img align="left" width="200" src="https://user-images.githubusercontent.com/64998301/143174037-d110437c-b89c-45c7-85ab-392d983813e0.png">
-<img align="left" width="200" src="https://user-images.githubusercontent.com/64998301/143174131-743f4dc5-c5b3-4b3f-ba2d-83e0fc413a13.png">
-<img align="left" width="300" src="https://user-images.githubusercontent.com/64998301/143174221-0d87e69e-3014-46b1-ad8c-b46d8e9ee4cc.png">
-<br />
-<img align="left" width="200" src="https://user-images.githubusercontent.com/64998301/143174259-eb005a57-f97f-4fc2-9026-ffd70d0d5da5.png">
-<br />
-<img align="left" width="200" src="https://user-images.githubusercontent.com/64998301/143174301-f5b0459e-f16b-4e9b-8cad-09649a561232.png"> 
-<br />
-<img align="left" width="200" src="https://user-images.githubusercontent.com/64998301/143174322-d354b5a2-5d86-493e-bc55-fd104bc331fb.png">
-<br />
-
-
-<br />
-<br />
-
-
-
-## Contributions
-
-If you'd like to contribute to the research then take a look at any of the [issues](https://github.com/the-future-society/modern-slavery-statements-research/issues) or get in touch with [Adriana](mailto:adriana.bora@thefuturesociety.org)
-
-
-Take a look at colab notebooks based on the modern slavery corpus:
-
-- Rey Farhan's initial exploration [Modern Slavery Statements NLP (rey farhan) v1.0.ipynb](https://colab.research.google.com/drive/1Xk3TZ-30CfNmUxxiDRrWh9S3nR74pZlj?usp=sharing).
-- Parth Shah's [exploration of knowledge graphs based on subject-object syntactic relations](https://colab.research.google.com/drive/1Nig3YyHy8MEx5a1gmw_Hj95uYDAO30DV?usp=sharing)
-- Darin Plutchok's [Clustering Analysis of Modern Slavery data](https://colab.research.google.com/drive/1J1m1Yoy93d5nyfEHCVcBGv-fFH7l9sfG?usp=sharing)
-- Goutham Venkatesh's  [Clustering Analysis of Modern Slavery data](https://colab.research.google.com/drive/1bkM7WEe0_nPCCUCnvDC05g9xxGNtbcmM?usp=sharing)
-- Rey Farhan's [Modern Slavery Statements NLP - Word2Vec w/ Bigrams (rey farhan) v1.2.ipynb](https://colab.research.google.com/drive/1S0EM1LFJ0KppuENMxiALe7ZikYjNhTLP#scrollTo=aWUYZx9KZbKL)
-- Daniel Hilgart's [Exploratory Data Analysis of the hackathon dataset](https://github.com/the-future-society/modern-slavery-statements-research/blob/master/notebooks/EDA.ipynb)
-
-
-<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/2646423/screenshots/5507196/computer.gif">
 
 ### Prerequisites
 
@@ -142,6 +98,49 @@ DATA FOR FUTURE podcast episode #17: AI AGAINST MODERN SLAVERY – with Adriana 
 
 
 
+## 🤝 Collaborators
+
+Special thanks to our closest collaborators and their teams: 
+
+<br />
+
+<img align="left" width="200" src="https://user-images.githubusercontent.com/64998301/143174086-aebdf1ed-fe4a-400f-95b2-0269cd10498b.png">
+<img align="left" width="200" src="https://user-images.githubusercontent.com/64998301/143174037-d110437c-b89c-45c7-85ab-392d983813e0.png">
+<img align="left" width="200" src="https://user-images.githubusercontent.com/64998301/143174131-743f4dc5-c5b3-4b3f-ba2d-83e0fc413a13.png">
+<img align="left" width="300" src="https://user-images.githubusercontent.com/64998301/143174221-0d87e69e-3014-46b1-ad8c-b46d8e9ee4cc.png">
+<br />
+<img align="left" width="200" src="https://user-images.githubusercontent.com/64998301/143174259-eb005a57-f97f-4fc2-9026-ffd70d0d5da5.png">
+<br />
+<img align="left" width="200" src="https://user-images.githubusercontent.com/64998301/143174301-f5b0459e-f16b-4e9b-8cad-09649a561232.png"> 
+<br />
+<img align="left" width="200" src="https://user-images.githubusercontent.com/64998301/143174322-d354b5a2-5d86-493e-bc55-fd104bc331fb.png">
+<br />
+
+
+<br />
+<br />
+
+
+
+## Contributors
+
+If you'd like to contribute to the research then take a look at any of the [issues](https://github.com/the-future-society/modern-slavery-statements-research/issues) or get in touch with [Adriana](mailto:adriana.bora@thefuturesociety.org)
+
+
+Take a look at colab notebooks based on the modern slavery corpus:
+
+- Rey Farhan's initial exploration [Modern Slavery Statements NLP (rey farhan) v1.0.ipynb](https://colab.research.google.com/drive/1Xk3TZ-30CfNmUxxiDRrWh9S3nR74pZlj?usp=sharing).
+- Parth Shah's [exploration of knowledge graphs based on subject-object syntactic relations](https://colab.research.google.com/drive/1Nig3YyHy8MEx5a1gmw_Hj95uYDAO30DV?usp=sharing)
+- Darin Plutchok's [Clustering Analysis of Modern Slavery data](https://colab.research.google.com/drive/1J1m1Yoy93d5nyfEHCVcBGv-fFH7l9sfG?usp=sharing)
+- Goutham Venkatesh's  [Clustering Analysis of Modern Slavery data](https://colab.research.google.com/drive/1bkM7WEe0_nPCCUCnvDC05g9xxGNtbcmM?usp=sharing)
+- Rey Farhan's [Modern Slavery Statements NLP - Word2Vec w/ Bigrams (rey farhan) v1.2.ipynb](https://colab.research.google.com/drive/1S0EM1LFJ0KppuENMxiALe7ZikYjNhTLP#scrollTo=aWUYZx9KZbKL)
+- Daniel Hilgart's [Exploratory Data Analysis of the hackathon dataset](https://github.com/the-future-society/modern-slavery-statements-research/blob/master/notebooks/EDA.ipynb)
+
+
+<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/2646423/screenshots/5507196/computer.gif">
+
+
+
 
 ## Get in touch 💬
 If you'd like to get help with domain expertise or technical requirements and implementations then get in touch with [Adriana](mailto:adriana.bora@thefuturesociety.org).
@@ -151,8 +150,7 @@ If you'd like to get help with domain expertise or technical requirements and im
 
 If you intend to share any form of public research and analysis based on the data from this repository and the `modern-slavery-dataset` bucket in AWS S3, then please include the following citation to your publication:
 
-
-The Future Society. (2020) Project AIMS (AI against Modern Slavery). Retrieved from https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery
+- The Future Society. (2020) Project AIMS (AI against Modern Slavery). Retrieved from https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery
 
 
 
