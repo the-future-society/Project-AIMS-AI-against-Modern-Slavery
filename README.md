@@ -10,7 +10,7 @@
 
 # Hi 👋  welcome to Project AIMS (AI against Modern Slavery) 
 
-This repository contains the work developed so far under Porject AIMS under an open source licence. It contains a collection of experiments and analyses performed on the Modern Slavery statements, as well as a set of sub-projects designed to encourage the community to apply data science and AI skills in analysising those stamtents. 
+This repository presents the work developed so far in Porject AIMS under an ©️ open source licence. It contains a collection of experiments and analyses performed on the Modern Slavery statements, as well as a set of sub-projects designed to encourage the community to apply data science and AI skills in analysising those stamtents and fight against modern slavery. 
 
 
 ## Strucutre
@@ -58,9 +58,9 @@ The analysis of the statements takes into account a list of “metrics”, adapt
 2. Provide policymakers and legislators with a greater understanding of these new methods of analysis, fostering their use in other contexts, such as other non-financial reporting initiatives.
 3. Encourage software developers, data scientists, and social scientists to apply their domain expertise to AI for social good projects and combat modern slavery.
 
+## JOIN US ⭐
 
-
-[The team](https://thefuturesociety.org/our-team/) at The Future Society is now making the work developed between April 2020 to June 2021 open source, for the wider community to contribute to the fight against modern slavery.
+[The team](https://thefuturesociety.org/our-team/) at The Future Society is now making the work developed between April 2020 to June 2021 ©️ open source, for the wider community to contribute to the fight against modern slavery.
 
 By sharing your analysis and contributing to this repository you help the global community to hold multi-national corporations accountable for how they are addressing modern slavery in their supply chains. 
 
