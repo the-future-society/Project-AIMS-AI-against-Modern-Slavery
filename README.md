@@ -1,13 +1,14 @@
-<img align="left" alt="Coding" width="120" src="https://user-images.githubusercontent.com/64998301/143171138-777e6d3d-3442-4872-8ada-e1bd311a49f9.png">
 
-<img align="right" alt="Coding" width="140" src="https://user-images.githubusercontent.com/64998301/143171267-86860e2b-8a25-440e-b778-a860ceac7e99.png">
+<img align="left" alt="Coding" width="150" src="https://user-images.githubusercontent.com/64998301/143171138-777e6d3d-3442-4872-8ada-e1bd311a49f9.png">
+
+<img align="right" alt="Coding" width="150" src="https://user-images.githubusercontent.com/64998301/143171267-86860e2b-8a25-440e-b778-a860ceac7e99.png">
+
 
 
 ![MasterHead](https://cdn.walkfree.org/content/uploads/2020/10/07102204/16-Akash-woman-panning-etched.png)
 
-# Project-AIMS-AI-against-Modern-Slavery
 
-## Hi 👋  welcome to Project AIMS (AI against Modern Slavery) 
+# Hi 👋  welcome to Project AIMS (AI against Modern Slavery) 
 
 This repository contains the work developed so far under Porject AIMS under an open source licence. It contains a collection of experiments and analyses performed on the Modern Slavery statements, as well as a set of sub-projects designed to encourage the community to apply data science and AI skills in analysising those stamtents. 
 
@@ -34,8 +35,9 @@ Manually assessing statements is labor intensive and time consuming. Currently i
 
 The analysis of the statements takes into account a list of “metrics”, adapted from requirements set by the UK Modern Slavery Act. Each metric is a question about the quality of a company’s modern slavery statement. For example, is the statement signed? Is it approved by the Board of Directors? Does the company have a mechanism to facilitate whistle-blowing or the reporting of suspected incidents of slavery?
 
-
-
+Project AIMS seeks to capture the potential of artificial intelligence to help solve pressing social issues in new ways, to ultimately uphold human dignity. With this innovative machine learning tool, our goal is two-fold: empower civil society and legislators to hold businesses and governments to account; and pave the way for a new type of public policy and legislation, which embraces the full power of data mining and processing
+– Nicolas Miailhe, co-founder and president of The Future Society
+ 
 #### Objectives
 
 Build an AI tool to decrease the time required to benchmark Modern Slavery Act-compliant statements.
@@ -84,6 +86,8 @@ Details on engagement
 
 
 
+
+
 ### Prerequisites
 
 - [Python 3.6+](https://www.python.org/downloads/release/python-3611/) installed on your system
@@ -106,6 +110,19 @@ If you intend to share any form of public research and analysis based on the dat
 
 
 The Future Society. (2020) Project AIMS (AI against Modern Slavery). Retrieved from https://github.com/the-future-society/modern-slavery-statements-research.
+
+
+### Resoruces
+
+Read our publication on: Digital Insights: 
+The prototype of Project AIMS, developed by Adriana in 2019
+
+
+### Project AIMS in the media and more:
+
+Walk Free Foundation Press Release.
+Publication: Digital Insights into Modern Slavery Reporting: Challenges and opportunities of machine readability
+DATA FOR FUTURE podcast episode #17: AI AGAINST MODERN SLAVERY – with Adriana Bora talking about AI governance and the conceptualization of Project AIMS
 
 
 ## Contributions
