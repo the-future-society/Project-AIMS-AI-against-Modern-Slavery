@@ -51,9 +51,9 @@ The analysis of the statements takes into account a list of “metrics”, adapt
  
 #### Objectives
 
-Build an AI tool to decrease the time required to benchmark Modern Slavery Act-compliant statements.
-Provide policymakers and legislators with a greater understanding of these new methods of analysis, fostering their use in other contexts, such as other non-financial reporting initiatives.
-Encourage software developers, data scientists, and social scientists to apply their domain expertise to AI for social good projects and combat modern slavery.
+1. Build an AI tool to decrease the time required to benchmark Modern Slavery Act-compliant statements.
+2. Provide policymakers and legislators with a greater understanding of these new methods of analysis, fostering their use in other contexts, such as other non-financial reporting initiatives.
+3. Encourage software developers, data scientists, and social scientists to apply their domain expertise to AI for social good projects and combat modern slavery.
 
 
 
