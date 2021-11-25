@@ -1,3 +1,5 @@
+![Screen Shot 2021-11-25 at 11 08 22 am](https://user-images.githubusercontent.com/64998301/143334156-979f2f75-67d3-4213-bd6c-340746ee3b3a.png)
+
 <img align="left" width="300" src="https://www.rethinkingvaluechains.com/wp-content/uploads/2021/02/RVC-WEbiste-logo-6.png">
 <br />
 
@@ -12,3 +14,6 @@ In 2021, the UK Government launched its own central public registry of modern sl
 We thank our partners for their support to the Modern Slavery Registry over the last five years: Humanity United, Freedom Fund, Freedom United, CORE Coalition, Anti-Slavery International, Unicef UK, Focus on Labour Exploitation (FLEX), Ethical Trade Initiative, Oxfam GB, UN Principles of Responsible Investment (PRI), and Trades Union Congress.
 
 
+
+
+All credits reserved to [Business & Human Rights Resource Centre Registered Charity in England & Wales no. 1096664 501(c)(3) non-profit organization in USA](https://www.business-humanrights.org/en/from-us/modern-slavery-statements/)
