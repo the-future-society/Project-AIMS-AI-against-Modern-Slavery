@@ -1,5 +1,6 @@
 
 ##The History
+
 The UK Modern Slavery Act (Act) was enacted in 2015. A landmark piece of legislation, the transparency in supply chains provision (TISC) requires commercial organisations that operate in the UK and have an annual turnover above £36m to produce a statement setting out the steps they are taking to address and prevent the risk of modern slavery in their operations and supply chains. Thousands of companies are required to report under the TISC provision every year but there was no government-run registry established under the Act where stakeholders could efficiently access statements by all entities that are required to report.
 
 The Modern Slavery Registry, operated by Business & Human Rights Resource Centre, was created to fill this gap. The Registry has provided an invaluable resource that has helped promote transparency and increase accountability by enabling thousands of users worldwide the access to scrutinise over 16,000 modern slavery statements side by side. In doing so, we have played a central role in monitoring compliance with the UK Modern Slavery Act. We also have collected over 1,700 statements published under the California Transparency in Supply Chain Act, which is considered the predecessor to the UK Act.
