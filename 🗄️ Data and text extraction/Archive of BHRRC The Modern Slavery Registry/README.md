@@ -1,4 +1,4 @@
-<img align="left" width="300" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.rethinkingvaluechains.com%2Fmembers%2Fbusiness-human-rights-resource-centre%2F&psig=AOvVaw10hCkGTXDJh0X-2kH7BrcM&ust=1637888437963000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKDxo5KosvQCFQAAAAAdAAAAABAH">
+<img align="left" width="300" src="https://www.rethinkingvaluechains.com/wp-content/uploads/2021/02/RVC-WEbiste-logo-6.png">
 <br />
 
 ##The History
