@@ -17,11 +17,12 @@ This repository presents the work developed so far in Project AIMS under an ©�
 
 This GitHub contains the following resources: 
 
-The notebooks developed under Project AIMS from April 2020 to June 2021, clearly documented, ideally for anyone who would like to reproduce our project to be able to get similar results. Those notebooks are organised in the following format: 
+1. The notebooks developed under Project AIMS from April 2020 to June 2021, clearly documented, ideally for anyone who would like to reproduce our project to be able to get similar results. Those notebooks are organised in the following format: 
    - 🗄️ Data and text extraction
    - 📔 Exploration for **labeling functions** and **binary classification** for core metrics
    - 📔 Model for **multi-class** and **multi-label classification** for core metrics 
-     -  💡 **Sub-projects** for multi-class and multi-label classification for core metrics designed for the community to pick up and develop further. Those include a clear scope, questions, expected outcomes, a proposed methodology and resources.
+
+2. 💡 Sub-projects for multi-class and multi-label classification for core metrics designed for the community to pick up and develop further. Those include a clear scope, questions, expected outcomes, a proposed methodology and resources.
 
 
 ## Introduction
@@ -90,7 +91,7 @@ Special thanks to our closest collaborators and their teams:
 <img align="left" width="200" src="https://user-images.githubusercontent.com/64998301/143174086-aebdf1ed-fe4a-400f-95b2-0269cd10498b.png">
 <img align="left" width="200" src="https://user-images.githubusercontent.com/64998301/143174037-d110437c-b89c-45c7-85ab-392d983813e0.png">
 <img align="left" width="200" src="https://user-images.githubusercontent.com/64998301/143174131-743f4dc5-c5b3-4b3f-ba2d-83e0fc413a13.png">
-<img align="left" width="300" src="https://user-images.githubusercontent.com/64998301/143174221-0d87e69e-3014-46b1-ad8c-b46d8e9ee4cc.png">
+<img align="left" width="300" src="https://www.rethinkingvaluechains.com/wp-content/uploads/2021/02/RVC-WEbiste-logo-6.png">
 <br />
 <img align="left" width="200" src="https://user-images.githubusercontent.com/64998301/143174259-eb005a57-f97f-4fc2-9026-ffd70d0d5da5.png">
 <br />
