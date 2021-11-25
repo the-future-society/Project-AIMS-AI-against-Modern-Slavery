@@ -106,7 +106,6 @@ Special thanks to our closest collaborators and their teams:
 
 
 
-<br />
 ## Contributors
 
 If you'd like to contribute to the research then take a look at any of the [issues](https://github.com/the-future-society/modern-slavery-statements-research/issues) or get in touch with [Adriana](mailto:adriana.bora@thefuturesociety.org)
