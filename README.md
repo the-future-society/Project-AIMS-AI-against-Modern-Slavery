@@ -21,8 +21,7 @@ This GitHub contains the following resources:
    - 🗄️ Data and text extraction
    - 📔 Exploration for **labeling functions** and **binary classification** for core metrics
    - 📔 Model for **multi-class** and **multi-label classification** for core metrics 
-
-2. 💡 Sub-projects for multi-class and multi-label classification for core metrics designed for the community to pick up and develop further. Those include a clear scope, questions, expected outcomes, a proposed methodology and resources.
+     - 💡 Sub-projects for multi-class and multi-label classification for core metrics designed for the community to pick up and develop further. Those include a clear scope, questions, expected outcomes, a proposed methodology and resources.
 
 
 ## Introduction
