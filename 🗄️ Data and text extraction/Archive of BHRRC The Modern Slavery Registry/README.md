@@ -2,7 +2,7 @@
 <br />
 
 
-![Screen Shot 2021-11-25 at 11 08 22 am](https://user-images.githubusercontent.com/64998301/143334156-979f2f75-67d3-4213-bd6c-340746ee3b3a.png)
+[![Screen Shot 2021-11-25 at 11 08 22 am](https://user-images.githubusercontent.com/64998301/143334156-979f2f75-67d3-4213-bd6c-340746ee3b3a.png)](https://www.business-humanrights.org/en/from-us/modern-slavery-statements/)
 
 
 
