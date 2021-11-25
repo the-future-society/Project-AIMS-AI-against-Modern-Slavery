@@ -1,4 +1,5 @@
-<img align="left" width="200" src="https://user-images.githubusercontent.com/64998301/143174131-743f4dc5-c5b3-4b3f-ba2d-83e0fc413a13.png">
+<img align="left" width="300" src="https://user-images.githubusercontent.com/64998301/143174221-0d87e69e-3014-46b1-ad8c-b46d8e9ee4cc.png">
+<br />
 
 ##The History
 
