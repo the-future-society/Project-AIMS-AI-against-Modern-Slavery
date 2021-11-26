@@ -67,7 +67,7 @@ By sharing your analysis and contributing to this repository you help the global
 
 >_“This tool will be an innovative way to hold companies to account. It means our teams can speed up the analysis of company statements and it will allow us to focus on the investigation of different sectors and highlight areas that require improvement. Going forward, this will lead to better disclosure of company action to tackle modern slavery in global supply chains.”  -  Katharine Bryant, European Engagement Lead Walk Free Initiative_
 
-Join our community on Slack and come to our regular meetings where we discuss recent research and development on the project. 
+Join our community on Slack, Trello (GitHub) and come to our regular meetings where we discuss recent research and development on the project. 
 - 🗓️ Next meeting **xx/xx/xxxx**
 
 ### Prerequisites
