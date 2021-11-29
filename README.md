@@ -104,9 +104,9 @@ Special thanks to our closest collaborators and their teams:
 <br />
 <br />
 
+<img align="left" alt="Coding" width="50" src="https://user-images.githubusercontent.com/64998301/143844733-ac06e5da-073c-468f-800d-2979f029e325.png">
 
-### ![image](https://user-images.githubusercontent.com/64998301/143844733-ac06e5da-073c-468f-800d-2979f029e325.png)
-Main contributors to the GitHub:
+### Main contributors to the GitHub:
 - [Adriana Eufrosina Bora](https://www.linkedin.com/in/adriana-eufrosina-bora-2965a19a/) 
 - [Karyna Bikziantieieva](https://www.linkedin.com/in/karyna-bikziantieieva-48aba1197/)
 - [Rui Wang](https://www.linkedin.com/in/rui-wang-07774221/)
