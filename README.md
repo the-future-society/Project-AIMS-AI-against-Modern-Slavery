@@ -110,7 +110,7 @@ Special thanks to our closest collaborators and their teams:
 
 <br />
 <br />
-<img align="right" alt="Coding" width="400" src="https://dribbble.com/shots/5700498-Teamwork-with-cat">
+<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/2507445/screenshots/5776417/media/8efcb73a124de3b1f6937fb85133aeee.gif">
 
 ### Project AIMS in the media and more:
 
