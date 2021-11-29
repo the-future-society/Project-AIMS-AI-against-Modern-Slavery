@@ -44,7 +44,6 @@ An estimated 12,000 - 17,000 modern slavery statements are published each year b
 Manually assessing statements is labor intensive and time consuming. Currently, it takes approximately [1 hour for volunteers to manually assess one statement and for the researchers to validate their results](https://wikirate.org/uk_modern_slavery_act_research).
 
 
-
 [The Future Society](https://thefuturesociety.org/), an independent nonprofit think-and-do tank [launched a partnership](https://thefuturesociety.org/2020/06/23/project-aims-artificial-intelligence-against-modern-slavery/) with the [Walk Free Initiative](https://www.minderoo.org/walk-free/) to automate the analysis of modern slavery statements produced by businesses to boost compliance and help combat and eradicate modern slavery. 
 
 The analysis of the statements takes into account a list of “metrics”, adapted from requirements set by the UK Modern Slavery Act. Each metric is a question about the quality of a company’s modern slavery statement. For example, is the statement signed? Is it approved by the Board of Directors? Does the company have a mechanism to facilitate whistle-blowing or the reporting of suspected incidents of slavery?
@@ -71,16 +70,24 @@ By sharing your analysis and contributing to this repository you help the global
 Join our community on Slack and come to our regular meetings where we discuss recent research and development on the project. 
 - 🗓️ Next meeting **xx/xx/xxxx**
 
-### Prerequisites
-
-- [Python 3.6+](https://www.python.org/downloads/release/python-3611/) installed on your system
-- If you'd like to use the provided tutorials, you also need access to a [Jupyter notebook](https://jupyter.org/install.html)
-
-### Quickstart
-
-It's recommended that you use a virtual environment such as [virtualenv](https://virtualenv.pypa.io/en/latest/), [pipenv](https://pipenv-fork.readthedocs.io/en/latest/) or similar.
 
 
+
+### Main contributors to the GitHub:
+- [Adriana Eufrosina Bora](https://www.linkedin.com/in/adriana-eufrosina-bora-2965a19a/) 
+- [Karyna Bikziantieieva](https://www.linkedin.com/in/karyna-bikziantieieva-48aba1197/)
+- [Rui Wang](https://www.linkedin.com/in/rui-wang-07774221/)
+- [Rodney Phillips](https://www.linkedin.com/in/rodney-levon-phillips/)
+- [Badrul Chowdhury](https://www.linkedin.com/in/badrul-c-301b1473/)
+
+### Special thanks to:
+
+- [Nicolas Miailhe](http://thefuturesociety.org/people/nicolas-miailhe/) and [Yolanda Lannquist](http://thefuturesociety.org/people/yolanda-lannquist/) who oversaw the project
+- [Roberto Espinoza](https://www.linkedin.com/in/robeespi/)
+- [Pranamya Korde](https://www.linkedin.com/in/pranmayakorde17/)
+- [Edgar Rootalu](https://www.linkedin.com/in/edgarrootalu/)
+- [Samuel Clarke](https://www.linkedin.com/in/samckclarke/)
+- [Nicolas Guetta-Jeanrenaud](https://www.linkedin.com/in/nicolas-guetta-jeanrenaud/).
 
 ## 🤝 Collaborators
 
@@ -104,25 +111,6 @@ Special thanks to our closest collaborators and their teams:
 <br />
 <br />
 
-<img align="left" alt="Coding" width="50" src="https://user-images.githubusercontent.com/64998301/143844733-ac06e5da-073c-468f-800d-2979f029e325.png">
-
-### Main contributors to the GitHub:
-:tfs: - [Adriana Eufrosina Bora](https://www.linkedin.com/in/adriana-eufrosina-bora-2965a19a/) 
-:tfs: - [Karyna Bikziantieieva](https://www.linkedin.com/in/karyna-bikziantieieva-48aba1197/)
-:tfs: - [Rui Wang](https://www.linkedin.com/in/rui-wang-07774221/)
-:tfs: - [Rodney Phillips](https://www.linkedin.com/in/rodney-levon-phillips/)
-:tfs: - [Badrul Chowdhury](https://www.linkedin.com/in/badrul-c-301b1473/)
-
-### Special thanks to:
-
-:tfs: - [Nicolas Miailhe](http://thefuturesociety.org/people/nicolas-miailhe/) and [Yolanda Lannquist](http://thefuturesociety.org/people/yolanda-lannquist/) who oversaw the project
-:tfs: - [Roberto Espinoza](https://www.linkedin.com/in/robeespi/)
-:tfs: - [Pranamya Korde](https://www.linkedin.com/in/pranmayakorde17/)
-:tfs: - [Edgar Rootalu](https://www.linkedin.com/in/edgarrootalu/)
-:tfs: - [Samuel Clarke](https://www.linkedin.com/in/samckclarke/)
-:tfs: - [Nicolas Guetta-Jeanrenaud](https://www.linkedin.com/in/nicolas-guetta-jeanrenaud/).
-
-
 
 ### Project AIMS in the media and more:
 
@@ -143,11 +131,3 @@ If you'd like to get help with domain expertise or technical requirements and im
 ## Citation 📝 
 
 If you intend to share any form of public research and analysis based on the data or code provided on this repository, then please include the following citation to your publication: _The Future Society. (2020) Project AIMS (AI against Modern Slavery). Retrieved from https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery _ 
-
-
-
-
-
-
-
-
