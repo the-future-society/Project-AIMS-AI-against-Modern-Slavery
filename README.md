@@ -117,7 +117,7 @@ Special thanks to our closest collaborators and their teams:
 [Rodney Phillips](https://www.linkedin.com/in/rodney-levon-phillips/)
 [Badrul Chowdhury](https://www.linkedin.com/in/badrul-c-301b1473/)
 
-Special thanks to
+### Special thanks to:
 
 [Nicolas Miailhe](http://thefuturesociety.org/people/nicolas-miailhe/) and [Yolanda Lannquist](http://thefuturesociety.org/people/yolanda-lannquist/) who oversaw the project,
 [Roberto Espinoza](https://www.linkedin.com/in/robeespi/),
@@ -126,7 +126,6 @@ Special thanks to
 [Samuel Clarke](https://www.linkedin.com/in/samckclarke/) and 
 [Nicolas Guetta-Jeanrenaud](https://www.linkedin.com/in/nicolas-guetta-jeanrenaud/).
 
- 
 
 
 ### Project AIMS in the media and more:
