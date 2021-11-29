@@ -121,7 +121,7 @@ Special thanks to our closest collaborators and their teams:
 - DATA FOR FUTURE podcast episode #17: AI AGAINST MODERN SLAVERY – with Adriana Bora talking about AI governance and the conceptualization of Project AIMS
 - [UNWDF (TA3.09) Measuring and combatting modern slavery with data-driven solutions in times of a pandemic](https://www.youtube.com/watch?v=1iDmSXJwClA)
 
-<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/2646423/screenshots/5507196/computer.gif">
+<src="https://cdn.dribbble.com/users/1475355/videos/33698/dribbbleanimations_1.mp4">
 
 
 ## Get in touch 💬
