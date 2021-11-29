@@ -1,5 +1,16 @@
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/2507445/screenshots/5776417/media/8efcb73a124de3b1f6937fb85133aeee.gif">
 
+
+In this folder, we present the main datasources that could be used in this project and how to extract the text from the statements. 
+Those are: 
+- The WikiRate labeled dataset
+
+
+The notebooks presented in the 
+
+
+
+
 ### Prerequisites
 
 - [Python 3.6+](https://www.python.org/downloads/release/python-3611/) installed on your system
