@@ -118,7 +118,7 @@ Special thanks to our closest collaborators and their teams:
 
 
 ### Project AIMS in the media and more:
-<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/2507445/screenshots/5776417/media/8efcb73a124de3b1f6937fb85133aeee.gif">
+<img align="left" alt="Coding" width="400" src="https://cdn.dribbble.com/users/2507445/screenshots/5776417/media/8efcb73a124de3b1f6937fb85133aeee.gif">
 
 
 
