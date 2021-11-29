@@ -36,7 +36,7 @@ In response to those shocking statistics, the UK introduced the first national l
 
 #### The need for a scalable solution
 
-<img align="right" width="400" src="https://cdn.dribbble.com/users/458522/screenshots/16034588/media/f2e9bcf8eed4d50c909863e9c51f0f21.png?compress=1&resize=1600x1200">
+<img align="right" width="400" src="https://cdn.dribbble.com/users/458522/screenshots/16034588/media/f2e9bcf8eed4d50c909863e9c51f0f21.png">
 
 An estimated 12,000 - 17,000 modern slavery statements are published each year by UK businesses, with thousands more expected from other countries.
 
