@@ -110,9 +110,17 @@ Special thanks to our closest collaborators and their teams:
 
 <br />
 <br />
-<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/2507445/screenshots/5776417/media/8efcb73a124de3b1f6937fb85133aeee.gif">
+
+
+
+
+
+
 
 ### Project AIMS in the media and more:
+<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/2507445/screenshots/5776417/media/8efcb73a124de3b1f6937fb85133aeee.gif">
+
+
 
 - Walk Free Foundation Press Release.
 - Read our publication on Digital Insights: 
@@ -121,7 +129,7 @@ Special thanks to our closest collaborators and their teams:
 - DATA FOR FUTURE podcast episode #17: AI AGAINST MODERN SLAVERY – with Adriana Bora talking about AI governance and the conceptualization of Project AIMS
 - [UNWDF (TA3.09) Measuring and combatting modern slavery with data-driven solutions in times of a pandemic](https://www.youtube.com/watch?v=1iDmSXJwClA)
 
-<src="https://cdn.dribbble.com/users/1475355/videos/33698/dribbbleanimations_1.mp4">
+<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/2646423/screenshots/5507196/computer.gif">
 
 
 ## Get in touch 💬
@@ -131,7 +139,6 @@ If you'd like to get help with domain expertise or technical requirements and im
 ## Citation 📝 
 
 If you intend to share any form of public research and analysis based on the data or code provided on this repository, then please include the following citation to your publication: _The Future Society. (2020) Project AIMS (AI against Modern Slavery). Retrieved from https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery _ 
-
 
 
 
