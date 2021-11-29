@@ -107,20 +107,20 @@ Special thanks to our closest collaborators and their teams:
 <img align="left" alt="Coding" width="50" src="https://user-images.githubusercontent.com/64998301/143844733-ac06e5da-073c-468f-800d-2979f029e325.png">
 
 ### Main contributors to the GitHub:
-- [Adriana Eufrosina Bora](https://www.linkedin.com/in/adriana-eufrosina-bora-2965a19a/) 
-- [Karyna Bikziantieieva](https://www.linkedin.com/in/karyna-bikziantieieva-48aba1197/)
-- [Rui Wang](https://www.linkedin.com/in/rui-wang-07774221/)
-- [Rodney Phillips](https://www.linkedin.com/in/rodney-levon-phillips/)
-- [Badrul Chowdhury](https://www.linkedin.com/in/badrul-c-301b1473/)
+:tfs: - [Adriana Eufrosina Bora](https://www.linkedin.com/in/adriana-eufrosina-bora-2965a19a/) 
+:tfs: - [Karyna Bikziantieieva](https://www.linkedin.com/in/karyna-bikziantieieva-48aba1197/)
+:tfs: - [Rui Wang](https://www.linkedin.com/in/rui-wang-07774221/)
+:tfs: - [Rodney Phillips](https://www.linkedin.com/in/rodney-levon-phillips/)
+:tfs: - [Badrul Chowdhury](https://www.linkedin.com/in/badrul-c-301b1473/)
 
 ### Special thanks to:
 
-- [Nicolas Miailhe](http://thefuturesociety.org/people/nicolas-miailhe/) and [Yolanda Lannquist](http://thefuturesociety.org/people/yolanda-lannquist/) who oversaw the project
-- [Roberto Espinoza](https://www.linkedin.com/in/robeespi/)
-- [Pranamya Korde](https://www.linkedin.com/in/pranmayakorde17/)
-- [Edgar Rootalu](https://www.linkedin.com/in/edgarrootalu/)
-- [Samuel Clarke](https://www.linkedin.com/in/samckclarke/)
-- [Nicolas Guetta-Jeanrenaud](https://www.linkedin.com/in/nicolas-guetta-jeanrenaud/).
+:tfs: - [Nicolas Miailhe](http://thefuturesociety.org/people/nicolas-miailhe/) and [Yolanda Lannquist](http://thefuturesociety.org/people/yolanda-lannquist/) who oversaw the project
+:tfs: - [Roberto Espinoza](https://www.linkedin.com/in/robeespi/)
+:tfs: - [Pranamya Korde](https://www.linkedin.com/in/pranmayakorde17/)
+:tfs: - [Edgar Rootalu](https://www.linkedin.com/in/edgarrootalu/)
+:tfs: - [Samuel Clarke](https://www.linkedin.com/in/samckclarke/)
+:tfs: - [Nicolas Guetta-Jeanrenaud](https://www.linkedin.com/in/nicolas-guetta-jeanrenaud/).
 
 
 
@@ -143,6 +143,7 @@ If you'd like to get help with domain expertise or technical requirements and im
 ## Citation 📝 
 
 If you intend to share any form of public research and analysis based on the data or code provided on this repository, then please include the following citation to your publication: _The Future Society. (2020) Project AIMS (AI against Modern Slavery). Retrieved from https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery _ 
+
 
 
 
