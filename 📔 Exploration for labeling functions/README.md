@@ -10,6 +10,4 @@
 
 # Hi 👋  welcome to Project AIMS (AI against Modern Slavery) 
 
-
-
-Instructions for runnign locally? 
+<img align="right" width="400" src="https://cdn.dribbble.com/users/1556425/screenshots/10726037/media/7631130efdf44ea38525d91a04e7e9df.gif">
