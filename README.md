@@ -21,7 +21,8 @@ This GitHub contains the following resources:
    - 🗄️ Data and text extraction
    - 📔 Exploration for **labeling functions** and **binary classification** for core metrics
    - 📔 Model for **multi-class** and **multi-label classification** for core metrics 
-     - 💡 Sub-projects for multi-class and multi-label classification for core metrics designed for the community to pick up and develop further. Those include a clear scope, questions, expected outcomes, a proposed methodology and resources.
+
+2. 💡 Sub-projects for multi-class and multi-label classification for core metrics designed for the community to pick up and develop further. Those include a clear scope, questions, expected outcomes, a proposed methodology and resources.
 
 
 ## Introduction
@@ -67,7 +68,7 @@ By sharing your analysis and contributing to this repository you help the global
 
 >_“This tool will be an innovative way to hold companies to account. It means our teams can speed up the analysis of company statements and it will allow us to focus on the investigation of different sectors and highlight areas that require improvement. Going forward, this will lead to better disclosure of company action to tackle modern slavery in global supply chains.”  -  Katharine Bryant, European Engagement Lead Walk Free Initiative_
 
-Join our community on Slack, Trello (GitHub) and come to our regular meetings where we discuss recent research and development on the project. 
+Join our community on Slack and come to our regular meetings where we discuss recent research and development on the project. 
 - 🗓️ Next meeting **xx/xx/xxxx**
 
 ### Prerequisites
@@ -105,25 +106,27 @@ Special thanks to our closest collaborators and their teams:
 
 
 
-## Contributors
-
-If you'd like to contribute to the research then take a look at any of the [issues](https://github.com/the-future-society/modern-slavery-statements-research/issues) or get in touch with [Adriana](mailto:adriana.bora@thefuturesociety.org)
-
-
-Take a look at Colab notebooks based on the modern slavery corpus:
-
-- Rey Farhan's initial exploration [Modern Slavery Statements NLP (rey farhan) v1.0.ipynb](https://colab.research.google.com/drive/1Xk3TZ-30CfNmUxxiDRrWh9S3nR74pZlj?usp=sharing).
-- Parth Shah's [exploration of knowledge graphs based on subject-object syntactic relations](https://colab.research.google.com/drive/1Nig3YyHy8MEx5a1gmw_Hj95uYDAO30DV?usp=sharing)
-- Darin Plutchok's [Clustering Analysis of Modern Slavery data](https://colab.research.google.com/drive/1J1m1Yoy93d5nyfEHCVcBGv-fFH7l9sfG?usp=sharing)
-- Goutham Venkatesh's  [Clustering Analysis of Modern Slavery data](https://colab.research.google.com/drive/1bkM7WEe0_nPCCUCnvDC05g9xxGNtbcmM?usp=sharing)
-- Rey Farhan's [Modern Slavery Statements NLP - Word2Vec w/ Bigrams (rey farhan) v1.2.ipynb](https://colab.research.google.com/drive/1S0EM1LFJ0KppuENMxiALe7ZikYjNhTLP#scrollTo=aWUYZx9KZbKL)
-- Daniel Hilgart's [Exploratory Data Analysis of the hackathon dataset](https://github.com/the-future-society/modern-slavery-statements-research/blob/master/notebooks/EDA.ipynb)
-
 
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/2646423/screenshots/5507196/computer.gif">
 
 
+### Main contributors GitHub:
+[Adriana Eufrosina Bora](https://www.linkedin.com/in/adriana-eufrosina-bora-2965a19a/) 
+[Karyna Bikziantieieva](https://www.linkedin.com/in/karyna-bikziantieieva-48aba1197/)
+[Rui Wang](https://www.linkedin.com/in/rui-wang-07774221/)
+[Rodney Phillips](https://www.linkedin.com/in/rodney-levon-phillips/)
+[Badrul Chowdhury](https://www.linkedin.com/in/badrul-c-301b1473/)
 
+Special thanks to
+
+[Nicolas Miailhe](http://thefuturesociety.org/people/nicolas-miailhe/) and [Yolanda Lannquist](http://thefuturesociety.org/people/yolanda-lannquist/) who oversaw the project,
+[Roberto Espinoza](https://www.linkedin.com/in/robeespi/),
+[Pranamya Korde](https://www.linkedin.com/in/pranmayakorde17/),
+[Edgar Rootalu](https://www.linkedin.com/in/edgarrootalu/),
+[Samuel Clarke](https://www.linkedin.com/in/samckclarke/) and 
+[Nicolas Guetta-Jeanrenaud](https://www.linkedin.com/in/nicolas-guetta-jeanrenaud/).
+
+ 
 
 
 ### Project AIMS in the media and more:
