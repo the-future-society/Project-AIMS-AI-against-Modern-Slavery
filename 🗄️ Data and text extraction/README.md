@@ -3,7 +3,9 @@
 
 In this folder, we present the main datasources that could be used in this project and how to extract the text from the statements. 
 Those are: 
-- The WikiRate labeled dataset
+- Archive of BHRRC The Modern Slavery Registry
+- UK Registry 
+- The WikiRate data (that we generally call the labeled dataset) 
 
 
 The notebooks presented in the 
