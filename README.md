@@ -110,7 +110,7 @@ Special thanks to our closest collaborators and their teams:
 
 <br />
 <br />
-<img align="right" alt="Coding" width="400" src="https://dribbble.com/shots/16887226-Multitask-masters?utm_source=Clipboard_Shot&utm_campaign=joypepper&utm_content=Multitask%20masters&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=joypepper&utm_content=Multitask%20masters&utm_medium=Social_Share">
+<img align="right" alt="Coding" width="400" src="https://dribbble.com/shots/5700498-Teamwork-with-cat">
 
 ### Project AIMS in the media and more:
 
