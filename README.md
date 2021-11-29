@@ -57,7 +57,6 @@ The analysis of the statements takes into account a list of “metrics”, adapt
 
 ## JOIN US 
 
-<img align="right" width="400" src="https://cdn.dribbble.com/users/1556425/screenshots/10726037/media/7631130efdf44ea38525d91a04e7e9df.gif">
 
 
 [The Future Society](https://thefuturesociety.org/our-team/) is now making the work developed between April 2020 to June 2021 ©️ open source, inviting the wider community to contribute to the fight against modern slavery.
