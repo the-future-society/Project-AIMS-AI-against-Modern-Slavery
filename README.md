@@ -110,21 +110,21 @@ Special thanks to our closest collaborators and their teams:
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/2646423/screenshots/5507196/computer.gif">
 
 
-### Main contributors GitHub:
-[Adriana Eufrosina Bora](https://www.linkedin.com/in/adriana-eufrosina-bora-2965a19a/) 
-[Karyna Bikziantieieva](https://www.linkedin.com/in/karyna-bikziantieieva-48aba1197/)
-[Rui Wang](https://www.linkedin.com/in/rui-wang-07774221/)
-[Rodney Phillips](https://www.linkedin.com/in/rodney-levon-phillips/)
-[Badrul Chowdhury](https://www.linkedin.com/in/badrul-c-301b1473/)
+### Main contributors to the GitHub:
+- [Adriana Eufrosina Bora](https://www.linkedin.com/in/adriana-eufrosina-bora-2965a19a/) 
+- [Karyna Bikziantieieva](https://www.linkedin.com/in/karyna-bikziantieieva-48aba1197/)
+- [Rui Wang](https://www.linkedin.com/in/rui-wang-07774221/)
+- [Rodney Phillips](https://www.linkedin.com/in/rodney-levon-phillips/)
+- [Badrul Chowdhury](https://www.linkedin.com/in/badrul-c-301b1473/)
 
 ### Special thanks to:
 
-[Nicolas Miailhe](http://thefuturesociety.org/people/nicolas-miailhe/) and [Yolanda Lannquist](http://thefuturesociety.org/people/yolanda-lannquist/) who oversaw the project,
-[Roberto Espinoza](https://www.linkedin.com/in/robeespi/),
-[Pranamya Korde](https://www.linkedin.com/in/pranmayakorde17/),
-[Edgar Rootalu](https://www.linkedin.com/in/edgarrootalu/),
-[Samuel Clarke](https://www.linkedin.com/in/samckclarke/) and 
-[Nicolas Guetta-Jeanrenaud](https://www.linkedin.com/in/nicolas-guetta-jeanrenaud/).
+- [Nicolas Miailhe](http://thefuturesociety.org/people/nicolas-miailhe/) and [Yolanda Lannquist](http://thefuturesociety.org/people/yolanda-lannquist/) who oversaw the project,
+- [Roberto Espinoza](https://www.linkedin.com/in/robeespi/),
+- [Pranamya Korde](https://www.linkedin.com/in/pranmayakorde17/),
+- [Edgar Rootalu](https://www.linkedin.com/in/edgarrootalu/),
+- [Samuel Clarke](https://www.linkedin.com/in/samckclarke/) and 
+- [Nicolas Guetta-Jeanrenaud](https://www.linkedin.com/in/nicolas-guetta-jeanrenaud/).
 
 
 
