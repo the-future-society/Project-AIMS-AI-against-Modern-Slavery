@@ -70,23 +70,8 @@ By sharing your analysis and contributing to this repository you help the global
 Join our community on Slack and come to our regular meetings where we discuss recent research and development on the project. 
 - 🗓️ Next meeting **xx/xx/xxxx**
 
-
-### Project AIMS in the media and more:
-
-
-
-- Walk Free Foundation Press Release.
-- Read our publication on Digital Insights: 
-- The prototype of Project AIMS, developed by Adriana in 2019
-- Publication: Digital Insights into Modern Slavery Reporting: Challenges and opportunities of machine readability
-- DATA FOR FUTURE podcast episode #17: AI AGAINST MODERN SLAVERY – with Adriana Bora talking about AI governance and the conceptualization of Project AIMS
-- [UNWDF (TA3.09) Measuring and combatting modern slavery with data-driven solutions in times of a pandemic](https://www.youtube.com/watch?v=1iDmSXJwClA)
-
-<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/2646423/screenshots/5507196/computer.gif">
-
-
 ## Get in touch 💬
-If you'd like to get help with domain expertise or technical requirements and implementations then get in touch with [Adriana](mailto:adriana.bora@thefuturesociety.org).
+If you have any questions or you would like to get help with domain expertise or technical requirements, please get in touch with [Adriana](mailto:adriana.bora@thefuturesociety.org).
 
 
 ## Citation 📝 
