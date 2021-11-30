@@ -173,7 +173,7 @@ Most of our learnings are collected in our publication [Digital AI against Moder
 
 
 
-<img align="center" alt="Coding" width="400" src="https://user-images.githubusercontent.com/64998301/144033314-5ca09cc3-cdc8-44ce-8a7a-e136b033cb15.png">
+<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/64998301/144033314-5ca09cc3-cdc8-44ce-8a7a-e136b033cb15.png">
 
 
 The scope of this work was to compare the performance of different methods of text extraction from the HTML and PDF files. The methodology was to sample several HTML and PDF files containing modern slavery statements, test different methods of text extraction, and manually compare the quality of the resulting text using [Diffchecker](https://www.diffchecker.com). Diffchecker facilitates the comparison of text by highlighting deletions and additions. For HTML documents, ArticleExtractor and BeautifulSoup were compared, and for PDF documents XPDF Reader  and AWS Textract OCR API were compared.
