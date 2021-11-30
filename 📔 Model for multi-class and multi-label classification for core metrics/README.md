@@ -12,10 +12,10 @@
  
 The [📔 Initial Metrics Exploration](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/tree/main/%F0%9F%93%94%20Initial%20Metrics%20Exploration)  was followed by a second semantic workshop with the project partners. Based on all the accumulated knowledge, the decision was made to prioritize four of the metrics to explore multi-class and multi-label classification models.  Those four metrics are: 
  
-- MSA Statement Approval
-- MSA Training
-- MSA whistleblowing mechanism
-- MSA incidents remediation
+- Approval
+- Training
+- Whistleblowing mechanism
+- Incidents remediation
  
 ## Improve the annotation for the four selected metrics
  
@@ -35,7 +35,7 @@ In this directory you can access the [Multi_class_classification_for_the_approva
  
 🗄️ You can access the data used in this notebook [here](https://drive.google.com/file/d/1gr9PbPTaYLnhVKJ6eraJboPmvLZ_E14J/view?usp=sharing). We recommend you re-run this research with an updated version of this data which can be downloaded following these [instructions](https://drive.google.com/file/d/1xThQSWn501Jlxfay-c7u-EjTu-3R1FAg/view?usp=sharing).
  
-**Assumptions**
+**Assumptions for the approval metric**
  
 | |Approval not explicit in statement| Approved by Board| Approved - not by Board
 |-|--------------------------------------------|---------------------------|--------------------------------|
