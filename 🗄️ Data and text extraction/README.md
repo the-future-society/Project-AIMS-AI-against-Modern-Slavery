@@ -178,13 +178,14 @@ Most of our learnings are collected in our publication [Digital AI against Moder
 
 The scope of this work was to compare the performance of different text extraction methods from the HTML and PDF files. The methodology was to sample several HTML and PDF files containing modern slavery statements, test different text extraction methods, and manually compare the quality of the resulting text using [Diffchecker](https://www.diffchecker.com). Diffchecker facilitates the comparison of text by highlighting deletions and additions. For HTML documents, ArticleExtractor and BeautifulSoup were compared, and for PDF documents XPDF Reader and AWS Textract OCR API were compared.
 ### Key findings 
-The text data from 120 HTML documents was manually compared using Diffchecker, revealing that in 68% of cases, ArticleExtractor (provided by BoilerPy) performs better than BeautifulSoup in terms of the amount of main content information that was extracted.  However, BoilerPy’s ArticleExtractor does not extract URLs on the web page and refers to other statements (e.g. statements of previous years), so a combination of BoilerPy’s ArticleExtractor and BeautifulSoup could be used to improve text retrieval from HTML documents further.
+The text data from 120 HTML documents were manually compared using Diffchecker, revealing that in 68% of cases, ArticleExtractor (provided by BoilerPy) performs better than BeautifulSoup in terms of the amount of main content information that was extracted.  However, BoilerPy’s ArticleExtractor does not extract URLs on the web page and refers to other statements (e.g. statements of previous years), so a combination of BoilerPy’s ArticleExtractor and BeautifulSoup could be used to improve text retrieval from HTML documents further.
 
-The text data from 150 PDF documents, was manually compared using Diffchecker, revealing that XPDF always outperformed OCR except for scanned PDFs (for which XPDF produces empty output). Therefore, OCR was used on scanned PDFs and XPDF on all others.
+The text data from 150 PDF documents ware manually compared using Diffchecker, revealing that XPDF always outperformed OCR except for scanned PDFs (for which XPDF produces empty output). Therefore, OCR was used on scanned PDFs and XPDF on all others.
 
 For both HTML and PDF documents, a combination of both methods is more desirable. Once the results of text retrieval from the statements are satisfactory, all of the extracted text was added as a  new column to Project AIMS’ datasets, generally called ‘text’. 
 
 ## **In each notebook of this repository, the data with the text extracted is linked and openly available.**
+
 
 
 
