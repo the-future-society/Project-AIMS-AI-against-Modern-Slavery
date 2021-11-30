@@ -184,4 +184,4 @@ Retrieval of text data from 150 PDF documents, using Diffchecker to manually com
 
 For both HTML and PDF documents, a combination of both methods is more desirable. Having assessed the results of text retrieval from the statements, all of the extracted text was added as a  new column to Project AIMS’ dataset, generally called ‘text’. 
 
-**In each notebook of this repository, the data with the text extracted is linked and openly available. **
+## **In each notebook of this repository, the data with the text extracted is linked and openly available.**
