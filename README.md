@@ -80,11 +80,12 @@ By sharing your analysis and contributing to this repository you help the global
 Join our community on Slack and Trello and join our regular meetings where we discuss recent research and development on the project. 
 - 🗓️ Next meeting **xx/xx/xxxx**
 
-## Get in touch 💬
+
+### Get in touch 💬
 If you have any questions or you would like to get help with domain expertise or technical requirements, please get in touch with [Adriana](mailto:adriana.bora@thefuturesociety.org).
 
 
-## Citation 📝 
+### Citation 📝 
 
 If you intend to share any form of public research and analysis based on the data or code provided on this repository, then please include the following citation to your publication: _The Future Society. (2020) Project AIMS (AI against Modern Slavery). Retrieved from https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery _ 
 
