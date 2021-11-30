@@ -3,7 +3,7 @@
 
 <img align="right" alt="Coding" width="150" src="https://user-images.githubusercontent.com/64998301/143171267-86860e2b-8a25-440e-b778-a860ceac7e99.png">
 
-<img align="center" alt="Coding" width="500" src="https://cdn.dribbble.com/users/917530/screenshots/2879128/media/6008ce6d81787b9aa0ed9c0101b75567.gif">
+<img align="center" alt="Coding" width="500" src="https://cdn.dribbble.com/users/321965/screenshots/4317836/media/29e98f58c07e752c7d56bda15596f2a0.gif">
 
 
 
