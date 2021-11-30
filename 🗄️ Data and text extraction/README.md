@@ -124,7 +124,7 @@ At the moment of this design, the `template.yaml` did not configure the automati
 When you make code updates to the 'meat' of the function without adding any new libraries, you only have to run the 3rd step of the deployment to update the cloud function with new code. If you add new third-party libraries, then the 2nd step of building a layer needs to be rerun as well. The first step needs to be run only the very first time when creating the function, so you don't need to run it when making code updates.
 
 ## A simplified and updated version of the text extraction pipeline 
-<img align="right" alt="Coding" width="600" src="https://cdn.dribbble.com/users/1729935/screenshots/4108239/media/1a4b3d5ebbe44ab8e020793a9960295a.gif">
+<img align="right" alt="Coding" width="500" src="https://cdn.dribbble.com/users/1729935/screenshots/4108239/media/1a4b3d5ebbe44ab8e020793a9960295a.gif">
 
 The first step is to run the ‘prepare’ command that downloads the scrapable list of URLs and sets unique IDs to all of them. 
 
