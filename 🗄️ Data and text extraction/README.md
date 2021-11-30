@@ -150,6 +150,9 @@ If all the documents are automatically processed, then it’d be necessary to ru
 
 Typical PDF text extraction Python libraries  (such as   PyPDF and PDFMiner) are only able to extract the text from digital PDFs. To extract text from scanned files, one needs to use an  OCR  tool to recognize letters, commonly trained using computer vision methods on vast numbers of files. During the process of data exploration, it was found that approximately one-quarter of the published statements in PDF format were scanned. Hence, our first attempt was to implement an OCR solution for all the files as it would cover both subtypes of the format. 
 
+<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/656298/screenshots/2895552/media/4e8f0b3f30854b3ae137b30840ea4741.gif">
+
+
 While some text was extracted from 99% of PDF documents, it was revealed that the extraction of the OCR solution was of low quality, and digital PDF text extractors provided much more coherent sentences and ordered paragraphs. Issues that arose included:
 - For multi-column documents, the OCR solution would mix sentence beginnings from both columns resulting in incoherent paragraphs.
 - Paragraph titles were extracted separately from the paragraph texts which made the titles unusable for topic detection.
@@ -163,8 +166,6 @@ Retrieving information from web pages can be difficult as they vary greatly.  Ge
 
 
 [BeautifulSoup (BS)]( https://www.crummy.com/software/BeautifulSoup/bs4/doc/) is one of the most commonly used libraries, due to its efficiency and user-friendliness. Furthermore, it is also able to retrieve information from pages with unclosed tags, incorrect and/or nested attributes. Therefore, this is the first library that was tested by Project AIMS for text extraction from the HTML documents. This method is based on the web page structure. It maps a web page to an HTML tree and then retrieves the table nodes of the tree to detect the main content. Nevertheless, this method suffers from only partial extraction of text due to the inconsistent use of tags on different web pages.
-
-<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/656298/screenshots/2895552/media/4e8f0b3f30854b3ae137b30840ea4741.gif">
 
 The next step was to test [BoilerPy3](https://pypi.org/project/boilerpy3/), providing algorithms to detect and remove the surplus 'clutter' (boilerplate, templates) around the main textual content of a web page, extracting the main content without additional noise (advertisements, search and filtering panels, unwanted images or links). The library comprises several extractors. ArticleExtractor, being tuned towards news articles, is highly suitable for extracting content from modern slavery statements. However, one limitation of ArticleExtractor is its inability to extract additional statements from the same company, which are linked within the HTML document (for example, statements from previous years or statements formatted as PDFs).
 
