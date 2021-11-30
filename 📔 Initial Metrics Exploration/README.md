@@ -21,32 +21,33 @@ Was the company’s Modern Slavery Act statement signed by an appropriate person
 Does the company have a grievance mechanism in place to facilitate whistle-blowing or the reporting of suspected incidents of slavery or trafficking?
 3. MSA Business Performance Indicators
 Has the company reviewed business key performance indicators (KPIs) to ensure they are not increasing the risk of modern slavery?
-- MSA incidents remediation  
+4. MSA incidents remediation  
 Did the company explain the corrective steps it has taken (or would take) in response to modern slavery incidents in its own operations and/or supply chain?
-- MSA Performance Indicators
+5. MSA Performance Indicators
 Does the company define performance indicators that measure the effectiveness of its actions to combat slavery and trafficking? 
-MSA Ownership Disclosure
+6. MSA Ownership Disclosure
 Does the company disclose the ownership structure(s) and/or business model(s) of each of its brands, subsidiaries, and other businesses covered by its Modern Slavery statement?
-MSA Training  
+7. MSA Training  
 Does the statement describe training for staff that is specifically geared towards detecting signs of slavery or trafficking?
-MSA Historical Record
+8. MSA Historical Record
 Does the company provide a historic record of their modern slavery statements (either on their website or in their current statement)?
-MSA incidents identified
+9. MSA incidents identified
 Did the company identify any specific incidents related to modern slavery that require(d) remediation?
-MSA Statement Approval
+10. MSA Statement Approval
 Was the company's Modern Slavery Act statement explicitly approved by the board of directors (or equivalent management body)?
-MSA impact on company behaviour
+11. MSA impact on company behaviour
 Does the company’s statement describe a change in their policy that occurred as a direct result of the UK Modern Slavery Act 2015?
-MSA supply chain disclosure
+12. MSA supply chain disclosure
 Does the company’s statement identify the suppliers in their supply chain and/or the geographic regions where their supply chain operates?
-MSA policy  
+13. MSA policy  
 Does the company’s statement detail specific, organisational policies or actions to combat slavery in their direct (tier 1) and/or indirect (beyond tier 1) supply chain?
-MSA Identification of risks
+14. MSA Identification of risks
 Does the company’s statement identify specific geographic regions, industries, resources or types of workforce where the risk of modern slavery is the greatest?
-MSA risk management  
+15. MSA risk management  
 Does the company continuously monitor suppliers to ensure that they comply with the company’s policies and local laws?
-MSA risk assessment
+16. MSA risk assessment
 How does the company assess the risks of modern slavery and trafficking in their supply chain?
+
 ## Methodology 
 ### Semantic workshop 
 Before starting to use any computational techniques to explore the statements, the process started with a semantic workshop to collect and imbed the domain knowledge of the specialists in the field of modern slavery reporting. 
