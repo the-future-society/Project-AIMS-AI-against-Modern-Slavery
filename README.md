@@ -18,10 +18,11 @@ This repository presents the work developed so far in Project AIMS under an ©�
 This GitHub contains the following resources: 
 
 1. The notebooks developed under Project AIMS from April 2020 to June 2021, clearly documented, ideally for anyone who would like to reproduce our project to be able to get similar results. Those notebooks are organised in the following format: 
-   - 🗄️ Data and text extraction
-   - 📔 Initial Metrics Exploration
-   - 📔 Model for **multi-class** and **multi-label classification** for core metrics 
+   - 🗄️ [Data and text extraction](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/tree/main/%F0%9F%97%84%EF%B8%8F%20Data%20and%20text%20extraction)
+   - 📔 [Initial Metrics Exploration](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/tree/main/%F0%9F%93%94%20Initial%20Metrics%20Exploration)
+   - 📔 [Model for **multi-class** and **multi-label classification** for core metrics](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/tree/main/%F0%9F%93%94%20Model%20for%20multi-class%20and%20multi-label%20classification%20for%20core%20metrics)
      - 💡 Sub-projects for multi-class and multi-label classification for core metrics designed for the community to pick up and develop further. Those include a clear scope, questions, expected outcomes, a proposed methodology and resources.
+   - 🔎 [Other explorations on the modern slavery corpus](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/tree/main/%F0%9F%94%8E%20Other%20explorations%20on%20the%20modern%20slavery%20corpus)
 
 
 ## Introduction
