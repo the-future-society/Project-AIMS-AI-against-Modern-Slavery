@@ -28,7 +28,9 @@ Clear rules for labelling were designed, allowing to make the most of the labell
 
 ## MSA Approval metric example
 
-In this directory you can access the notebook where we present an example of a multi-class classification model for the Aproval matrix. 
+In this directory you can access the [notebook]() where we present an example of a multi-class classification model for the Aproval matrix. 
+
+🗄️ You can access the data used in this notebook [here](https://drive.google.com/file/d/1gr9PbPTaYLnhVKJ6eraJboPmvLZ_E14J/view?usp=sharing). We recommend you re-run this research with an updated version of this data which can be downloaded following these [instructions](https://drive.google.com/file/d/1xThQSWn501Jlxfay-c7u-EjTu-3R1FAg/view?usp=sharing).
 
 ### Assumptions
 
@@ -38,12 +40,6 @@ In this directory you can access the notebook where we present an example of a m
 |Assumption for meeting answer|No mention of any sort of approval in the statement.|Statement explicitly mentions that the statement has received approval from the company's board. It must be explicit that it has been "been approved by the board" or "on behalf of the board", NOT that a board member has signed the statement. This is usually found at the end of the statement or first page.|Statement mentions that it was approved but the entity is not a representative of the Board or the Board itself.|
 |Example| | | Eurizon SLJ Capital Limited's 2019 statement, p1:"This statement has been approved by the Chief Operating Officer of ESLJ." |
 
-### Clean and verifed annotated data 
-
-### 🗄️ You can access the data used in this notebook [here](https://drive.google.com/file/d/1gr9PbPTaYLnhVKJ6eraJboPmvLZ_E14J/view?usp=sharing). We recommend you re-run this research with an updated version of this data which can be downloaded following these [instructions](https://drive.google.com/file/d/1xThQSWn501Jlxfay-c7u-EjTu-3R1FAg/view?usp=sharing).
- 
-
-**We recommend you to access an updated version of this data following the instructions from [WikiRate directory](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/b0571d0b34f1ee68856b5b18468d8d3b7d540c19/%F0%9F%97%84%EF%B8%8F%20Data%20and%20text%20extraction/WikiRate/README.md).**
 
 
 ### 🙏 Special thanks to the WikiRate team for leading the work on annotating new documents and validating the existing ones.
