@@ -94,7 +94,7 @@ If you intend to share any form of public research and analysis based on the dat
 - [Li He](https://www.linkedin.com/in/li-he-94a514194/)
 - [Edgar Rootalu](https://www.linkedin.com/in/edgarrootalu/)
 - [Samuel Clarke](https://www.linkedin.com/in/samckclarke/)
-- [Nicolas Guetta-Jeanrenaud](https://www.linkedin.com/in/nicolas-guetta-jeanrenaud/).
+- [Nicolas Guetta-Jeanrenaud](https://www.linkedin.com/in/nicolas-guetta-jeanrenaud/)
 - [Francisca Sassetti](https://www.linkedin.com/in/franciscasassetti/)
 - [Lewis Hammond](https://www.linkedin.com/in/lrhammond/)
 
