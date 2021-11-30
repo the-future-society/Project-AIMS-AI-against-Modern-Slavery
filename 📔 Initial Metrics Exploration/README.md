@@ -19,7 +19,7 @@ This directory will introduce the different qualitative and quantitative methods
 Alongside this documentation, this work could be used in later phases to label more data and guide the verification of the existing ground truth data. 
 The sixteen metrics used in this project are designed by Walk Free, WikiRate and Business and Human Rights Resource Center in line with the UK Government guidance. Each metric questions the quality of a company’s modern slavery statement, indicating good reporting. 
 
-<img align="right" alt="Coding" width="300" src="https://cdn.dribbble.com/users/1501052/screenshots/4545496/media/13e279b5c3bd2e8f79067239da3d8633.gif">
+<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1501052/screenshots/4545496/media/13e279b5c3bd2e8f79067239da3d8633.gif">
 
 
 
@@ -64,8 +64,13 @@ Those methods are:
 -Hierarchical Attention Network
 -Transformer-based approach (using the 'Comments' from WikiRate dataset) 
 
+
 ## A. Labeling functions using the Snorkel framework 
 The first method explored is based on labelling functions that use the Snorkel framework. Snorkel is a system for programmatically building and managing training datasets without manual labelling. 
+
+<img align="right" alt="Coding" width="400" src="https://dribbble.com/shots/4317836-Proofreading-Day
+https://cdn.dribbble.com/users/1952679/screenshots/10693904/media/4397aa85ca682f63fe8e0263de80c815.gif">
+
 
 Snorkel currently exposes three key programmatic operations: 
 Labelling data, e.g., using heuristic rules or distant supervision techniques
