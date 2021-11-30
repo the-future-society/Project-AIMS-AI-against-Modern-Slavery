@@ -2,7 +2,7 @@
  
 <img align="right" alt="Coding" width="150" src="https://user-images.githubusercontent.com/64998301/143171267-86860e2b-8a25-440e-b778-a860ceac7e99.png">
  
-<img align="left" alt="Coding" width="550" src="https://cdn.dribbble.com/users/1581085/screenshots/3984307/media/826088ba21447e50a7e525eb592774a3.gif">
+<img align="left" alt="Coding" width="550" src="https://cdn.dribbble.com/users/1581085/screenshots/3984307/media/826088ba21447e50a7e525eb592774a3.giff">
 
 
 
@@ -10,8 +10,8 @@
 # Sub-project: Multi-label classification for the MSA Whistleblower Mechanism Metric
 
 
-For this exercise, please develop a solution for the MSA Whistleblower Mechanism Metric. This solution should be able to detect from each of the modern slavery statements the company provide a hotline or reporting mechanism where grievances or suspected incidents of slavery or trafficking can be reported for direct employees and/or supply chains workers. 
-Please read carefully the description of this metric and methodology  on how the data is labeled here: [MSA whistleblowing mechanism](https://wikirate.org/Walk_Free_Foundation+MSA_whistleblowing_mechanism_revised)
+For this exercise, please develop a solution for the MSA Whistleblower Mechanism Metric. This solution should be able to detect from each of the modern slavery statements if the company provide a hotline or reporting mechanism where grievances or suspected incidents of slavery or trafficking can be reported for direct employees and/or supply chains workers. 
+Please read carefully the description of this metric and methodology  on how the data is labelled here: [MSA whistleblowing mechanism](https://wikirate.org/Walk_Free_Foundation+MSA_whistleblowing_mechanism_revised)
 At the end of the test, the solutions you developed should include systems that would: 
 Detect whether a statement contains one or more of the metric’s options:  
 - Hotline, Email, Contact Form (direct employees)
@@ -26,7 +26,7 @@ Detect whether a statement contains one or more of the metric’s options:
 > Note: Unknown: If this label is found, do not include it in the analysis.  
 > NOTE: One statement can contain multiple options (they are comma ‘,’ separated) 
 
-Also please explain the prediction by pointing to the part of the text that describes each option of the  metric that was found (could be at the level of sentence or paragraph). 
+Also, please explain the prediction by pointing to the part of the text that describes each option of the metric that was found (could be at the level of sentence or paragraph). 
 
 
 
@@ -51,9 +51,11 @@ Also please explain the prediction by pointing to the part of the text that desc
 Share the link of your Google Colab notebook or or .jpynb with Adriana or present it during our next meeting. 
 
 ## Resources:  
-1. See attached the labeled dataset to this directory. We recommend you to access and extract the text from an updated version of this data which can be downloaded following these [instructions](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/tree/main/%F0%9F%97%84%EF%B8%8F%20Data%20and%20text%20extraction/WikiRate). 
+1. See attached the labelled dataset to this directory. We recommend you to access and extract the text from an updated version of this data which can be downloaded following these [instructions](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/tree/main/%F0%9F%97%84%EF%B8%8F%20Data%20and%20text%20extraction/WikiRate). 
 2. Read carefully the description and methodology about the  [MSA whistleblowing mechanism](https://wikirate.org/Walk_Free_Foundation+MSA_whistleblowing_mechanism_revised)
 3. Check out our initial exploration on the [Whistleblowing_mechanism.ipynb](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/a5f8610f2bbbdc69552108d049cde083f0bf9b83/%F0%9F%93%94%20Initial%20Metrics%20Exploration/Whistleblowing_mechanism.ipynb)
 
 Please do not hesitate to get in touch if you have any questions. 
+
+
 
