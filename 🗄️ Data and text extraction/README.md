@@ -7,7 +7,7 @@
 <img align="right" alt="Coding" width="150" src="https://user-images.githubusercontent.com/64998301/143171267-86860e2b-8a25-440e-b778-a860ceac7e99.png">
 
 
-<img align="center" alt="Coding" width="700" src="https://cdn.dribbble.com/users/2507445/screenshots/5776417/media/8efcb73a124de3b1f6937fb85133aeee.gif">
+<img align="center" alt="Coding" width="650" src="https://cdn.dribbble.com/users/2507445/screenshots/5776417/media/8efcb73a124de3b1f6937fb85133aeee.gif">
 
 
 
@@ -25,11 +25,9 @@ Those are:
 
 
 The notebooks presented in the 
-<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/2181491/screenshots/4338667/ezgif.com-optimize__1_.gif">
 
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1729935/screenshots/4108239/media/1a4b3d5ebbe44ab8e020793a9960295a.gif">
 
-<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/100976/screenshots/3407799/media/46606d8d83079426b1e942444ede9160.gif">
 
 
 
@@ -45,4 +43,5 @@ The notebooks presented in the
 It's recommended that you use a virtual environment such as [virtualenv](https://virtualenv.pypa.io/en/latest/), [pipenv](https://pipenv-fork.readthedocs.io/en/latest/) or similar.
 
 
+<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/100976/screenshots/3407799/media/46606d8d83079426b1e942444ede9160.gif">
 
