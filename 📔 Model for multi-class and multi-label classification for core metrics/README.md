@@ -33,3 +33,8 @@ In this directory you can access the notebook where we present an example of a m
 | |Approval not explicit in statement| Approved by Board| Approved - not by Board
 |-|--------------------------------------------|---------------------------|--------------------------------|
 |Description| Approval by board is not explicit.| Approval by board is explicit in the statement.| Approval is explicit in statement, but by an person/entity other than the board|
+|Assumption for meeting answer|No mention of any sort of approval in the statement.|Statement explicitly mentions that the statement has received approval from the company's board. It must be explicit that it has been "been approved by the board" or "on behalf of the board", NOT that a board member has signed the statement. This is usually found at the end of the statement or first page.|Statement mentions that it was approved but the entity is not a representative of the Board or the Board itself.|
+|Example| | | Eurizon SLJ Capital Limited's 2019 statement, p1:"This statement has been approved by the Chief Operating Officer of ESLJ." |
+
+
+
