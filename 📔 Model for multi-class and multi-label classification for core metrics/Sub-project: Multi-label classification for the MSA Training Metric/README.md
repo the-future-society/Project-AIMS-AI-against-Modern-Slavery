@@ -45,7 +45,7 @@ Also, please explain the prediction by pointing to the part of the text that des
    - Present the code of the solutions developed for this metric and interpret your results.  Ensure that each section of the solution is well described and documented.  
    - How do you assess the quality of your results? What are the challenges? What would  you recommend to do to improve your initial results? 
 
-Share the link of your Google Colab notebook or or .jpynb with Adriana or present it during our next meeting. 
+Share the link of your Google Colab notebook or your .jpynb with Adriana or present it during our next meeting. 
 
 ## Resources:  
 1. See attached the labelled dataset to this directory. We recommend you to access and extract the text from an updated version of this data which can be downloaded following these [instructions](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/tree/main/%F0%9F%97%84%EF%B8%8F%20Data%20and%20text%20extraction/WikiRate). 
