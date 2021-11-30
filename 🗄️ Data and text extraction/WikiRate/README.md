@@ -19,9 +19,10 @@ Learn more about those metrics, by check out our [📔 Initial Metrics Explorati
 
 Labelling statements with these metrics is repetitive labour, and currently, only approximately 2,400 statements have been labelled. One of the goals of Project AIMS is to augment this manual effort using NLP techniques, to obtain a fully labelled dataset. Thus, the WikiRate dataset is effectively the training dataset ('ground truth data', ‘labelled dataset’) that will be used to train machine learning models. The trained models then can be used to label the remaining statements in the [Archive of BHRRC The Modern Slavery Registry](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/tree/main/%F0%9F%97%84%EF%B8%8F%20Data%20and%20text%20extraction/Archive%20of%20BHRRC%20The%20Modern%20Slavery%20Registry). Once all statements are labelled, it will be much easier to identify companies that need to make greater efforts to meet the minimum requirements of the legislation and to go beyond compliance. 
 
+<img align="right" width="400"   src="https://user-images.githubusercontent.com/64998301/144046036-391f451f-a464-4a13-bbae-5cfdc21d8518.gif">
+
 In this directory, we present a notebook on how to extract the text from the statements. WikiRate stores both the links to the original PDFs, as well as a PDF copy of the statement. This ensures that all the historical versions of the statements are being stored, and not lost due to frequent issues met when scraping URLs. 
 
-<img align="right" width="400"   src="https://user-images.githubusercontent.com/64998301/144046036-391f451f-a464-4a13-bbae-5cfdc21d8518.gif">
 
 
 Therefore, this text extraction is proposing a simple, open solution to extracting the text from PDFs only files. 
@@ -34,10 +35,11 @@ https://wikirate.org/UK_Modern_Slavery_Act_Research+Answer.csv
 - Once you have the PDF, extract the text with the best tool you can find, and append the text as a column to the dataset
 - Save the dataset
 
-### A proposed version of this workflow and the data as available in November 2021 is attached to this directory.
+### A proposed version of [this workflow](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/main/%F0%9F%97%84%EF%B8%8F%20Data%20and%20text%20extraction/WikiRate/WikiRate_labeled_data.ipynb) and the [data](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/main/%F0%9F%97%84%EF%B8%8F%20Data%20and%20text%20extraction/WikiRate/labeled_data.csv) as available in November 2021 is attached to this directory.
 
 
 
 
 Rights reserved to WikiRate is a registered trademark of The WikiRate Project e.V., a nonprofit organization based in Berlin, Germany.
+
 
