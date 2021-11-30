@@ -28,9 +28,9 @@ Bellow, we present the techniques used in the pipeline of Project AIMS. Nonethel
 
 
 They can be found here: 
-- [Archive of BHRRC The Modern Slavery Registry]()
-- [🇬🇧 GOV.UK Modern slavery statement registry]()
-- [The WikiRate data (that we generally call the labelled dataset)]()
+- [Archive of BHRRC The Modern Slavery Registry](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/tree/main/%F0%9F%97%84%EF%B8%8F%20Data%20and%20text%20extraction/Archive%20of%20BHRRC%20The%20Modern%20Slavery%20Registry)
+- [🇬🇧 GOV.UK Modern slavery statement registry](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/tree/main/%F0%9F%97%84%EF%B8%8F%20Data%20and%20text%20extraction/%F0%9F%87%AC%F0%9F%87%A7%20GOV.UK%20Modern%20slavery%20statement%20registry)
+- [The WikiRate data (that we generally call the labelled dataset)](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/tree/main/%F0%9F%97%84%EF%B8%8F%20Data%20and%20text%20extraction/WikiRate)
 
 
 
