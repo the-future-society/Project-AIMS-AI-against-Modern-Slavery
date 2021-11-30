@@ -80,6 +80,11 @@ While conducting this work, key lessons were drawn. Firstly, the results indicat
 
 What is more, this method based on keywords is useful but in many cases, the lack of context is taken into account can generate noise. For instance, in many cases, some of the keywords appeared in multiple places on the statement but did not always refer to the metric in question. Being able to correct this is key to avoiding false positives or false negatives. 
 
+> Note: The next three methods were applied only for the following metrics:
+- MSA Risk Assessment
+- MSA Risk Management
+- MSA Risk Identification
+- 
 ## B. Rule-based and Random Forest approach
 The second method used in the project was to explore a combination of rule-based and random forest approaches for classifying the statements informed by the keywords of the semantic workshop. 
 
@@ -114,10 +119,7 @@ Based on the assessment of the application of this methodology for the metric â€
 However, using the 6 sentences as a threshold leaves 62% of statements to classify. For this, Random Forests were used. For the 62% remaining statements, the sentences containing at least one predefined keyword were kept. 
 
 Each document was represented using a TF IDF vectorization (with n-gram ranging from 1 to 3) from these sentences. Then, a Random Forest model was trained. 
-This method was used for three of our metrics: 
-- MSA Risk Assessment
-- MSA Risk Management
-- MSA Risk Identification
+
 
 ### Key findings using this method on the three metrics: 
 This method seems to best perform for the Risk Assessment metric. Using this system shows an average of 74% accuracy. Yet, this frequency-based method does not incorporate much context which needs to be addressed as it is very important to classify if the statement describes risk assessment. What is more, for some documents, the sentences predicted seem to indicate a positive metric, even if labelled negative. This justifies the need to recheck the quality of the labelled dataset. 
@@ -131,12 +133,8 @@ Hierarchical Attention Network (HAN) was proposed by Yang et al. in 2016 for doc
 
 >_Figure Explaining the Hierarchical Attention Network method_ 
 
-This method was used for three of our metrics: 
-MSA Risk Assessment
-MSA Risk Management
-MSA Risk Identification
 
-For three of the metrics, a HAN was trained in order to predict their presence and identify their associated supporting text from the statements. This method allowed us to use the hierarchical structure of statements as well as to drive attention to incorporating context. 
+For three risk metrics, a HAN was trained in order to predict their presence and identify their associated supporting text from the statements. This method allowed us to use the hierarchical structure of statements as well as to drive attention to incorporating context. 
 
 The advantages of this method are that the attention weights are unique which facilitate the interpretation of predictions. Also, this model provides a clear view of the part of the text the model is looking at, and thus the supporting text that is helping make the predictions. Thanks to the two levels of attention, the model also highlights sentences and words which are important for prediction. The HAN model predicts if the overall statement contains or not the metric analysed. 
 
@@ -166,14 +164,9 @@ A pre-trained Roberta model from the Hugging Face model hub was used to fine-tun
 
 For scoring the statements, after the statement was segmented into paragraphs as described above, every segment of every document was scored with the model. Then, the difference between the positive class prediction (probability) and negative class prediction (probability) for every segment was calculated. The statements with the lowest difference were considered to be the most difficult to label and thus, prioritised to be sent to WikiRate for manual labelling. 
 
-A similar version of this method was applied for three of the metrics:
--MSA Identification of risks
--MSA risk management  
--MSA risk assessment
 
 This method used a contextual method, leveraging the 'Commnets' given by annotators, to predict if a sentence could be retrieved as a comment or not. If a sentence can be a comment, it would mean it justifies the presence of the metric in the statement analysed.
 
-### Methodology:
 Using the training set, for each of the three metrics, positive and negative classes were created. The positive classes were created by using the sentences extracted from 'Commnets', where the statement was labelled positively. The negative samples contained sentences randomly sampled from statements, except the sentences present in 'Comments'.
 The ALBERT-based model for classifying sentences was trained in two categories, 'in comment', and 'not in comment'. This model scores each sentence in the statements. If a sentence gets a probability greater than 0.5, it was predicted as coming from a comment. Then, if a statement had at least one of its sentences being predicted as coming from a comment, it was classified as containing the metric analysed.  
 
