@@ -2,11 +2,11 @@
 ## Proof of Concept of supporting text extraction and binary classification of unlabeled modern slavery statements across 16 metrics 
 After extracting the text and understanding the corpus, the project moved to its second phase, focusing on creating the understanding needed to prepare for the training of the machine learning solutions. This phase of the project focuses on analyzing the sixteen metrics that should be used in benchmarking the statements, and on the identification and extraction of their associated supporting text (quotes, context, meaning, claims, or facts) from the statements. 
 
-Note: The supporting text could be used to facilitate the creation of a more extensive, cleaner labelled dataset. Also, the supporting text could aid to achieve better performance for the multi-class and multi-label classifications.
+> Note: The supporting text could be used to facilitate the creation of a more extensive, cleaner labelled dataset. Also, the supporting text could aid to achieve better performance for the multi-class and multi-label classifications.
 
 This folder will introduce the different qualitative and quantitative methods used in the supporting text extraction procedure. It explains the steps taken during this phase for a deeper understanding of each of the sixteen metrics and their unique challenges and opportunities. 
 
-Note: This process should be a continuous one, and once it reaches a high level of accuracy, the supporting text could become part of the ground truth data, just as the ‘'Comments'’ from [WikiRate](link) are ground truth data.  The ‘'Comments'’ are text imputed by annotators to explain the exact part of the text that explains their decision to choose the specific label. 
+> Note: This process should be a continuous one, and once it reaches a high level of accuracy, the supporting text could become part of the ground truth data, just as the ‘'Comments'’ from [WikiRate](link) are ground truth data.  The ‘'Comments'’ are text imputed by annotators to explain the exact part of the text that explains their decision to choose the specific label. 
 
  Alongside this documentation, this work could be used in later phases not only to label more data but also to guide the verification of the existing ground truth data. 
 
@@ -45,7 +45,7 @@ Supporting text extraction is the process of defining a set of text characterist
 
 Supporting text extraction is a process of reducing the dimensions of the representation of a document. Generally, large data sets require a lot of computing resources to process.  Supporting text extraction is the method that selects and/or combines segments of the data (in this case sentences) into supporting text, effectively reducing the amount of data that must be processed, while still accurately and completely describing the original data set. The supporting text is intended to be informative and non-redundant, facilitating the subsequent learning and generalization steps, and in some cases leading to better human interpretations. 
 
-Note: Machine learning algorithms learn from a predefined set of supporting text from the training data to produce output for the test data. Yet, the main problem in working with language processing is that machine learning algorithms cannot work on the raw text directly. So, some supporting text extraction techniques to convert text into a matrix (or vector) of supporting text are needed. Some of the most popular methods of supporting text extraction are Bag-of-Words and term frequency-inverse document frequency (TF-IDF).
+> Note: Machine learning algorithms learn from a predefined set of supporting text from the training data to produce output for the test data. Yet, the main problem in working with language processing is that machine learning algorithms cannot work on the raw text directly. So, some supporting text extraction techniques to convert text into a matrix (or vector) of supporting text are needed. Some of the most popular methods of supporting text extraction are Bag-of-Words and term frequency-inverse document frequency (TF-IDF).
 
 Some exploratory tests were executed using a set of diverse computational methods to understand the complexity of identifying the metrics and their associated supporting text in the statements. On top of this, those tests allowed preliminary classifications of the statements.  
 
@@ -55,7 +55,7 @@ Rule-based and Random Forest approach
 Hierarchical Attention Network
 Transformer-based approach (using the ‘'Comments'’ from WikiRate dataset) 
 
-A. Labeling functions using the Snorkel framework 
+##A. Labeling functions using the Snorkel framework 
 The first method explored is based on labelling functions that use the Snorkel framework. Snorkel is a system for programmatically building and managing training datasets without manual labelling. 
 
 Snorkel currently exposes three key programmatic operations: 
@@ -65,7 +65,7 @@ Slicing data into different critical subsets for monitoring or targeted improvem
 
 The purpose of this exploratory test was to work through various metrics to understand their vocabulary and their presence in the text data. Also, it aimed to develop, based on the domain expert knowledge extracted from our semantic workshop, more labelled data through keywords and regular expression matching. Based on the keywords, this method enables the extraction of the relevant supporting text associated with the metrics from the statements. 
 
-Note: These supporting texts can be used as training data for the machine learning model in a later phase of the project. 
+> Note: These supporting texts can be used as training data for the machine learning model in a later phase of the project. 
 
 In Snorkel, users can develop large training datasets in hours or days rather than hand-labelling them over weeks or months. Labelling functions are designed to be weak heuristic functions that predict a label given unlabeled data. The method explored is based on labelling functions that use the Snorkel framework to process, build and manage training datasets without manual labelling.
 
@@ -81,18 +81,20 @@ Search for lemmatized keywords in the lemmatized text
 If matches are found among lemmatized text then save the original sentences that contained the processed lemmas as extracted output.
 
 
-Key findings using this method: 
+###Key findings using this method: 
 
 While conducting this work, key lessons were drawn. Firstly, the results indicated the need to verify the quality of the labelled dataset. Without this clear benchmark, the results are not strong enough to allow with confidence the integration of the supporting text as part of the ground truth data.  In some cases, manual validation was conducted, following the labels and the comment sections of the ground truth data provided by WikiRate. The ‘'Comments'’ from the WikiRate dataset are useful for understanding the context that generates the label. Yet, at this stage, the data was unclear and unstructured. Not all documents included 'Comments, and when they existed, many were just free text added by the annotators, without directly linking the exact text from the statement justifying the selection of the label.  To correct this, improvement in the annotation process is required moving forward. 
 
 What is more, this method based on keywords is useful but in many cases, the lack of context is taken into account can generate noise. For instance, in many cases, some of the keywords appeared in multiple places on the statement but did not always refer to the metric in question. Being able to correct this is key to avoiding false positives or false negatives. 
 
-B. Rule-based and Random Forest approach
+## B. Rule-based and Random Forest approach
 The second method used in the project was to explore a combination of rule-based and random forest approaches for classifying the statements informed by the keywords of the semantic workshop. 
 
 The rule-based classifier is a simpler method than Snorkel that makes use of a set of IF-THEN rules for classification. 
 
- Figure explaining the rule-base method
+![Screen Shot 2021-11-30 at 11 29 10 am](https://user-images.githubusercontent.com/64998301/143969195-e9c1346a-7af3-4bfb-8398-e6c836811329.png)
+
+_Figure explaining the rule-base method_
 
 The basic concept behind the Random Forest (or random decision forest) approach is that a group of 'weak learners' may come together to build a 'strong learner'. What is more, Random Forest is designed to overcome the 'overfitting' problem of decision trees. Random Forest constructs a multitude of decision trees in the training phase and uses majority voting for classification. A Random Forest algorithm is arguably one of the best algorithms for classification..
 
