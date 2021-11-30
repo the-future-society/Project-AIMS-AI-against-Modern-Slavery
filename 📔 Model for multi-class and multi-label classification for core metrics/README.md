@@ -4,13 +4,13 @@
 
 <img align="right" alt="Coding" width="150" src="https://user-images.githubusercontent.com/64998301/143171267-86860e2b-8a25-440e-b778-a860ceac7e99.png">
 
-<img align="center" alt="Coding" width="500" src="https://cdn.dribbble.com/users/917530/screenshots/2879128/media/6008ce6d81787b9aa0ed9c0101b75567.gif">
+<img align="center" alt="Coding" width="550" src="https://cdn.dribbble.com/users/917530/screenshots/2879128/media/6008ce6d81787b9aa0ed9c0101b75567.gif">
 
 
 
 
 
-The [📔 Initial Metrics Exploration](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/tree/main/%F0%9F%93%94%20Initial%20Metrics%20Exploration)  were followed by a second semantic workshop with the project partners. Based on all the accumulated knowledge, the decision was made to prioritize four of the metrics to explore multi-class and multi-label classification models.  Those four metrics are: 
+The [📔 Initial Metrics Exploration](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/tree/main/%F0%9F%93%94%20Initial%20Metrics%20Exploration)  was followed by a second semantic workshop with the project partners. Based on all the accumulated knowledge, the decision was made to prioritize four of the metrics to explore multi-class and multi-label classification models.  Those four metrics are: 
 
 -MSA Statement Approval
 -MSA Training
@@ -26,3 +26,10 @@ In parallel, the project will focus on the improvement of text extraction. Speci
 Finally, the pipeline of the project will be augmented with the possibility to explore the integration of the newly launched UK and Australian Registry. The project will build an API designed based on the needs of the WikiRate platform to be easily accessible and directly populate the platform with the classification of the new statements based on the metrics. 
 
 
+MSA Approval metric example
+
+In this directory you can access the notebook where we present an example of a multi-class classification model for the Aproval matrix. 
+
+| |Approval not explicit in statement| Approved by Board| Approved - not by Board
+|-|--------------------------------------------|---------------------------|--------------------------------|
+|Description| Approval by board is not explicit.| Approval by board is explicit in the statement.| Approval is explicit in statement, but by an person/entity other than the board|
