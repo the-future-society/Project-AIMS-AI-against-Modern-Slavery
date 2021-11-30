@@ -15,15 +15,15 @@ The sixteen metrics used in this project are designed by Walk Free, WikiRate and
 
 
 The metrics explored are: 
-MSA Statement Signed
+1. MSA Statement Signed
 Was the company’s Modern Slavery Act statement signed by an appropriate person?
-MSA whistleblowing mechanism  
+2. MSA whistleblowing mechanism  
 Does the company have a grievance mechanism in place to facilitate whistle-blowing or the reporting of suspected incidents of slavery or trafficking?
-MSA Business Performance Indicators
+3. MSA Business Performance Indicators
 Has the company reviewed business key performance indicators (KPIs) to ensure they are not increasing the risk of modern slavery?
-MSA incidents remediation  
+- MSA incidents remediation  
 Did the company explain the corrective steps it has taken (or would take) in response to modern slavery incidents in its own operations and/or supply chain?
-MSA Performance Indicators
+- MSA Performance Indicators
 Does the company define performance indicators that measure the effectiveness of its actions to combat slavery and trafficking? 
 MSA Ownership Disclosure
 Does the company disclose the ownership structure(s) and/or business model(s) of each of its brands, subsidiaries, and other businesses covered by its Modern Slavery statement?
