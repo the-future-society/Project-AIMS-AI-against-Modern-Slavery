@@ -217,6 +217,8 @@ In the case of rule-based models, ground truth labelled data is required only fo
 
 This means that for rule-based approaches, we can use the entire WikiRate corpus (the ground truth data of the project) for validation. At the same time, for the other two cases, we need to use, for instance, ⅔ of the labelled statements for training and ⅓ for testing.
 
+<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/38569/screenshots/7131533/media/1b8aeec115fb064688de4ef74620fae3.pngcompress=1&resize=800x600">
+
 Required evaluation measurements for rules-based systems include:
 - Accuracy - the fraction of correctly predicted labels 
 - Precision - the number of true positive results divided by the number of all positive results, including those not identified correctly (i.e. true positives plus false positives)
