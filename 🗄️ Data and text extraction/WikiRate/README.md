@@ -11,7 +11,7 @@
 
 # WikiRate dataset - in Project AIMS we generally refer to it as the labelled dataset
 
-[WikiRate’s UK Modern Slavery Act research]( Modern Slavery Research by WikiRate details: https://WikiRate.org/UK_Modern_Slavery_Act_Research) aims to 'evaluate the quality of Modern Slavery Statements that are produced by companies following the Modern Slavery Act. To do so, over the previous six years they have been evaluating modern slavery statements according to a set of core metrics, each of which represents a desirable property of a modern slavery statement. For example:
+[WikiRate’s UK Modern Slavery Act research Modern Slavery Research by WikiRate details](https://WikiRate.org/UK_Modern_Slavery_Act_Research) aims to 'evaluate the quality of Modern Slavery Statements that are produced by companies following the Modern Slavery Act. To do so, over the previous six years they have been evaluating modern slavery statements according to a set of core metrics, each of which represents a desirable property of a modern slavery statement. For example:
 - Is the statement signed and/or approved by a managing body of the organization?
 - Does the statement describe a whistleblowing mechanism to facilitate the reporting of suspected cases of modern slavery?
 
