@@ -18,6 +18,11 @@ After extracting the text and understanding the corpus, the project moved to its
 This directory will introduce the different qualitative and quantitative methods used in the supporting text extraction procedure. It explains the steps taken during this phase to understand each of the sixteen metrics and their unique challenges and opportunities. 
 Alongside this documentation, this work could be used in later phases to label more data and guide the verification of the existing ground truth data. 
 The sixteen metrics used in this project are designed by Walk Free, WikiRate and Business and Human Rights Resource Center in line with the UK Government guidance. Each metric questions the quality of a company’s modern slavery statement, indicating good reporting. 
+
+<img align="right" alt="Coding" width="300" src="https://cdn.dribbble.com/users/1501052/screenshots/4545496/media/13e279b5c3bd2e8f79067239da3d8633.gif">
+
+
+
 The metrics explored are: 
 1. **MSA Statement Signed** - Was the company’s Modern Slavery Act statement signed by an appropriate person?
 2. **MSA whistleblowing mechanism**  - Does the company have a grievance mechanism in place to facilitate whistle-blowing or the reporting of suspected incidents of slavery or trafficking?
