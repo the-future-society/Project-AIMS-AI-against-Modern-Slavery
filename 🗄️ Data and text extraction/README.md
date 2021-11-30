@@ -8,7 +8,7 @@
 
 
 
-# Getting the dataset
+# Getting the datasets
 This directory presents the different data sources of modern slavery statements from the UK and how to extract the text from the statements. 
 
 To date, access to modern slavery statements has been through company websites or the compilation efforts by the Business and Human Rights Resource Centre’s (BHRRC), referred to here as the  [Archive of BHRRC The Modern Slavery Registry]() and [WikiRate](), who has collated and analysed this data.  
@@ -47,7 +47,7 @@ It's recommended that you use a virtual environment such as [virtualenv](https:/
 
 
 
-## Text extraction 
+# Text extraction 
 Being able to extract the text and assess its quality before using it in building models is of great importance and a key step in ensuring the accuracy of the final tool. For example, if a paragraph of a company’s report is not extracted, the analysis will lead to an incorrect assessment of the company’s compliance with modern slavery regulation. The same issue also arises if the text is fully extracted but not in the intended order (e.g. columns of text are read as a single block).
 
 
@@ -142,7 +142,7 @@ The first two steps are automated using a lambda function trigger. As soon as a 
 
 If all the documents are automatically processed, then it’d be necessary to run the XPDF to extract higher-quality text from the digital PDFs. That notebook will also take care of choosing the best extraction of each PDF file (among the digital extraction and the OCR’d version) and upload the best extractions to AWS S3.
 
-## Analysis and learnings 
+# Analysis and learnings 
 ### Extracting text from PDFs
 
 [The Portable Document Format (PDF)](https://www.adobe.com/content/dam/acom/en/devnet/pdf/pdf_reference_archive/pdf_reference_1-7.pdf) covers a very broad spectrum of different document styles and it can be very complex. For our purposes, there are two types of PDF files that require different approaches to text extraction: native (or digital) and scanned files. The difference between native and scanned PDF files is that the native one is created from text editors such as Microsoft Word, whereas the scanned PDF is created from scanned image files. Even though both contain textual data, the scanned PDF files are not directly readable by computers and require Optical Character Recognition (OCR) technology to convert them into a machine-readable format.
@@ -173,7 +173,7 @@ Most of our learnings are collected in our publication [Digital AI against Moder
 
 
 
-<img align="center" alt="Coding" width="650" src="https://user-images.githubusercontent.com/64998301/144033314-5ca09cc3-cdc8-44ce-8a7a-e136b033cb15.png">
+<img align="center" alt="Coding" width="400" src="https://user-images.githubusercontent.com/64998301/144033314-5ca09cc3-cdc8-44ce-8a7a-e136b033cb15.png">
 
 
 The scope of this work was to compare the performance of different methods of text extraction from the HTML and PDF files. The methodology was to sample several HTML and PDF files containing modern slavery statements, test different methods of text extraction, and manually compare the quality of the resulting text using [Diffchecker](https://www.diffchecker.com). Diffchecker facilitates the comparison of text by highlighting deletions and additions. For HTML documents, ArticleExtractor and BeautifulSoup were compared, and for PDF documents XPDF Reader  and AWS Textract OCR API were compared.
@@ -184,4 +184,4 @@ Retrieval of text data from 150 PDF documents, using Diffchecker to manually com
 
 For both HTML and PDF documents, a combination of both methods is more desirable. Having assessed the results of text retrieval from the statements, all of the extracted text was added as a  new column to Project AIMS’ dataset, generally called ‘text’. 
 
-In each notebook of this repository, the data with the text extracted is linked and openly available. 
+**In each notebook of this repository, the data with the text extracted is linked and openly available. **
