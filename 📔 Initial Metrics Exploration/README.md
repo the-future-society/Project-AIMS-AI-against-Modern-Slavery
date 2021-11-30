@@ -100,7 +100,7 @@ The basic concept behind the Random Forest (or random decision forest) approach 
 
 >_Figure explaining the Random Forest method_
 
-This method aims to use heuristics and provide business expertise to classify part of the statements. This method indicates which supporting text   n this case, sentences) contributed to the classification decision.
+This method aims to use heuristics and the domain knowledge gathered via the semantic workshop to classify part of the statements. This method indicates which supporting text   n this case, sentences) contributed to the classification decision.
 
 ### Methodology:
 In order to build an easily interpretable pipeline, experts' knowledge and feedback were leveraged. Using the list of keywords from the semantic workshop, this method allowed for the extraction of sentences that potentially indicate the presence of the metrics. If a sufficient number of the sentences containing the keywords were found, the statement was classified as positive, meaning it contains the metrics, or else, a random forest model was trained to classify the statement. For this exercise, the list of keywords associated with the metrics from the semantic workshop was used. Those words were enlarged to incorporate more 'business knowledge', for instance, by including a list of synonyms (e.g. for assessment, we added evaluation, rating, etc.).
@@ -117,7 +117,7 @@ Based on the assessment of the application of this methodology for the metric �
 
 However, using the 6 sentences as a threshold leaves 62% of statements to classify. For this, Random Forests were used. For the 62% remaining statements, the sentences containing at least one predefined keyword were kept. 
 
-Each document was represented using a TF IDF vectorization (with n-gram ranging from 1 to 3) from these sentences. Then, a Random Forest model was trained. 
+Each document was represented using a TF IDF vectorization (with n-gram- meaning a sequence of N words- ranging from 1 to 3) from these sentences. Then, a Random Forest model was trained. 
 
 
 ### Key findings using this method on the three metrics: 
@@ -145,9 +145,9 @@ _Figure visualising the Hierarchical Attention Network method_
 ### Key findings using this method on the three metrics: 
 Based on this initial exploration, this method produces similar results as the rule-based and Random Forest methods. 
 
-With this method, word embeddings are not learned. For future exploration, pre-training word embeddings on this projects’ specific corpus would probably improve performance (e.g. using S-BERT). Another possible improvement on this method would be to use transformers instead of bi-GRU RNN for words and sentence encoders.
+>Note: For future exploration, pre-training word embeddings on this projects’ specific corpus would probably improve performance (e.g. using S-BERT). Another possible improvement on this method would be to use transformers instead of bi-GRU RNN for words and sentence encoders.
 
-In this case as well, for some statements, the sentences predicted seem to justify a positive metric (indicating the metric is present in the statement) even if labelled given by the annotators in the original ground truth data was negative (indicating the metric is not present in the statement). This indicated that the quality of the ground truth data used at this stage needs assessment. A manual evaluation informed this of the list of documents where the model was conflicting and the words and sentences important for the prediction.
+In this case as well, for some statements, the sentences predicted seem to justify a positive metric (indicating the metric is present in the statement) even if labelled given by the annotators in the original ground truth data was negative (indicating the metric is not present in the statement). This indicated that the quality of the ground truth data used at this stage needs assessment. This was informed by a manual evaluation of the list of documents where the model was conflicting, as well as the words and sentences important for the prediction.
 
 ## D. Transformer Based approach 
 This method uses a pre-trained transformer model to identify which segments of which supporting text  (as segments of the statements) would require an annotator’s attention to be labelled. This method classified statements identified supporting text, and scored statements based on their complexity. The latter purpose allowed for creating a list of priority statements that were sent to WikiRate, for manual annotation to augment the ground truth data. 
