@@ -57,6 +57,15 @@ The analysis of the statements takes into account a list of “metrics”, adapt
 2. Provide policymakers and legislators with a greater understanding of these new methods of analysis, fostering their use in other contexts, such as other non-financial reporting initiatives.
 3. Encourage software developers, data scientists, and social scientists to apply their domain expertise to AI for social good projects and combat modern slavery.
 
+
+
+### Project AIMS in the media and more:
+- Walk Free Foundation [Press Release](https://www.minderoo.org/walk-free/news/artificial-intelligence-to-assist-in-the-fight-against-modern-slavery/)
+- DATA FOR FUTURE podcast episode [#17: AI AGAINST MODERN SLAVERY](https://dataforfuture.org/episodes/ai-against-modern-slavery/) – with Adriana Bora talking about AI the conceptualization of Project AIMS
+- Project AIMS being presented at the UN World Data Forum [2020](https://youtu.be/1iDmSXJwClA) and [2021](https://www.youtube.com/watch?v=nSGiXbe6gLg&list=PLBc4lThqX-WMnXI1gt95r_hJ4IgZP8tWY&index=42)
+- Project AIMS was selected to be presented as a promising use-case of responsible AI for Social Good at the [Global Partnership on AI (GPAI) Montreal Summit 2020.](https://youtu.be/k9-2JMvLJg)
+- Project AIMS at the UNESCO and the World Economic Forum [Girl Trouble: Breaking Through The Bias in AI](https://youtu.be/cgpye788P9Q)
+
 ## JOIN US 
 
 <img align="right" width="550" src="https://cdn.dribbble.com/users/472667/screenshots/15669289/media/d18929f9db262c8c118740dd65d8a395.gif">
