@@ -30,6 +30,7 @@ Also, please explain the prediction by pointing to the part of the text that des
 
 ### Assumptions for the Incidents Remediation Metric
 
+![Screen Shot 2021-11-30 at 4 50 19 pm](https://user-images.githubusercontent.com/64998301/143999514-193a18c6-8ef1-4d0e-8d00-d217043f11df.png)
 
 
 ## Steps:  
