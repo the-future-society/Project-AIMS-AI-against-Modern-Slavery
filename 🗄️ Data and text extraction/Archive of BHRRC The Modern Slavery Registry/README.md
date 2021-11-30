@@ -25,7 +25,7 @@ This Archive is the only openly available source, holisting all the historical s
 In this directory, we present a notebook on how to extract the text from the statements. This dataset stores the statements in multiple formats. However, we only provide solutions for PDFs and HTMLs. For other formats such as PNGs, we hope the community will propose solutions.
 
 
-Therefore, this notebook is proposing a simple, open solution to extracting the text from PDFs and HTMLs only files. 
+Therefore, [this notebook](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/main/%F0%9F%97%84%EF%B8%8F%20Data%20and%20text%20extraction/Archive%20of%20BHRRC%20The%20Modern%20Slavery%20Registry/Archive_BHRRC%20The%20Modern%20Slavery%20Registry__text%20extraction.ipynb) is proposing a simple, open solution to extracting the text from PDFs and HTMLs only files. 
 
 ## The steps are as follows:
 - Accesses and downloads the latest version of the .CSV, by accessing  ‘Download company response documents comparison data’ from the Business & Human Rights Resource Centre [page](https://www.business-humanrights.org/en/from-us/modern-slavery-statements/)
