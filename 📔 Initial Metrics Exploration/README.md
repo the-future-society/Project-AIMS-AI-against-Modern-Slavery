@@ -84,7 +84,7 @@ What is more, this method based on keywords is useful but in many cases, the lac
 - MSA Risk Assessment
 - MSA Risk Management
 - MSA Risk Identification
-- 
+
 ## B. Rule-based and Random Forest approach
 The second method used in the project was to explore a combination of rule-based and random forest approaches for classifying the statements informed by the keywords of the semantic workshop. 
 
@@ -184,50 +184,50 @@ As for the previous approaches, for some documents, the sentences predicted seem
 
 
 ## Results Validation and Evaluation Methodology
-This section describes the validation methodology to be used in training our algorithms. The identification of all the metrics in those exploratory tests was treated as binary (Yes/No, 1/0, True/False). All the subcategories of the labels were merged into two categories.
+This section describes the validation methodology to be used in training our algorithms. **The identification of all the metrics in those exploratory tests was treated as binary (Yes/No, 1/0, True/False). All the subcategories of the labels were merged into two categories.**
 
 When creating labelling functions with Snorkel each metric is treated separately, with individual labelling functions being created for it. For the positive cases (Yes/1/True) if a labelling function finds a pattern then the label is Yes(1). If the labelling function does not find the pattern then the result is ABSTAIN(-1). If all labelling functions abstain, then the label is No(0).
 
 A group of labelling functions with a voting mechanism is a classification algorithm. 
 
 A classification algorithm can be 
-Rule-based for example using if-else statements e.g. if the document contains the word 'training' then ‘Yes’. Snorkel’s pattern and keyword matching techniques are rule-based systems.
-Learned (from the data), for example using numeric supporting text  to predict an outcome probabilistically
-Combined using both methods above
+- Rule-based for example using if-else statements e.g. if the document contains the word 'training' then ‘Yes’. Snorkel’s pattern and keyword matching techniques are rule-based systems.
+- Learned (from the data), for example using numeric supporting text  to predict an outcome probabilistically
+- Combined using both methods above
 
 In the case of rule-based models, ground truth labelled data is required only for testing the results. In the case of learned and combined models ground truth data needs to be used for both training and testing the model.
 
 This means that for rule-based approaches we can use the entire WikiRate corpus (the ground truth data of the project) for validation while for the other two cases we need to use, for instance, ⅔ of the labelled statements for training and ⅓ for testing.
 
 Required evaluation measurements for rules-based systems include:
-Accuracy - the fraction of correctly predicted labels 
-Precision - the number of true positive results divided by the number of all positive results, including those not identified correctly (i.e. true positives plus false positives)
-Recall - the number of true positive results divided by the number of all samples that should have been identified as positive (true positives plus false negatives).
-F1 score -  the harmonic mean of precision and recall which can serve as a measure for accuracy
+- Accuracy - the fraction of correctly predicted labels 
+- Precision - the number of true positive results divided by the number of all positive results, including those not identified correctly (i.e. true positives plus false positives)
+- Recall - the number of true positive results divided by the number of all samples that should have been identified as positive (true positives plus false negatives).
+- F1 score -  the harmonic mean of precision and recall which can serve as a measure for accuracy
 
 Required evaluation measurements for learned and combined systems include:
-Log loss - the negative average of the log of corrected predicted probabilities for each instance.
-ROC-AUC curve - a graphical plot that illustrates the diagnostic ability of a binary classifier system as its discrimination threshold is varied.
+- Log loss - the negative average of the log of corrected predicted probabilities for each instance.
+- ROC-AUC curve - a graphical plot that illustrates the diagnostic ability of a binary classifier system as its discrimination threshold is varied.
 
 Since accuracy, precision, recall and F1 score are threshold measurements, it is important to plot the ROC-AUC and precision-recall curves to decide on the right threshold before reporting on final metric results per evaluation cycle.
 
 When using Snorkel,  utilities from the Snorkel library like LFAnalysis are used to evaluate these labelling tasks. LFAnalysis is used to understand the different statistics like polarity, coverage, overlaps, and conflicts. Polarity shows the set of unique labels that LF outputs (excluding abstains). Coverage depicts the fraction of the dataset of the LF labels, while overlaps demonstrate the fraction of the dataset where this LF and at least one other LF label, and conflicts show the fraction of the dataset where this LF and at least one other LF label disagree. After collecting statistics using LFAnalysis, MajorityLabelVoter is used to perform the classification task to predict the label. The predicted variables are evaluated against their respective ground-truth value.
 
 
-Cross-Validation
+**Cross-Validation**
 When developing learned and combined systems, a stratified repeated 5-fold cross-validation is used. Each fold should be drawn 3 times. This means that for every classification algorithm, we train and test it 15 times and report the average results of the 15 runs. Initially, stratification should be based on document length in tokens based on a simple whitespace tokenizer (short/medium/long) and industry group.
 
 When using cross-validation, every test fold’s ground truth values alongside predicted values,  metric results per each fold and report the mean (+/- error based on standard deviation) as a final metric result shall be stored. Since this project has a very limited amount of data, it was separated into train and test sets. Further validation will be done using future, improved labelled data as our validation data.
 
 ## Key findings 
-This phase of the project was built upon domain knowledge on modern slavery disclosure and proposed four first methods to extract the metrics’ associated supporting text and to preliminarily classify modern slavery statements. All the methods display about the same accuracy (approximately 70.5% average, with the lowest model performing at 33% accuracy, and the highest performance at 91%). All methods can bring insightful supporting text and predictions. Chapters 5.1 to Chapter 5.16 will explain in depth the exploratory tests done for each of the metrics, their methods, challenges and results.
+This phase of the project was built upon domain knowledge on modern slavery disclosure and proposed four first methods to extract the metrics’ associated supporting text and to preliminarily classify modern slavery statements. All the methods display about the same accuracy (approximately 70.5% average, with the lowest model performing at 33% accuracy, and the highest performance at 91%). All methods can bring insightful supporting text and predictions. **The notebooks attached to this directory explain in depth the exploratory tests done for each of the metrics.**
 
 The best use of those supporting texts will be to suggest part of the statements indicating the presence of the metrics in order to make the manual labelling quicker or to guide the cleaning of the existing labelled dataset. For instance, in the future, leveraging the help of the volunteers who are now annotating statements on the WikiRate platform, a tagging process can be created to label and validate the quality of the supporting text and their attribution to each metric. This process should be continuously improved in later stages to continue developing and iterating the machine learning models.  
 
-Based on the exploratory tests, certain learnings were derived. First of all, the quality of the initially labelled dataset needs to be improved. In many cases, when trying to validate the results, it was unclear whether the classified result was correct or incorrect since the label itself was uncertain. When manually validating the results of the different computation methods employed by comparing with the ground truth data, the researchers concluded that in fact, the results tend to be wrong or conflicting, not only because of the models but rather because the labelled data needs improvements. 
+Based on the exploratory tests, certain learnings were derived. First of all, the quality of the initially labelled dataset needs to be improved. In many cases, when trying to validate the results, it was unclear whether the classified result was correct or not since the label itself was uncertain. When manually validating the results of the different computation methods employed by comparing with the ground truth data, the researchers concluded that in fact, the results tend to be wrong or conflicting, not only because of the models but rather because the labelled data needs improvements. 
 
 Yet, some of our models show that based on the structure of the labelled database, there is a great potential to use the 'Comments’ for creating the positive class data where possible since the 'Comments’ are already extracted relevant text by the original reviewer. Yet, until the labelled dataset is entirely cleaned and validated, only internally validated 'Comments’ were used to ensure clean labelled data. In this case, negative class data can be sampled randomly from the texts while ensuring that there is no intersection between the data of positive and negative classes. This method was useful in identifying supporting text without relying on the labels.
 
-The exploratory tests indicate that analysis at a paragraph or sentence level rather than document-level would be more accurate. This would require a reliable paragraph or sentence extractor. During this exploratory phase, difficulties were faced cutting the text into sentences. Moreover, the quality of the text extracted needs improvement as in many cases the text was not fully extracted and inconsistencies were found in the text field (words without spaces, of “l” written as “1” etc.). 
+The exploratory tests indicate that analysis at a paragraph or sentence level rather than document-level would be more feasable and accurate. This would require a reliable paragraph or sentence extractor. During this exploratory phase, difficulties were faced cutting the text into sentences. Moreover, the quality of the text extracted needs improvement as in many cases the text was not fully extracted and inconsistencies were found in the text field (words without spaces, of “l” written as “1” etc.). 
 
 
