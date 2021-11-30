@@ -3,6 +3,6 @@
 All rights reserved to WikiRate is a registered trademark of The WikiRate Project e.V., a nonprofit organization based in Berlin, Germany.
 
 
-https://user-images.githubusercontent.com/64998301/144045930-7a44fa35-a6da-4e9e-acf9-f5bc6d197a29.mp4
 
-![Uploading c3801d72aa0f381b47086cd92bfc798e96fe81cc (1).gif…]()
+
+![c3801d72aa0f381b47086cd92bfc798e96fe81cc (1)](https://user-images.githubusercontent.com/64998301/144046036-391f451f-a464-4a13-bbae-5cfdc21d8518.gif)
