@@ -8,34 +8,6 @@
 
 
 
-
-
-The notebooks presented in the 
-
-<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1729935/screenshots/4108239/media/1a4b3d5ebbe44ab8e020793a9960295a.gif">
-
-
-
-
-
-
-### Prerequisites
-
-- [Python 3.6+](https://www.python.org/downloads/release/python-3611/) installed on your system
-- If you'd like to use the provided tutorials, you also need access to a [Jupyter notebook](https://jupyter.org/install.html)
-
-### Quickstart
-
-It's recommended that you use a virtual environment such as [virtualenv](https://virtualenv.pypa.io/en/latest/), [pipenv](https://pipenv-fork.readthedocs.io/en/latest/) or similar.
-
-
-<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/100976/screenshots/3407799/media/46606d8d83079426b1e942444ede9160.gif">
-
-
-<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/656298/screenshots/2895552/media/4e8f0b3f30854b3ae137b30840ea4741.gif">
-
-
-
 # Getting the dataset
 This directory presents the different data sources of modern slavery statements from the UK and how to extract the text from the statements. 
 
@@ -61,19 +33,31 @@ They can be found here:
 - [The WikiRate data (that we generally call the labelled dataset)]()
 
 
+
+
+### Prerequisites
+
+- [Python 3.6+](https://www.python.org/downloads/release/python-3611/) installed on your system
+- If you'd like to use the provided tutorials, you also need access to a [Jupyter notebook](https://jupyter.org/install.html)
+
+### Quickstart
+
+It's recommended that you use a virtual environment such as [virtualenv](https://virtualenv.pypa.io/en/latest/), [pipenv](https://pipenv-fork.readthedocs.io/en/latest/) or similar.
+
+
+
+
 ## Text extraction 
 Being able to extract the text and assess its quality before using it in building models is of great importance and a key step in ensuring the accuracy of the final tool. For example, if a paragraph of a company’s report is not extracted, the analysis will lead to an incorrect assessment of the company’s compliance with modern slavery regulation. The same issue also arises if the text is fully extracted but not in the intended order (e.g. columns of text are read as a single block).
 
 
 ## An older version of the Project AIMS Pipeline looks like this: 
-## Lambda Functions for extracting text from original files.
-
-
-
-
-![](arch.png)
+> This pipeline is dependent on Lambda Functions for extracting text from original files.
+<img width="924" alt="Screen Shot 2021-11-30 at 8 43 27 pm" src="https://user-images.githubusercontent.com/64998301/144032949-de2ce1e9-91af-47aa-a7e9-f54ad0d78127.png">
 
 ### PDF pipeline (Use Async APIs of Amazon Textract)
+<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1729935/screenshots/4108239/media/1a4b3d5ebbe44ab8e020793a9960295a.gif">
+
 
 1. A document with a .pdf extension gets uploaded to an Amazon S3 bucket. It sends event to SQS queue named S3Documents.
 2. A job scheduler lambda function runs at a certain frequency for example, every 5 minutes, and poll for messages in the SQS queue.
@@ -152,9 +136,9 @@ The first step is to run the ‘prepare’ command that downloads the scrapable 
 The next step is the extraction of the text.
 
 Text extraction is composed of three parts:
-HTML extraction (fully-automated)
-Scanned PDF extraction (fully-automated)
-Digital PDF extraction (semi-automated)
+- HTML extraction (fully-automated)
+- Scanned PDF extraction (fully-automated)
+- Digital PDF extraction (semi-automated)
 
 The first two steps are automated using a lambda function trigger. As soon as a document is received by the `...-raw` bucket, it will be sent to the extraction pipeline. HTML file extensions are processed using a GPT-based article extractor and scanned PDFs are processed using AWS Textract OCR API.
 
@@ -162,6 +146,8 @@ If all the documents are automatically processed, then it’d be necessary to ru
 
 ## Analysis and learnings 
 ### Extracting text from PDFs
+<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/100976/screenshots/3407799/media/46606d8d83079426b1e942444ede9160.gif">
+
 [The Portable Document Format (PDF)](https://www.adobe.com/content/dam/acom/en/devnet/pdf/pdf_reference_archive/pdf_reference_1-7.pdf) covers a very broad spectrum of different document styles and it can be very complex. For our purposes, there are two types of PDF files that require different approaches to text extraction: native (or digital) and scanned files. The difference between native and scanned PDF files is that the native one is created from text editors such as Microsoft Word, whereas the scanned PDF is created from scanned image files. Even though both contain textual data, the scanned PDF files are not directly readable by computers and require Optical Character Recognition (OCR) technology to convert them into a machine-readable format.
 
 Typical PDF text extraction Python libraries  (such as   PyPDF and PDFMiner) are only able to extract the text from digital PDFs. To extract text from scanned files, one needs to use an  OCR  tool to recognize letters, commonly trained using computer vision methods on vast numbers of files. During the process of data exploration, it was found that approximately one-quarter of the published statements in PDF format were scanned. Hence, our first attempt was to implement an OCR solution for all the files as it would cover both subtypes of the format. 
@@ -180,12 +166,15 @@ Retrieving information from web pages can be difficult as they vary greatly.  Ge
 
 [BeautifulSoup (BS)]( https://www.crummy.com/software/BeautifulSoup/bs4/doc/) is one of the most commonly used libraries, due to its efficiency and user-friendliness. Furthermore, it is also able to retrieve information from pages with unclosed tags, incorrect and/or nested attributes. Therefore, this is the first library that was tested by Project AIMS for text extraction from the HTML documents. This method is based on the web page structure. It maps a web page to an HTML tree and then retrieves the table nodes of the tree to detect the main content. Nevertheless, this method suffers from only partial extraction of text due to the inconsistent use of tags on different web pages.
 
+<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/656298/screenshots/2895552/media/4e8f0b3f30854b3ae137b30840ea4741.gif">
+
 The next step was to test [BoilerPy3](https://pypi.org/project/boilerpy3/), providing algorithms to detect and remove the surplus 'clutter' (boilerplate, templates) around the main textual content of a web page, extracting the main content without additional noise (advertisements, search and filtering panels, unwanted images or links). The library comprises several extractors. ArticleExtractor, being tuned towards news articles, is highly suitable for extracting content from modern slavery statements. However, one limitation of ArticleExtractor is its inability to extract additional statements from the same company, which are linked within the HTML document (for example, statements from previous years or statements formatted as PDFs).
+
 ## Text extraction quality assessment
-Most of our learnings are collected in our publication Digital AI against Modern Slavery: Digital Insights into Modern Slavery Reporting - Challenges and Opportunities. 
+Most of our learnings are collected in our publication [Digital AI against Modern Slavery: Digital Insights into Modern Slavery Reporting - Challenges and Opportunities](http://ceur-ws.org/Vol-2884/paper_110.pdf). 
 
 
-#SCREANSHOT 
+<img width="410" alt="Screen Shot 2021-11-30 at 8 16 22 pm" src="https://user-images.githubusercontent.com/64998301/144033314-5ca09cc3-cdc8-44ce-8a7a-e136b033cb15.png">
 
 
 The scope of this work was to compare the performance of different methods of text extraction from the HTML and PDF files. The methodology was to sample several HTML and PDF files containing modern slavery statements, test different methods of text extraction, and manually compare the quality of the resulting text using [Diffchecker](https://www.diffchecker.com). Diffchecker facilitates the comparison of text by highlighting deletions and additions. For HTML documents, ArticleExtractor and BeautifulSoup were compared, and for PDF documents XPDF Reader  and AWS Textract OCR API were compared.
