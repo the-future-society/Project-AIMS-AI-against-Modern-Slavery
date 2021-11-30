@@ -25,9 +25,9 @@ Clear rules for labelling were designed, allowing to make the most of the labell
  
 ## Using the example of the  MSA Approval metric example, join us in building solutions for the other three subprojects: 
 
-- [Multi-lebel classification for the training metric](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/tree/main/%F0%9F%93%94%20Model%20for%20multi-class%20and%20multi-label%20classification%20for%20core%20metrics/Sub-project:%20Multi-label%20classification%20for%20the%20MSA%20Training%20Metric)
-- [Multi-lebel classification for the whistleblowing mechanism metric](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/tree/main/%F0%9F%93%94%20Model%20for%20multi-class%20and%20multi-label%20classification%20for%20core%20metrics/Sub-project:%20Multi-label%20classification%20for%20the%20MSA%20Whistleblower%20Mechanism%20Metric)
-- Multi-lebel classification for the incidents remediation metric
+- [Multi-label classification for the training metric](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/tree/main/%F0%9F%93%94%20Model%20for%20multi-class%20and%20multi-label%20classification%20for%20core%20metrics/Sub-project:%20Multi-label%20classification%20for%20the%20MSA%20Training%20Metric)
+- [Multi-label classification for the whistleblowing mechanism metric](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/tree/main/%F0%9F%93%94%20Model%20for%20multi-class%20and%20multi-label%20classification%20for%20core%20metrics/Sub-project:%20Multi-label%20classification%20for%20the%20MSA%20Whistleblower%20Mechanism%20Metric)
+- [Multi-label classification for the incidents remediation metric](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/tree/main/%F0%9F%93%94%20Model%20for%20multi-class%20and%20multi-label%20classification%20for%20core%20metrics/Sub-project%20Multi-label%20classification%20for%20the%20Incidents%20Remediation%20Metric)
  
 ### Example: Multi class classification for the approval metric
  
