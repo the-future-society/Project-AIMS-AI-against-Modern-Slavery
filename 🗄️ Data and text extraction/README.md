@@ -13,7 +13,7 @@ This directory presents the different data sources of modern slavery statements 
 
 To date, access to modern slavery statements has been through company websites or the compilation efforts by the Business and Human Rights Resource Centre’s (BHRRC), and WikiRate who has collated and analysed this data.  
 
-Much of this information has been collated manually, with teams of researchers searching for and systematically reviewing available statements. Given that this is costly in terms of person-hours, a more centralised and automated approach is desirable. Promising steps in this direction is the recent launch of [🇬🇧 GOV.UK Modern slavery statement registry](), which centralises the housing of these statements.
+Much of this information has been collated manually, with teams of researchers searching for and systematically reviewing available statements. Given that this is costly in terms of person-hours, a more centralised and automated approach is desirable. Promising steps in this direction is the recent launch of GOV.UK Modern slavery statement registry, which centralises the housing of these statements.
 
 When Project AIMS started, there was no centralised database of statements by the government, so the project’s dataset was built from existing resources. The primary data used through Project AIMS are the WikiRate data (that we generally call the labelled dataset) and the Archive of BHRRC Modern Slavery Registry.
 
