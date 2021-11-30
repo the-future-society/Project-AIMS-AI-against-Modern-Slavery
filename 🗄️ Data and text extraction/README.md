@@ -42,3 +42,6 @@ It's recommended that you use a virtual environment such as [virtualenv](https:/
 
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/100976/screenshots/3407799/media/46606d8d83079426b1e942444ede9160.gif">
 
+
+<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/656298/screenshots/2895552/media/4e8f0b3f30854b3ae137b30840ea4741.gif">
+
