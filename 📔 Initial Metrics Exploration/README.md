@@ -2,18 +2,11 @@
 ## Proof of Concept of supporting text extraction and binary classification of unlabeled modern slavery statements across 16 metrics 
 After extracting the text and understanding the corpus, the project moved to its second phase, focusing on creating the understanding needed to prepare for the training of the machine learning solutions. This phase of the project focuses on analyzing the sixteen metrics that should be used in benchmarking the statements, and on the identification and extraction of their associated supporting text (quotes, context, meaning, claims, or facts) from the statements. 
 
-> Note: The supporting text could be used to facilitate the creation of a more extensive, cleaner labelled dataset. Also, the supporting text could aid to achieve better performance for the multi-class and multi-label classifications.
+> Note: This process should be a continuous one, and once it reaches a high level of accuracy, the supporting text could become part of the ground truth data, just as the 'Comments' from [WikiRate](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/b0571d0b34f1ee68856b5b18468d8d3b7d540c19/%F0%9F%97%84%EF%B8%8F%20Data%20and%20text%20extraction/WikiRate/README.md) labelled data.  The 'Comments' are text imputed by annotators to explain the exact part of the text that explains their decision to choose the specific label. In the future, the supporting text could be used to facilitate the creation of a more extensive, cleaner labelled dataset. Also, the supporting text could aid to achieve better performance for the multi-class and multi-label classifications.
 
-This folder will introduce the different qualitative and quantitative methods used in the supporting text extraction procedure. It explains the steps taken during this phase for a deeper understanding of each of the sixteen metrics and their unique challenges and opportunities. 
-
-> Note: This process should be a continuous one, and once it reaches a high level of accuracy, the supporting text could become part of the ground truth data, just as the ‘'Comments'’ from [WikiRate](link) are ground truth data.  The ‘'Comments'’ are text imputed by annotators to explain the exact part of the text that explains their decision to choose the specific label. 
-
- Alongside this documentation, this work could be used in later phases not only to label more data but also to guide the verification of the existing ground truth data. 
-
+This directory will introduce the different qualitative and quantitative methods used in the supporting text extraction procedure. It explains the steps taken during this phase for a deeper understanding of each of the sixteen metrics and their unique challenges and opportunities. 
+Alongside this documentation, this work could be used in later phases not only to label more data but also to guide the verification of the existing ground truth data. 
 The sixteen metrics used in this project are designed by Walk Free, WikiRate and Business and Human Rights Resource Center in line with the UK Government guidance. Each metric is a question about the quality of a company’s modern slavery statement, indicating good reporting. 
-
-
-
 The metrics explored are: 
 1. **MSA Statement Signed** - Was the company’s Modern Slavery Act statement signed by an appropriate person?
 2. **MSA whistleblowing mechanism**  - Does the company have a grievance mechanism in place to facilitate whistle-blowing or the reporting of suspected incidents of slavery or trafficking?
@@ -83,7 +76,7 @@ If matches are found among lemmatized text then save the original sentences that
 
 ### Key findings using this method: 
 
-While conducting this work, key lessons were drawn. Firstly, the results indicated the need to verify the quality of the labelled dataset. Without this clear benchmark, the results are not strong enough to allow with confidence the integration of the supporting text as part of the ground truth data.  In some cases, manual validation was conducted, following the labels and the comment sections of the ground truth data provided by WikiRate. The ‘'Comments'’ from the WikiRate dataset are useful for understanding the context that generates the label. Yet, at this stage, the data was unclear and unstructured. Not all documents included 'Comments, and when they existed, many were just free text added by the annotators, without directly linking the exact text from the statement justifying the selection of the label.  To correct this, improvement in the annotation process is required moving forward. 
+While conducting this work, key lessons were drawn. Firstly, the results indicated the need to verify the quality of the labelled dataset. Without this clear benchmark, the results are not strong enough to allow with confidence the integration of the supporting text as part of the ground truth data.  In some cases, manual validation was conducted, following the labels and the comment sections of the ground truth data provided by WikiRate. The 'Comments' from the WikiRate dataset are useful for understanding the context that generates the label. Yet, at this stage, the data was unclear and unstructured. Not all documents included 'Comments’, and when they existed, many were just free text added by the annotators, without directly linking the exact text from the statement justifying the selection of the label.  To correct this, improvement in the annotation process is required moving forward. 
 
 What is more, this method based on keywords is useful but in many cases, the lack of context is taken into account can generate noise. For instance, in many cases, some of the keywords appeared in multiple places on the statement but did not always refer to the metric in question. Being able to correct this is key to avoiding false positives or false negatives. 
 
@@ -96,7 +89,7 @@ The rule-based classifier is a simpler method than Snorkel that makes use of a s
 
 _Figure explaining the rule-base method_
 
-The basic concept behind the Random Forest (or random decision forest) approach is that a group of 'weak learners' may come together to build a 'strong learner'. What is more, Random Forest is designed to overcome the 'overfitting' problem of decision trees. Random Forest constructs a multitude of decision trees in the training phase and uses majority voting for classification. A Random Forest algorithm is arguably one of the best algorithms for classification..
+The basic concept behind the Random Forest (or random decision forest) approach is that a group of 'weak learners' may come together to build a 'strong learner'. What is more, Random Forest is designed to overcome the 'overfitting' problem of decision trees. Random Forest constructs a multitude of decision trees in the training phase and uses majority voting for classification. A Random Forest algorithm is arguably one of the best algorithms for classification.
 
 
 ![Screen Shot 2021-11-30 at 11 31 31 am](https://user-images.githubusercontent.com/64998301/143969500-5535a467-f1f2-4be7-b3cc-15115ea359ba.png)
@@ -106,17 +99,17 @@ _Figure explaining the Random Forest method _
 The purpose of this method is to use heuristics and provide business expertise to classify part of the statements. This method indicates which supporting text   n this case, sentences) contributed to the classification decision.
 
 ### Methodology:
-In order to build an easily interpretable pipeline, experts' knowledge and feedback was leveraged. Using the list of keywords from the semantic workshop, this method allowed for the extraction of sentences that potentially indicate the presence of the metrics. If a sufficient number of the sentences containing the keywords were found, the statement was classified as positive, meaning it contains the metrics, or else, a random forest model was trained to classify the statement. For this exercise the list of keywords associated with the metrics from the semantic workshop were used. Those words were enlarged to incorporate more 'business knowledge', for instance, by including a list of synonyms (eg. for assessment, we added evaluation, rating, etc.).
+In order to build an easily interpretable pipeline, experts' knowledge and feedback were leveraged. Using the list of keywords from the semantic workshop, this method allowed for the extraction of sentences that potentially indicate the presence of the metrics. If a sufficient number of the sentences containing the keywords were found, the statement was classified as positive, meaning it contains the metrics, or else, a random forest model was trained to classify the statement. For this exercise, the list of keywords associated with the metrics from the semantic workshop was used. Those words were enlarged to incorporate more 'business knowledge', for instance, by including a list of synonyms (eg. for assessment, we added evaluation, rating, etc.).
 
 Based on this list, all the sentences containing these keywords were extracted. All statements for which at least 6 sentences containing keywords were extracted were classified as positive. 
 
-Based on the assessment of the application of this methodology for the metric ‘Risk Assessment’, by using a simple rule, some statements were classified with a rather high accuracy. Using 6 sentences as the threshold, 38% of the statements  were classified with a 83% accuracy (Figure 10).
+Based on the assessment of the application of this methodology for the metric ‘Risk Assessment’, by using a simple rule, some statements were classified with rather high accuracy. Using 6 sentences as the threshold, 38% of the statements were classified with an 83% accuracy (Figure 10).
 
 
 ![Screen Shot 2021-11-30 at 11 33 44 am](https://user-images.githubusercontent.com/64998301/143969615-76cecc2c-744c-4c64-acd3-2b74507a1d4b.png)
 
 
-_Figure explaining the accuracy of rule-base sentence classification based on the key words for  ‘Risk Approval’ metric._
+_Figure explaining the accuracy of rule-based sentence classification based on the keywords for the ‘Risk Approval’ metric._
 
 However, using the 6 sentences as a threshold leaves 62% of statements to classify. For this, Random Forests were used. For the 62% remaining statements, the sentences containing at least one predefined keyword were kept. 
 
@@ -143,9 +136,9 @@ MSA Risk Assessment
 MSA Risk Management
 MSA Risk Identification
 
-For three of the metrics, a HAN was trained in order to predict their presence and identify their associated supporting text  from the statements. This method allowed us to use the hierarchical structure of statements as well as to drive attention to incorporating context. 
+For three of the metrics, a HAN was trained in order to predict their presence and identify their associated supporting text from the statements. This method allowed us to use the hierarchical structure of statements as well as to drive attention to incorporating context. 
 
-The advantages of this method are that the attention weights are unique which facilitate interpretation of predictions. Also, this model provides a clear view of the part of text the model is looking at, and thus the supporting text that is helping make the predictions. Thanks to the two levels of attention, the model also highlights sentences and words which are important for prediction. The HAN model predicts if the overall statement contains or not the metric analysed. 
+The advantages of this method are that the attention weights are unique which facilitate the interpretation of predictions. Also, this model provides a clear view of the part of the text the model is looking at, and thus the supporting text that is helping make the predictions. Thanks to the two levels of attention, the model also highlights sentences and words which are important for prediction. The HAN model predicts if the overall statement contains or not the metric analysed. 
 
 ![Screen Shot 2021-11-30 at 11 35 29 am](https://user-images.githubusercontent.com/64998301/143969796-a0a02e89-0286-4235-a153-da944a9e9047.png)
 
@@ -165,13 +158,13 @@ This method uses a pre-trained transformer model to identify which segments of w
 ### Methodology
 The data was split into paragraphs using the TextTilingTokenizer from the NLTK package. If no paragraphs were detected using this method (due to extraction irregularities) then a paragraph was defined as 8 continuous sentences counting from the beginning of the document.
 
-Positive class labels were created using manually validated ground truth data related to the text inputted by the annotators when justifying their label choice (WikiRate data column ‘'Comments'’). Positive classifications indicate the metric is present in the statement while negative classification indicates it is not. Regex-based text cleaning functions were applied to eliminate 'Comments'’ noise such as the reviewer name and page numbers.
+Positive class labels were created using manually validated ground truth data related to the text inputted by the annotators when justifying their label choice (WikiRate data column 'Comments'). Positive classifications indicate the metric is present in the statement while negative classification indicates it is not. Regex-based text cleaning functions were applied to eliminate 'Comments' noise such as the reviewer name and page numbers.
 
 Negative class labels were created by sampling random sentences from texts that were not part of the positive class. The negative cases were amplified to generate more data for those instances in order to make the classification problem closer to real life and to teach the transformer more examples. In some cases, a class imbalance of up to 8x was created. 
 
-A pre-trained Roberta model from the Hugging Face model hub was used to fine-tune the classification models on the data. The roberta architecture has shown good performance at inference and the advantage is that this  model was trained on legal language, which tends to be better-suited for this project’s dataset.
+A pre-trained Roberta model from the Hugging Face model hub was used to fine-tune the classification models on the data. The Roberta architecture has shown good performance at inference and the advantage is that this model was trained on legal language, which tends to be better suited for this project’s dataset.
 
-For scoring the statements, after the statement was segmented into paragraphs as described above, every segment of every document was scored with the model. Then, the difference between the positive class prediction (probability) and negative class prediction (probability) for every segment was calculated. The statements with lowest  difference were considered to be the most difficult to label and thus, prioritised to be sent to WikiRate for manual labeling. 
+For scoring the statements, after the statement was segmented into paragraphs as described above, every segment of every document was scored with the model. Then, the difference between the positive class prediction (probability) and negative class prediction (probability) for every segment was calculated. The statements with the lowest difference were considered to be the most difficult to label and thus, prioritised to be sent to WikiRate for manual labelling. 
 
 A similar version of this method was applied for three of the metrics:
 MSA Identification of risks
@@ -181,7 +174,7 @@ MSA risk assessment
 This method used a contextual method, leveraging the 'Commnets' given by annotators, to predict if a sentence could be retrieved as a comment or not. If a sentence can be a comment, it would mean it justifies the presence of the metric in the statement analysed.
 
 ### Methodology:
-Using the training set, for each of the three metrics, positive and negative classes were created. The positive classes were created by using the sentences extracted from 'Commnets', where the statement was labeled positively. The negative samples contained sentences randomly sampled from statements, except the sentences present in 'Commnets'.
+Using the training set, for each of the three metrics, positive and negative classes were created. The positive classes were created by using the sentences extracted from 'Commnets', where the statement was labelled positively. The negative samples contained sentences randomly sampled from statements, except the sentences present in 'Comments'.
 The ALBERT-based model for classifying sentences was trained in two categories, 'in comment', and 'not in comment'. This model scores each sentence in the statements. If a sentence gets a probability greater than 0.5, it was predicted as coming from a comment. Then, if a statement had at least one of its sentences being predicted as coming from a comment, it was classified as containing the metric analysed.  
 
 Compared to the previous method, this method outputs the sentence justifying the prediction. 
@@ -209,7 +202,7 @@ Rule-based for example using if-else statements e.g. if the document contains th
 Learned (from the data), for example using numeric supporting text  to predict an outcome probabilistically
 Combined using both methods above
 
-In the case of rule-based models ground truth labelled data is required only for testing the results. In the case of learned and combined models ground truth data needs to be used for both training and testing the model.
+In the case of rule-based models, ground truth labelled data is required only for testing the results. In the case of learned and combined models ground truth data needs to be used for both training and testing the model.
 
 This means that for rule-based approaches we can use the entire WikiRate corpus (the ground truth data of the project) for validation while for the other two cases we need to use, for instance, ⅔ of the labelled statements for training and ⅓ for testing.
 
@@ -222,14 +215,10 @@ F1 score -  the harmonic mean of precision and recall which can serve as a measu
 Required evaluation measurements for learned and combined systems include:
 Log loss - the negative average of the log of corrected predicted probabilities for each instance.
 ROC-AUC curve - a graphical plot that illustrates the diagnostic ability of a binary classifier system as its discrimination threshold is varied.
-Accuracy
-Precision
-Recall
-F1 score
 
 Since accuracy, precision, recall and F1 score are threshold measurements, it is important to plot the ROC-AUC and precision-recall curves to decide on the right threshold before reporting on final metric results per evaluation cycle.
 
-When using Snorkel,  utilities from the Snorkel library like LFAnalysis are used to evaluate these labelling tasks. LFAnalysis is used to understand the different statistics like polarity, coverage, overlaps, and conflicts. Polarity shows the set of unique labels that LF outputs (excluding abstains). Coverage depicts the fraction of the dataset the LF labels, while overlaps demonstrate the fraction of the dataset where this LF and at least one other LF label, and conflicts show the fraction of the dataset where this LF and at least one other LF label disagree. After collecting statistics using LFAnalysis, MajorityLabelVoter is used to perform the classification task to predict the label. The predicted variables are evaluated against their respective ground-truth value.
+When using Snorkel,  utilities from the Snorkel library like LFAnalysis are used to evaluate these labelling tasks. LFAnalysis is used to understand the different statistics like polarity, coverage, overlaps, and conflicts. Polarity shows the set of unique labels that LF outputs (excluding abstains). Coverage depicts the fraction of the dataset of the LF labels, while overlaps demonstrate the fraction of the dataset where this LF and at least one other LF label, and conflicts show the fraction of the dataset where this LF and at least one other LF label disagree. After collecting statistics using LFAnalysis, MajorityLabelVoter is used to perform the classification task to predict the label. The predicted variables are evaluated against their respective ground-truth value.
 
 
 Cross-Validation
@@ -244,7 +233,8 @@ The best use of those supporting texts will be to suggest part of the statements
 
 Based on the exploratory tests, certain learnings were derived. First of all, the quality of the initially labelled dataset needs to be improved. In many cases, when trying to validate the results, it was unclear whether the classified result was correct or incorrect since the label itself was uncertain. When manually validating the results of the different computation methods employed by comparing with the ground truth data, the researchers concluded that in fact, the results tend to be wrong or conflicting, not only because of the models but rather because the labelled data needs improvements. 
 
-Yet, some of our models show that based on the structure of the labelled database, there is a great potential to use the 'Comments’ for creating the positive class data where possible since the 'Comments’ are already extracted relevant text by the original reviewer. Yet, until the labelled dataset is entirely cleaned and validated, only internally validated 'Comments’ were used to ensure clean labelled data. In this case, negative class data can be sampled randomly from the texts while ensuring that there is no intersection between the data of positive and negative classes. This method was useful in identifying supporting text  without relying on the labels.
+Yet, some of our models show that based on the structure of the labelled database, there is a great potential to use the 'Comments’ for creating the positive class data where possible since the 'Comments’ are already extracted relevant text by the original reviewer. Yet, until the labelled dataset is entirely cleaned and validated, only internally validated 'Comments’ were used to ensure clean labelled data. In this case, negative class data can be sampled randomly from the texts while ensuring that there is no intersection between the data of positive and negative classes. This method was useful in identifying supporting text without relying on the labels.
 
 The exploratory tests indicate that analysis at a paragraph or sentence level rather than document-level would be more accurate. This would require a reliable paragraph or sentence extractor. During this exploratory phase, difficulties were faced cutting the text into sentences. Moreover, the quality of the text extracted needs improvement as in many cases the text was not fully extracted and inconsistencies were found in the text field (words without spaces, of “l” written as “1” etc.). 
+
 
