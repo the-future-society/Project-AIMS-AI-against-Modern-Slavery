@@ -93,12 +93,12 @@ The rule-based classifier is a simpler method than Snorkel that uses a set of IF
 
 >_Figure explaining the rule-base method_
 
-The basic concept behind the Random Forest (or random decision forest) approach is that a group of 'weak learners' may come together to build a 'strong learner'. What is more, Random Forest is designed to overcome the 'overfitting' problem of decision trees. Random Forest constructs a multitude of decision trees in the training phase and uses majority voting for classification. A Random Forest algorithm is arguably one of the best algorithms for classification.
+The basic concept behind the Random Forest (or random decision forest) approach is that a group of 'weak learners' may come together to build a 'strong learner'. What is more, Random Forest is designed to overcome the 'overfitting' problem of decision trees. [Random Forest](https://www.semanticscholar.org/paper/Combining-Machine-Learning-and-Natural-Language-to-Balyan-McCarthy/24bef0ea2cdc76616c7c0da087f0da4c6b9033cc) constructs a multitude of decision trees in the training phase and uses majority voting for classification. A Random Forest algorithm is [arguably one of the best algorithms for classification](https://www.sciencedirect.com/topics/engineering/random-forest).
 
 
 ![Screen Shot 2021-11-30 at 11 31 31 am](https://user-images.githubusercontent.com/64998301/143969500-5535a467-f1f2-4be7-b3cc-15115ea359ba.png)
 
->_Figure explaining the Random Forest method_
+>_[Figure](https://corporatefinanceinstitute.com/resources/knowledge/other/random-forest/) explaining the Random Forest method_
 
 This method aims to use heuristics and the domain knowledge gathered via the semantic workshop to classify part of the statements. This method indicates which supporting text   n this case, sentences) contributed to the classification decision.
 
@@ -117,7 +117,7 @@ Based on the assessment of the application of this methodology for the metric �
 
 However, using the 6 sentences as a threshold leaves 62% of statements to classify. For this, Random Forests were used. For the 62% remaining statements, the sentences containing at least one predefined keyword were kept. 
 
-Each document was represented using a TF IDF vectorization (with n-gram- meaning a sequence of N words- ranging from 1 to 3) from these sentences. Then, a Random Forest model was trained. 
+Each document was represented using a [TF IDF](https://monkeylearn.com/blog/what-is-TF IDF) vectorization (with n-gram- meaning a sequence of N words- ranging from 1 to 3) from these sentences. Then, a Random Forest model was trained. 
 
 
 ### Key findings using this method on the three metrics: 
@@ -125,12 +125,12 @@ This method seems to best perform for the Risk Assessment metric. Using this sys
 
 ## C. Hierarchical Attention Network (HAN)
 
-Hierarchical Attention Network (HAN) was proposed by Yang et al. in 2016 for document classiﬁcation. Their model, has two distinctive characteristics: (i) it has a hierarchical structure that mirrors the hierarchical structure of documents; (ii) it has two levels of attention mechanisms applied at the word and sentence level, enabling it to attend differentially to more and less important content when constructing the document representation. Experiments conducted on six large scale text classiﬁcation tasks demonstrate that the proposed architecture outperforms previous methods by a substantial margin. Visualization of the attention layers illustrates that the model selects qualitatively informative words and sentences. 
+Hierarchical Attention Network (HAN) was proposed by [Yang et al. in 2016]( https://www.cs.cmu.edu/~./hovy/papers/16HLT-hierarchical-attention-networks.pdf) for document classiﬁcation. Their model, has two distinctive characteristics: (i) it has a hierarchical structure that mirrors the hierarchical structure of documents; (ii) it has two levels of attention mechanisms applied at the word and sentence level, enabling it to attend differentially to more and less important content when constructing the document representation. Experiments conducted on six large scale text classiﬁcation tasks demonstrate that the proposed architecture outperforms previous methods by a substantial margin. Visualization of the attention layers illustrates that the model selects qualitatively informative words and sentences. 
 
 ![Screen Shot 2021-11-30 at 11 34 55 am](https://user-images.githubusercontent.com/64998301/143969732-9c030ed9-93ac-4103-ba56-3d921e10dc49.png)
 
 
->_Figure Explaining the Hierarchical Attention Network method_ 
+>_[Figure](https://www.cs.cmu.edu/~./hovy/papers/16HLT-hierarchical-attention-networks.pdf) Explaining the Hierarchical Attention Network method_ 
 
 
 HAN was trained to predict their presence for three risk metrics and identify their associated supporting text from the statements. This method allowed us to use the hierarchical structure of statements and drive attention to incorporating context. 
@@ -159,7 +159,7 @@ Positive class labels were created using manually validated ground truth data re
 
 Negative class labels were created by sampling random sentences from texts that were not part of the positive class. The negative cases were amplified to generate more data for those instances in order to make the classification problem closer to real life and to teach the transformer more examples. In some cases, a class imbalance of up to 8x was created. 
 
-A pre-trained Roberta model from the Hugging Face model hub was used to fine-tune the classification models on the data. The Roberta architecture has shown good performance at inference and the advantage is that this model was trained on legal language, which tends to be better suited for this project’s dataset.
+[A pre-trained Roberta model](saibo/legal-roberta-base) from the Hugging Face model hub was used to fine-tune the classification models on the data. The Roberta architecture has shown good performance at inference and the advantage is that this model was trained on legal language, which tends to be better suited for this project’s dataset.
 
 For scoring the statements, after the statement was segmented into paragraphs as described above, every segment of every document was scored with the model. Then, the difference between the positive class prediction (probability) and negative class prediction (probability) for every segment was calculated. The statements with the lowest difference were considered to be the most difficult to label and, thus, prioritised to be sent to WikiRate for manual labelling. 
 
