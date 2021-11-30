@@ -68,8 +68,7 @@ Those methods are:
 ## A. Labeling functions using the Snorkel framework 
 The first method explored is based on labelling functions that use the Snorkel framework. Snorkel is a system for programmatically building and managing training datasets without manual labelling. 
 
-<img align="right" alt="Coding" width="400" src="https://dribbble.com/shots/4317836-Proofreading-Day
-https://cdn.dribbble.com/users/1952679/screenshots/10693904/media/4397aa85ca682f63fe8e0263de80c815.gif">
+<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1952679/screenshots/10693904/media/4397aa85ca682f63fe8e0263de80c815.gif">
 
 
 Snorkel currently exposes three key programmatic operations: 
