@@ -60,10 +60,10 @@ Supporting text extraction is a process of reducing the dimensions of the repres
 Some exploratory tests were executed using diverse computational methods to understand the complexity of identifying the metrics and their associated supporting text in the statements. On top of this, those tests allowed preliminary classifications of the statements.  
 
 Those methods are:
--Labelling functions using Snorkel framework
--Rule-based and Random Forest approach
--Hierarchical Attention Network
--Transformer-based approach (using the 'Comments' from WikiRate dataset) 
+- Labelling functions using Snorkel framework
+- Rule-based and Random Forest approach
+- Hierarchical Attention Network
+- Transformer-based approach (using the 'Comments' from WikiRate dataset) 
 
 
 ## A. Labeling functions using the Snorkel framework 
