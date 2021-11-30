@@ -2,8 +2,7 @@
  
 <img align="right" alt="Coding" width="150" src="https://user-images.githubusercontent.com/64998301/143171267-86860e2b-8a25-440e-b778-a860ceac7e99.png">
  
-<img align="center" alt="Coding" width="550" src="https://cdn.dribbble.com/users/2046015/screenshots/4857926/media/19dac7cd2e0344d1eb57a519d7fa4b28.gif">
-
+<img align="center" alt="Coding" width="550" src="https://cdn.dribbble.com/users/2046015/screenshots/4899533/media/778aee3233f01428ee90bb1df20a60d9.png?compress=1&resize=800x600">
 
 
 
