@@ -2,6 +2,9 @@
 <img align="left" alt="Coding" width="150" src="https://user-images.githubusercontent.com/64998301/143171138-777e6d3d-3442-4872-8ada-e1bd311a49f9.png">
 
 <img align="right" alt="Coding" width="150" src="https://user-images.githubusercontent.com/64998301/143171267-86860e2b-8a25-440e-b778-a860ceac7e99.png">
+![MasterHead](https://cdn.dribbble.com/users/917530/screenshots/2879128/media/6008ce6d81787b9aa0ed9c0101b75567.gif)
+
+
 
 
 # Initial Metrics Exploration
@@ -237,5 +240,6 @@ The exploratory tests indicate that analysis at a paragraph or sentence level ra
 
 ## 🙏 Special thanks to the BNPP team for their support with this analysis. 
 <img align="RIGHT" width="200" src="https://user-images.githubusercontent.com/64998301/143174131-743f4dc5-c5b3-4b3f-ba2d-83e0fc413a13.png">
+
 
 
