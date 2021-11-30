@@ -2,7 +2,7 @@
  
 <img align="right" alt="Coding" width="150" src="https://user-images.githubusercontent.com/64998301/143171267-86860e2b-8a25-440e-b778-a860ceac7e99.png">
  
-<img align="left" alt="Coding" width="550" src="https://cdn.dribbble.com/users/1581085/screenshots/3984307/media/826088ba21447e50a7e525eb592774a3.gif">
+<img align="left" alt="Coding" width="550" src="https://cdn.dribbble.com/users/2046015/screenshots/4857926/media/19dac7cd2e0344d1eb57a519d7fa4b28.gif">
 
 
 
