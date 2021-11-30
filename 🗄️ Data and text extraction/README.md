@@ -169,8 +169,7 @@ The next step was to test [BoilerPy3](https://pypi.org/project/boilerpy3/), prov
 Most of our learnings are collected in our publication [Digital AI against Modern Slavery: Digital Insights into Modern Slavery Reporting - Challenges and Opportunities](http://ceur-ws.org/Vol-2884/paper_110.pdf). You can also watch this paper being presented at the [Association for the Advancement of Artificial Intelligence (AAAI)’s Fall 2020 Symposium on the AI for Social Good Track](https://youtu.be/F4sNxDOPaNA).
 
 
-
-<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/64998301/144033314-5ca09cc3-cdc8-44ce-8a7a-e136b033cb15.png">
+[<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/64998301/144033314-5ca09cc3-cdc8-44ce-8a7a-e136b033cb15.png">](https://www.walkfree.org/reports/digital-insights-into-modern-slavery-reporting/)
 
 
 The scope of this work was to compare the performance of different text extraction methods from the HTML and PDF files. The methodology was to sample several HTML and PDF files containing modern slavery statements, test different text extraction methods, and manually compare the quality of the resulting text using [Diffchecker](https://www.diffchecker.com). Diffchecker facilitates the comparison of text by highlighting deletions and additions. For HTML documents, ArticleExtractor and BeautifulSoup were compared, and for PDF documents XPDF Reader and AWS Textract OCR API were compared.
