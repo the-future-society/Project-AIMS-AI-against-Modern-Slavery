@@ -11,14 +11,11 @@
 # Getting the datasets
 This directory presents the different data sources of modern slavery statements from the UK and how to extract the text from the statements. 
 
-To date, access to modern slavery statements has been through company websites or the compilation efforts by the Business and Human Rights Resource Centre’s (BHRRC), referred to here as the  [Archive of BHRRC The Modern Slavery Registry]() and [WikiRate](), who has collated and analysed this data.  
+To date, access to modern slavery statements has been through company websites or the compilation efforts by the Business and Human Rights Resource Centre’s (BHRRC), and WikiRate who has collated and analysed this data.  
 
-Much of this information has been collated manually, with teams of researchers searching for and systematically reviewing available statements. Given that this is costly in terms of person-hours, a more centralised and automated approach is desirable. Promising steps in this direction is the recent launch of [🇬🇧 GOV.UK Modern slavery statement registry](), which will centralise the housing of these statements.
+Much of this information has been collated manually, with teams of researchers searching for and systematically reviewing available statements. Given that this is costly in terms of person-hours, a more centralised and automated approach is desirable. Promising steps in this direction is the recent launch of [🇬🇧 GOV.UK Modern slavery statement registry](), which centralises the housing of these statements.
 
-When Project AIMS started, there was no centralised database of statements by the government, so the project’s dataset was built from existing resources. The main data used thought Project AIMS so far are: 
-- Archive of BHRRC The Modern Slavery Registry
-- The WikiRate data (that we generally call the labelled dataset) 
-
+When Project AIMS started, there was no centralised database of statements by the government, so the project’s dataset was built from existing resources. The primary data used through Project AIMS are the WikiRate data (that we generally call the labelled dataset) and the Archive of BHRRC Modern Slavery Registry.
 
 
 In this directory, we present the main data sources that could be used in this project and how to extract the text from the statements. 
@@ -185,6 +182,7 @@ The text data from 150 PDF documents ware manually compared using Diffchecker, r
 For both HTML and PDF documents, a combination of both methods is more desirable. Once the results of text retrieval from the statements are satisfactory, all of the extracted text was added as a  new column to Project AIMS’ datasets, generally called ‘text’. 
 
 ## **In each notebook of this repository, the data with the text extracted is linked and openly available.**
+
 
 
 
