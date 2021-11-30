@@ -266,4 +266,3 @@ Yet, some of our models show that based on the structure of the labelled databas
 
 The exploratory tests indicate that analysis at a paragraph or sentence level rather than document-level would be more accurate. This would require a reliable paragraph or sentence extractor. During this exploratory phase, difficulties were faced cutting the text into sentences. Moreover, the quality of the text extracted needs improvement as in many cases the text was not fully extracted and inconsistencies were found in the text field (words without spaces, of “l” written as “1” etc.). 
 
-
