@@ -10,7 +10,8 @@
 
 
 # Initial Metrics Exploration
-## Proof of Concept of supporting text extraction and binary classification of unlabeled modern slavery statements across 16 metrics 
+## Proof of concept for extacting supporting text and conducting binary classifications for 16 metrics 
+
 After extracting the text and understanding the corpus, the project moved to its second phase, focusing on creating the understanding needed to prepare for the training of the machine learning solutions. This phase of the project focuses on analysing the sixteen metrics used to benchmark the statements and identify and extract their associated supporting text (quotes, context, meaning, claims, or facts) from the statements. 
 
 > Note: This process should be a continuous one, and once it reaches a high level of accuracy, the supporting text could become part of the ground truth data, just as the 'Comments' from [WikiRate](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/b0571d0b34f1ee68856b5b18468d8d3b7d540c19/%F0%9F%97%84%EF%B8%8F%20Data%20and%20text%20extraction/WikiRate/README.md) labelled data.  The 'Comments' are text imputed by annotators to explain the exact part of the text that explains their decision to choose the specific label. In the future, the supporting text could be used to facilitate the creation of a more extensive, cleaner labelled dataset. Also, the supporting text could aid to achieve better performance for the multi-class and multi-label classifications.
