@@ -56,8 +56,7 @@ Being able to extract the text and assess its quality before using it in buildin
 <img width="924" alt="Screen Shot 2021-11-30 at 8 43 27 pm" src="https://user-images.githubusercontent.com/64998301/144032949-de2ce1e9-91af-47aa-a7e9-f54ad0d78127.png">
 
 ### PDF pipeline (Use Async APIs of Amazon Textract)
-<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1729935/screenshots/4108239/media/1a4b3d5ebbe44ab8e020793a9960295a.gif">
-
+<img align="right" alt="Coding" width="500" src="https://cdn.dribbble.com/users/100976/screenshots/3407799/media/46606d8d83079426b1e942444ede9160.gif">
 
 1. A document with a .pdf extension gets uploaded to an Amazon S3 bucket. It sends event to SQS queue named S3Documents.
 2. A job scheduler lambda function runs at a certain frequency for example, every 5 minutes, and poll for messages in the SQS queue.
@@ -123,13 +122,13 @@ Set S3 bucket notification to send events to SQS queue where the file is created
 
 
 ### Automated trigger
-At the moment of this design, the `template.yaml` did not configure the automatic triggering of the Lambda function once it's deployed. At that time, the best way to achieve that is to set it manually on [AWS console](https://console.aws.amazon.com/lambda/home?region=us-east-1#/functions).
+At the moment of this design, the `template.yaml` did not configure the automatic triggering of the Lambda function once it's deployed. At that time, the best way to achieve that is to set it manually on the AWS console used.
 
 ### Updating the deployment
 When you make code updates to the 'meat' of the function without adding any new libraries, you only have to run the 3rd step of the deployment to update the cloud function with new code. If you add new third-party libraries, then the 2nd step of building a layer needs to be rerun as well. The first step needs to be run only the very first time when creating the function, so you don't need to run it when making code updates.
 
 ## An updated version of the text extraction pipeline 
-
+<img align="right" alt="Coding" width="600" src="https://cdn.dribbble.com/users/1729935/screenshots/4108239/media/1a4b3d5ebbe44ab8e020793a9960295a.gif">
 
 The first step is to run the ‘prepare’ command that downloads the scrapable list of URLs and sets unique IDs to all of them. 
 
@@ -146,7 +145,6 @@ If all the documents are automatically processed, then it’d be necessary to ru
 
 ## Analysis and learnings 
 ### Extracting text from PDFs
-<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/100976/screenshots/3407799/media/46606d8d83079426b1e942444ede9160.gif">
 
 [The Portable Document Format (PDF)](https://www.adobe.com/content/dam/acom/en/devnet/pdf/pdf_reference_archive/pdf_reference_1-7.pdf) covers a very broad spectrum of different document styles and it can be very complex. For our purposes, there are two types of PDF files that require different approaches to text extraction: native (or digital) and scanned files. The difference between native and scanned PDF files is that the native one is created from text editors such as Microsoft Word, whereas the scanned PDF is created from scanned image files. Even though both contain textual data, the scanned PDF files are not directly readable by computers and require Optical Character Recognition (OCR) technology to convert them into a machine-readable format.
 
@@ -174,7 +172,7 @@ The next step was to test [BoilerPy3](https://pypi.org/project/boilerpy3/), prov
 Most of our learnings are collected in our publication [Digital AI against Modern Slavery: Digital Insights into Modern Slavery Reporting - Challenges and Opportunities](http://ceur-ws.org/Vol-2884/paper_110.pdf). 
 
 
-<img width="410" alt="Screen Shot 2021-11-30 at 8 16 22 pm" src="https://user-images.githubusercontent.com/64998301/144033314-5ca09cc3-cdc8-44ce-8a7a-e136b033cb15.png">
+<iimg align="centert" img width="400" alt="Screen Shot 2021-11-30 at 8 16 22 pm" src="https://user-images.githubusercontent.com/64998301/144033314-5ca09cc3-cdc8-44ce-8a7a-e136b033cb15.png">
 
 
 The scope of this work was to compare the performance of different methods of text extraction from the HTML and PDF files. The methodology was to sample several HTML and PDF files containing modern slavery statements, test different methods of text extraction, and manually compare the quality of the resulting text using [Diffchecker](https://www.diffchecker.com). Diffchecker facilitates the comparison of text by highlighting deletions and additions. For HTML documents, ArticleExtractor and BeautifulSoup were compared, and for PDF documents XPDF Reader  and AWS Textract OCR API were compared.
