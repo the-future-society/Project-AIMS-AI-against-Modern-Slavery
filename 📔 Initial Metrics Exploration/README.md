@@ -117,7 +117,7 @@ Based on the assessment of the application of this methodology for the metric â€
 
 However, using the 6 sentences as a threshold leaves 62% of statements to classify. For this, Random Forests were used. For the 62% remaining statements, the sentences containing at least one predefined keyword were kept. 
 
-Each document was represented using a [TF IDF](https://monkeylearn.com/blog/what-is-TF IDF) vectorization (with n-gram- meaning a sequence of N words- ranging from 1 to 3) from these sentences. Then, a Random Forest model was trained. 
+Each document was represented using a TF IDF vectorization (with n-gram- meaning a sequence of N words- ranging from 1 to 3) from these sentences. Then, a Random Forest model was trained. 
 
 
 ### Key findings using this method on the three metrics: 
