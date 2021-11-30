@@ -1,1 +1,62 @@
+<img align="left" alt="Coding" width="150" src="https://user-images.githubusercontent.com/64998301/143171138-777e6d3d-3442-4872-8ada-e1bd311a49f9.png">
+ 
+<img align="right" alt="Coding" width="150" src="https://user-images.githubusercontent.com/64998301/143171267-86860e2b-8a25-440e-b778-a860ceac7e99.png">
+ 
+<img align="center" alt="Coding" width="550" src="https://cdn.dribbble.com/users/2046015/screenshots/15331473/media/a4c5a1de94fd671207981baf686b9058.gif">
+
+
+
+
+# Sub-project: Multi-label classification for the MSA Training Metric
+
+
+For this exercise, please develop a solution for the MSA Training Metric. This solution should be able to detect from each of the modern slavery statements ifhe company provide training specifically to address modern slavery and human trafficking.
+Please read carefully the description of this metric and methodology on how the data is labelled here: [MSA training (revised)](https://wikirate.org/Walk_Free_Foundation+MSA_training_revised)
+At the end of the test, the solutions you developed should include systems that would: 
+Detect whether a statement contains one or more of the metric’s options:  
+- Employees (all)
+- Procurement / purchasing
+- Recruitment / HR
+- Leadership
+- Suppliers
+- Training provided - not specified to who
+ - In Development
+- No modern slavery training provided
+
+> Note: Unknown: If this label is found, do not include it in the analysis.  
+> NOTE: One statement can contain multiple options (they are comma ‘,’ separated) 
+
+Also, please explain the prediction by pointing to the part of the text that describes each option of the metric that was found (could be at the level of sentence or paragraph). 
+
+
+
+### Assumptions for the Whistleblowing metric
+
+
+
+## Steps:  
+1. Access the [Multi_class_classification_for_the_approval_metric.ipynb](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/1fe5bbcf0eef6b0997eef6e14337d92096525175/%F0%9F%93%94%20Model%20for%20multi-class%20and%20multi-label%20classification%20for%20core%20metrics/Multi_class_classification_for_the_approval_metric.ipynb) notebook, where we present an example of a multi-class classification model for the Aproval matric. 
+
+2. Read and collect the resources 
+3. Set up a Google Colab notebook (you can also run this locally)
+4. In your Google Colab notebook or .jpynb, provide answers to the following:  
+   - What methodology do you propose to assess the quality of text extracted? 
+   - Present the code of the solutions developed for this metric and interpret your results.  Ensure that each section of the solution is well described and documented.  
+   - How do you assess the quality of your results? What are the challenges? What would  you recommend to do to improve your initial results? 
+
+Share the link of your Google Colab notebook or or .jpynb with Adriana or present it during our next meeting. 
+
+## Resources:  
+1. See attached the labelled dataset to this directory. We recommend you to access and extract the text from an updated version of this data which can be downloaded following these [instructions](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/tree/main/%F0%9F%97%84%EF%B8%8F%20Data%20and%20text%20extraction/WikiRate). 
+2. Read carefully the description and methodology about the  [MSA training (revised)](https://wikirate.org/Walk_Free_Foundation+MSA_training_revised)
+
+
+3. Check out our initial exploration on the [Training.ipynb](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/main/%F0%9F%93%94%20Initial%20Metrics%20Exploration/Training.ipynb)
+
+Please do not hesitate to get in touch if you have any questions. 
+
+
+
+
+
 
