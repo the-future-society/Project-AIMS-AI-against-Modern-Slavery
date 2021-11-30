@@ -1,6 +1,3 @@
-🗄️ Data and text extraction
-
-
 
 <img align="left" alt="Coding" width="150" src="https://user-images.githubusercontent.com/64998301/143171138-777e6d3d-3442-4872-8ada-e1bd311a49f9.png">
 
