@@ -12,10 +12,10 @@
 
 The [📔 Initial Metrics Exploration](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/tree/main/%F0%9F%93%94%20Initial%20Metrics%20Exploration)  was followed by a second semantic workshop with the project partners. Based on all the accumulated knowledge, the decision was made to prioritize four of the metrics to explore multi-class and multi-label classification models.  Those four metrics are: 
 
--MSA Statement Approval
--MSA Training
--MSA whistleblowing mechanism
--MSA incidents remediation
+- MSA Statement Approval
+- MSA Training
+- MSA whistleblowing mechanism
+- MSA incidents remediation
 
 ## Improve the annotation for the four selected metrics
 
@@ -41,8 +41,10 @@ In this directory you can access the notebook where we present an example of a m
 ### Clean and verifed annotated data 
 
 
+**We recommend you to access an updated version of this data following the instructions from [WikiRate directory](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/b0571d0b34f1ee68856b5b18468d8d3b7d540c19/%F0%9F%97%84%EF%B8%8F%20Data%20and%20text%20extraction/WikiRate/README.md).**
 
-## 🙏 Special thanks to the WikiRate team for leading the work on annotating new documents and validating the existing ones.
+
+### 🙏 Special thanks to the WikiRate team for leading the work on annotating new documents and validating the existing ones.
 <img align="left" width="200" src="https://user-images.githubusercontent.com/64998301/143174086-aebdf1ed-fe4a-400f-95b2-0269cd10498b.png">
 
 
