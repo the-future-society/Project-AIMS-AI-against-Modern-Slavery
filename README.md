@@ -80,6 +80,9 @@ By sharing your analysis and contributing to this repository you help the global
 Join our community on Slack and Trello and join our regular meetings where we discuss recent research and development on the project. 
 - 🗓️ Next meeting **xx/xx/xxxx**
 
+### Where to start?
+- Read: a /b /b c 
+
 
 ### Get in touch 💬
 If you have any questions or you would like to get help with domain expertise or technical requirements, please get in touch with [Adriana](mailto:adriana.bora@thefuturesociety.org).
