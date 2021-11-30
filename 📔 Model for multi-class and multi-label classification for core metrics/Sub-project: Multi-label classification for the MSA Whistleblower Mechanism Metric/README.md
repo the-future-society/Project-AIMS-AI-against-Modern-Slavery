@@ -38,21 +38,21 @@ Also, please explain the prediction by pointing to the part of the text that des
  
 
 ## Steps:  
-1. Access the [Multi_class_classification_for_the_approval_metric.ipynb](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/1fe5bbcf0eef6b0997eef6e14337d92096525175/%F0%9F%93%94%20Model%20for%20multi-class%20and%20multi-label%20classification%20for%20core%20metrics/Multi_class_classification_for_the_approval_metric.ipynb) notebook, where we present an example of a multi-class classification model for the Aproval matric. 
 
-2. Read and collect the resources 
-3. Set up a Google Colab notebook (you can also run this locally)
-4. In your Google Colab notebook or .jpynb, provide answers to the following:  
+1. Read and collect the resources 
+2. Set up a Google Colab notebook (you can also run this locally)
+3. In your Google Colab notebook or .jpynb, provide answers to the following:  
    - What methodology do you propose to assess the quality of text extracted? 
    - Present the code of the solutions developed for this metric and interpret your results.  Ensure that each section of the solution is well described and documented.  
    - How do you assess the quality of your results? What are the challenges? What would  you recommend to do to improve your initial results? 
 
-Share the link of your Google Colab notebook or or .jpynb with Adriana or present it during our next meeting. 
+4. Share the link of your Google Colab notebook or or .jpynb with Adriana or present it during our next meeting. 
 
 ## Resources:  
-1. See attached the labelled dataset to this directory. We recommend you to access and extract the text from an updated version of this data which can be downloaded following these [instructions](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/tree/main/%F0%9F%97%84%EF%B8%8F%20Data%20and%20text%20extraction/WikiRate). 
-2. Read carefully the description and methodology about the  [MSA whistleblowing mechanism](https://wikirate.org/Walk_Free_Foundation+MSA_whistleblowing_mechanism_revised)
-3. Check out our initial exploration on the [Whistleblowing_mechanism.ipynb](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/a5f8610f2bbbdc69552108d049cde083f0bf9b83/%F0%9F%93%94%20Initial%20Metrics%20Exploration/Whistleblowing_mechanism.ipynb)
+1. Access the [Multi_class_classification_for_the_approval_metric.ipynb](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/1fe5bbcf0eef6b0997eef6e14337d92096525175/%F0%9F%93%94%20Model%20for%20multi-class%20and%20multi-label%20classification%20for%20core%20metrics/Multi_class_classification_for_the_approval_metric.ipynb) notebook, where we present an example of a multi-class classification model for the Aproval matric. 
+2. See attached the labelled dataset to this directory. We recommend you to access and extract the text from an updated version of this data which can be downloaded following these [instructions](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/tree/main/%F0%9F%97%84%EF%B8%8F%20Data%20and%20text%20extraction/WikiRate). 
+3. Read carefully the description and methodology about the  [MSA whistleblowing mechanism](https://wikirate.org/Walk_Free_Foundation+MSA_whistleblowing_mechanism_revised)
+4. Check out our initial exploration on the [Whistleblowing_mechanism.ipynb](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/a5f8610f2bbbdc69552108d049cde083f0bf9b83/%F0%9F%93%94%20Initial%20Metrics%20Exploration/Whistleblowing_mechanism.ipynb)
 
 Please do not hesitate to get in touch if you have any questions. 
 
