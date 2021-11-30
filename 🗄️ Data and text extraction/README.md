@@ -169,10 +169,11 @@ Retrieving information from web pages can be difficult as they vary greatly.  Ge
 The next step was to test [BoilerPy3](https://pypi.org/project/boilerpy3/), providing algorithms to detect and remove the surplus 'clutter' (boilerplate, templates) around the main textual content of a web page, extracting the main content without additional noise (advertisements, search and filtering panels, unwanted images or links). The library comprises several extractors. ArticleExtractor, being tuned towards news articles, is highly suitable for extracting content from modern slavery statements. However, one limitation of ArticleExtractor is its inability to extract additional statements from the same company, which are linked within the HTML document (for example, statements from previous years or statements formatted as PDFs).
 
 ## Text extraction quality assessment
-Most of our learnings are collected in our publication [Digital AI against Modern Slavery: Digital Insights into Modern Slavery Reporting - Challenges and Opportunities](http://ceur-ws.org/Vol-2884/paper_110.pdf). 
+Most of our learnings are collected in our publication [Digital AI against Modern Slavery: Digital Insights into Modern Slavery Reporting - Challenges and Opportunities](http://ceur-ws.org/Vol-2884/paper_110.pdf). You can also watch this paper being presented at the [Association for the Advancement of Artificial Intelligence (AAAI)’s Fall 2020 Symposium on the AI for Social Good Track](https://youtu.be/F4sNxDOPaNA).
 
 
-<img align="center" img width="400" alt="Screen Shot 2021-11-30 at 8 16 22 pm" src="https://user-images.githubusercontent.com/64998301/144033314-5ca09cc3-cdc8-44ce-8a7a-e136b033cb15.png">
+![<img align="center" img width="400" src="https://user-images.githubusercontent.com/64998301/144033314-5ca09cc3-cdc8-44ce-8a7a-e136b033cb15.png">](https://www.walkfree.org/reports/digital-insights-into-modern-slavery-reporting/)
+
 
 
 The scope of this work was to compare the performance of different methods of text extraction from the HTML and PDF files. The methodology was to sample several HTML and PDF files containing modern slavery statements, test different methods of text extraction, and manually compare the quality of the resulting text using [Diffchecker](https://www.diffchecker.com). Diffchecker facilitates the comparison of text by highlighting deletions and additions. For HTML documents, ArticleExtractor and BeautifulSoup were compared, and for PDF documents XPDF Reader  and AWS Textract OCR API were compared.
