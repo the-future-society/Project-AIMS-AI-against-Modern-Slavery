@@ -19,7 +19,7 @@ This GitHub contains the following resources:
 
 1. The notebooks developed under Project AIMS from April 2020 to June 2021, clearly documented, ideally for anyone who would like to reproduce our project to be able to get similar results. Those notebooks are organised in the following format: 
    - 🗄️ Data and text extraction
-   - 📔 Exploration for **labeling functions** and **binary classification** for core metrics
+   - 📔 Initial Metrics Exploration
    - 📔 Model for **multi-class** and **multi-label classification** for core metrics 
      - 💡 Sub-projects for multi-class and multi-label classification for core metrics designed for the community to pick up and develop further. Those include a clear scope, questions, expected outcomes, a proposed methodology and resources.
 
