@@ -236,6 +236,6 @@ The exploratory tests indicate that analysis at a paragraph or sentence level ra
 
 
 ## Special thanks to the BNPP team for their support with this analysis. 
-<img align="right" alt="Coding" width="150" src="hhttps://user-images.githubusercontent.com/64998301/143976190-80672d58-02b5-4bfd-a511-09ca833dae0e.png">
+<img align="left" width="200" src="https://user-images.githubusercontent.com/64998301/143174131-743f4dc5-c5b3-4b3f-ba2d-83e0fc413a13.png">
 
 
