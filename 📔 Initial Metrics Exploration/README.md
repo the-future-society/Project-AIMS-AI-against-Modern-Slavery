@@ -55,7 +55,7 @@ Rule-based and Random Forest approach
 Hierarchical Attention Network
 Transformer-based approach (using the ‘'Comments'’ from WikiRate dataset) 
 
-##A. Labeling functions using the Snorkel framework 
+## A. Labeling functions using the Snorkel framework 
 The first method explored is based on labelling functions that use the Snorkel framework. Snorkel is a system for programmatically building and managing training datasets without manual labelling. 
 
 Snorkel currently exposes three key programmatic operations: 
@@ -81,7 +81,7 @@ Search for lemmatized keywords in the lemmatized text
 If matches are found among lemmatized text then save the original sentences that contained the processed lemmas as extracted output.
 
 
-###Key findings using this method: 
+### Key findings using this method: 
 
 While conducting this work, key lessons were drawn. Firstly, the results indicated the need to verify the quality of the labelled dataset. Without this clear benchmark, the results are not strong enough to allow with confidence the integration of the supporting text as part of the ground truth data.  In some cases, manual validation was conducted, following the labels and the comment sections of the ground truth data provided by WikiRate. The ‘'Comments'’ from the WikiRate dataset are useful for understanding the context that generates the label. Yet, at this stage, the data was unclear and unstructured. Not all documents included 'Comments, and when they existed, many were just free text added by the annotators, without directly linking the exact text from the statement justifying the selection of the label.  To correct this, improvement in the annotation process is required moving forward. 
 
@@ -98,38 +98,25 @@ _Figure explaining the rule-base method_
 
 The basic concept behind the Random Forest (or random decision forest) approach is that a group of 'weak learners' may come together to build a 'strong learner'. What is more, Random Forest is designed to overcome the 'overfitting' problem of decision trees. Random Forest constructs a multitude of decision trees in the training phase and uses majority voting for classification. A Random Forest algorithm is arguably one of the best algorithms for classification..
 
-Figure explaining the Random Forest method 
+
+![Screen Shot 2021-11-30 at 11 31 31 am](https://user-images.githubusercontent.com/64998301/143969500-5535a467-f1f2-4be7-b3cc-15115ea359ba.png)
+
+_Figure explaining the Random Forest method _
 
 The purpose of this method is to use heuristics and provide business expertise to classify part of the statements. This method indicates which supporting text   n this case, sentences) contributed to the classification decision.
 
-Methodology:
+### Methodology:
 In order to build an easily interpretable pipeline, experts' knowledge and feedback was leveraged. Using the list of keywords from the semantic workshop, this method allowed for the extraction of sentences that potentially indicate the presence of the metrics. If a sufficient number of the sentences containing the keywords were found, the statement was classified as positive, meaning it contains the metrics, or else, a random forest model was trained to classify the statement. For this exercise the list of keywords associated with the metrics from the semantic workshop were used. Those words were enlarged to incorporate more 'business knowledge', for instance, by including a list of synonyms (eg. for assessment, we added evaluation, rating, etc.).
 
 Based on this list, all the sentences containing these keywords were extracted. All statements for which at least 6 sentences containing keywords were extracted were classified as positive. 
 
 Based on the assessment of the application of this methodology for the metric ‘Risk Assessment’, by using a simple rule, some statements were classified with a rather high accuracy. Using 6 sentences as the threshold, 38% of the statements  were classified with a 83% accuracy (Figure 10).
 
-Number of sentences (n)
-% docs classified
-Accuracy
-1
-88%
-65%
-4
-54%
-75%
-6
-38%
-83%
-10
-21%
-89%
-12
-16%
-94%
+
+![Screen Shot 2021-11-30 at 11 33 44 am](https://user-images.githubusercontent.com/64998301/143969615-76cecc2c-744c-4c64-acd3-2b74507a1d4b.png)
 
 
-Figure explaining the accuracy of rule-base sentence classification based on the key words for  ‘Risk Approval’ metric.
+_Figure explaining the accuracy of rule-base sentence classification based on the key words for  ‘Risk Approval’ metric._
 
 However, using the 6 sentences as a threshold leaves 62% of statements to classify. For this, Random Forests were used. For the 62% remaining statements, the sentences containing at least one predefined keyword were kept. 
 
@@ -139,14 +126,17 @@ MSA Risk Assessment
 MSA Risk Management
 MSA Risk Identification
 
-Key findings using this method on the three metrics: 
+### Key findings using this method on the three metrics: 
 This method seems to best perform for the Risk Assessment metric. Using this system shows an average of 74% accuracy. Yet, this frequency-based method does not incorporate much context which needs to be addressed as it is very important to classify if the statement describes risk assessment. What is more, for some documents, the sentences predicted seem to indicate a positive metric, even if labelled negative. This justifies the need to recheck the quality of the labelled dataset. 
 
-C. Hierarchical Attention Network (HAN)
+## C. Hierarchical Attention Network (HAN)
 
 Hierarchical Attention Network (HAN) was proposed by Yang et al. in 2016 for document classiﬁcation. Their model, has two distinctive characteristics: (i) it has a hierarchical structure that mirrors the hierarchical structure of documents; (ii) it has two levels of attention mechanisms applied at the word and sentence level, enabling it to attend differentially to more and less important content when constructing the document representation. Experiments conducted on six large scale text classiﬁcation tasks demonstrate that the proposed architecture outperforms previous methods by a substantial margin. Visualization of the attention layers illustrates that the model selects qualitatively informative words and sentences. 
 
- Figure Explaining the Hierarchical Attention Network method  
+![Screen Shot 2021-11-30 at 11 34 55 am](https://user-images.githubusercontent.com/64998301/143969732-9c030ed9-93ac-4103-ba56-3d921e10dc49.png)
+
+
+_Figure Explaining the Hierarchical Attention Network method_ 
 
 This method was used for three of our metrics: 
 MSA Risk Assessment
@@ -157,21 +147,22 @@ For three of the metrics, a HAN was trained in order to predict their presence a
 
 The advantages of this method are that the attention weights are unique which facilitate interpretation of predictions. Also, this model provides a clear view of the part of text the model is looking at, and thus the supporting text that is helping make the predictions. Thanks to the two levels of attention, the model also highlights sentences and words which are important for prediction. The HAN model predicts if the overall statement contains or not the metric analysed. 
 
+![Screen Shot 2021-11-30 at 11 35 29 am](https://user-images.githubusercontent.com/64998301/143969796-a0a02e89-0286-4235-a153-da944a9e9047.png)
 
-Visualisation of Hierarchical Attention Network method  
+_Figure visualising the Hierarchical Attention Network method_  
 
 
-Key findings using this method on the three metrics: 
+### Key findings using this method on the three metrics: 
 Based on this initial exploration, this method produces similar results as the rule-based and Random Forest methods. 
 
 With this method, word embeddings are not learned. For future exploration, pre-training word embeddings on this projects’ specific corpus would probably improve performance (e.g using S-BERT). Another possible improvement on this method would be to use transformers instead of bi-GRU RNN for words and sentence encoders.
 
 In this case as well, for some statements, the sentences predicted seem to justify a positive metric (indicating the metric is present in the statement) even if labelled given by the annotators in the original ground truth data was negative (indicating the metric is not present in the statement). This indicated that the quality of the ground truth data used at this stage needs assessment. This was informed by a manual evaluation of the list of documents where the model was conflicting, as well as the words and sentences important for the prediction.
 
-D. Transformer Based approach 
+## D. Transformer Based approach 
 This method uses a pre-trained transformer model to identify which segments of which supporting text  (as segments of the statements) would require an annotator’s attention to be labelled. This method was used for classifying documents and identifying associated supporting text, and secondly, to score statements based on their complexity. The latter purpose allowed for the creation of a list of priority statements that were sent to WikiRate, for manual annotation in order to augment the ground truth data. 
 
-Methodology
+### Methodology
 The data was split into paragraphs using the TextTilingTokenizer from the NLTK package. If no paragraphs were detected using this method (due to extraction irregularities) then a paragraph was defined as 8 continuous sentences counting from the beginning of the document.
 
 Positive class labels were created using manually validated ground truth data related to the text inputted by the annotators when justifying their label choice (WikiRate data column ‘'Comments'’). Positive classifications indicate the metric is present in the statement while negative classification indicates it is not. Regex-based text cleaning functions were applied to eliminate 'Comments'’ noise such as the reviewer name and page numbers.
@@ -189,15 +180,18 @@ MSA risk assessment
 
 This method used a contextual method, leveraging the 'Commnets' given by annotators, to predict if a sentence could be retrieved as a comment or not. If a sentence can be a comment, it would mean it justifies the presence of the metric in the statement analysed.
 
-Methodology:
+### Methodology:
 Using the training set, for each of the three metrics, positive and negative classes were created. The positive classes were created by using the sentences extracted from 'Commnets', where the statement was labeled positively. The negative samples contained sentences randomly sampled from statements, except the sentences present in 'Commnets'.
 The ALBERT-based model for classifying sentences was trained in two categories, 'in comment', and 'not in comment'. This model scores each sentence in the statements. If a sentence gets a probability greater than 0.5, it was predicted as coming from a comment. Then, if a statement had at least one of its sentences being predicted as coming from a comment, it was classified as containing the metric analysed.  
 
 Compared to the previous method, this method outputs the sentence justifying the prediction. 
 
-Figure 13  Visualisation of Transformers Based Approach Method Using the 'Comments  
+![Screen Shot 2021-11-30 at 11 36 33 am](https://user-images.githubusercontent.com/64998301/143969853-2aa712c0-d144-4297-94ed-57f718283b8d.png)
 
-Key findings using this method:
+
+_Visualisation of Transformers Based Approach Method Using the 'Comments'_  
+
+### Key findings using this method:
 When looking at the analysis of the three risk associated metrics, overall, this system is the worst at predicting if a metric is contained in a statement. Nevertheless, considering that it does not use the label at all (just use the comment section), the results are encouraging. However, as this model is trained on very few data points, overall, this system was considered overconfident in predicting if a risk metric is present in the statement. A way of improvement could be to use this task as a pre-training for a BERT backbone that could be then used in HAN. This way the information contained in the Comment section, as well as the real labels, could be used. 
 
 As for the previous approaches, for some documents, the sentences predicted seem to justify a positive metric, even if labelled negative. This indicates the need to clean and verify the ground truth data. 
