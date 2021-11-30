@@ -64,8 +64,7 @@ In Snorkel, users can develop large training datasets in hours or days rather th
 
 When applied to each of the metrics, the output of the system is a prediction about whether a sentence for the statement could be classified as containing relevant information about that metric or not.
 
-For this exploratory task, we used the ground truth data from the WikRate platform as available between October 2020 and January 2021.** We recommend you to re-run this research with an updated version of this data which can be downloaded following the instructions from [WikiRate direcotry](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/b0571d0b34f1ee68856b5b18468d8d3b7d540c19/%F0%9F%97%84%EF%B8%8F%20Data%20and%20text%20extraction/WikiRate/README.md)
-**
+For this exploratory task, we used the ground truth data from the WikRate platform as available between October 2020 and January 2021. **We recommend you to re-run this research with an updated version of this data which can be downloaded following the instructions from [WikiRate direcotry](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/b0571d0b34f1ee68856b5b18468d8d3b7d540c19/%F0%9F%97%84%EF%B8%8F%20Data%20and%20text%20extraction/WikiRate/README.md)**
 
 The methodology across those metrics consisted of the main four steps (some containing supplementary steps): 
 Lemmatize - the process of reducing the different forms of a word to one single form, for example, reducing 'builds', 'building', or 'built' to the lemma 'build' - the keywords provided by the experts
@@ -228,6 +227,10 @@ Based on the exploratory tests, certain learnings were derived. First of all, th
 
 Yet, some of our models show that based on the structure of the labelled database, there is a great potential to use the 'Comments’ for creating the positive class data where possible since the 'Comments’ are already extracted relevant text by the original reviewer. Yet, until the labelled dataset is entirely cleaned and validated, only internally validated 'Comments’ were used to ensure clean labelled data. In this case, negative class data can be sampled randomly from the texts while ensuring that there is no intersection between the data of positive and negative classes. This method was useful in identifying supporting text without relying on the labels.
 
-The exploratory tests indicate that analysis at a paragraph or sentence level rather than document-level would be more feasable and accurate. This would require a reliable paragraph or sentence extractor. During this exploratory phase, difficulties were faced cutting the text into sentences. Moreover, the quality of the text extracted needs improvement as in many cases the text was not fully extracted and inconsistencies were found in the text field (words without spaces, of “l” written as “1” etc.). 
+The exploratory tests indicate that analysis at a paragraph or sentence level rather than document-level would be more feasible and accurate. This would require a reliable paragraph or sentence extractor. During this exploratory phase, difficulties were faced cutting the text into sentences. Moreover, the quality of the text extracted needs improvement as in many cases the text was not fully extracted and inconsistencies were found in the text field (words without spaces, of “l” written as “1” etc.). 
+
+
+## Special thanks to the BNPP team for their support with this analysis. 
+
 
 
