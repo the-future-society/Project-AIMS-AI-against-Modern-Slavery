@@ -10,7 +10,7 @@
 # Sub-project: Multi-label classification for the MSA Training Metric
 
 
-For this exercise, please develop a solution for the MSA Training Metric. This solution should be able to detect from each of the modern slavery statements ifhe company provide training specifically to address modern slavery and human trafficking.
+For this exercise, please develop a solution for the MSA Training Metric. This solution should be able to detect from each of the modern slavery statements if the company provide training specifically to address modern slavery and human trafficking.
 Please read carefully the description of this metric and methodology on how the data is labelled here: [MSA training (revised)](https://wikirate.org/Walk_Free_Foundation+MSA_training_revised)
 At the end of the test, the solutions you developed should include systems that would: 
 Detect whether a statement contains one or more of the metric’s options:  
