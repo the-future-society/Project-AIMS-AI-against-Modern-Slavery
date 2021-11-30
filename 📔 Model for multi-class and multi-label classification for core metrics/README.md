@@ -40,12 +40,15 @@ In this directory you can access the notebook where we present an example of a m
 
 ### Clean and verifed annotated data 
 
+### 🗄️ You can access the data used in this notebook [here](https://drive.google.com/file/d/1gr9PbPTaYLnhVKJ6eraJboPmvLZ_E14J/view?usp=sharing). We recommend you re-run this research with an updated version of this data which can be downloaded following these [instructions](https://drive.google.com/file/d/1xThQSWn501Jlxfay-c7u-EjTu-3R1FAg/view?usp=sharing).
+ 
 
 **We recommend you to access an updated version of this data following the instructions from [WikiRate directory](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/b0571d0b34f1ee68856b5b18468d8d3b7d540c19/%F0%9F%97%84%EF%B8%8F%20Data%20and%20text%20extraction/WikiRate/README.md).**
 
 
 ### 🙏 Special thanks to the WikiRate team for leading the work on annotating new documents and validating the existing ones.
 <img align="left" width="200" src="https://user-images.githubusercontent.com/64998301/143174086-aebdf1ed-fe4a-400f-95b2-0269cd10498b.png">
+
 
 
 
