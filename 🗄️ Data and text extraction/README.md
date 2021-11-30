@@ -30,20 +30,6 @@ They can be found here:
 - [The WikiRate data (that we generally call the labelled dataset)](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/tree/main/%F0%9F%97%84%EF%B8%8F%20Data%20and%20text%20extraction/WikiRate)
 
 
-
-
-### Prerequisites
-
-- [Python 3.6+](https://www.python.org/downloads/release/python-3611/) installed on your system
-- If you'd like to use the provided tutorials, you also need access to a [Jupyter notebook](https://jupyter.org/install.html)
-
-### Quickstart
-
-It's recommended that you use a virtual environment such as [virtualenv](https://virtualenv.pypa.io/en/latest/), [pipenv](https://pipenv-fork.readthedocs.io/en/latest/) or similar.
-
-
-
-
 # Text extraction 
 Being able to extract the text and assess its quality before using it in building models is of great importance and a key step in ensuring the accuracy of the final tool. For example, if a paragraph of a company’s report is not extracted, the analysis will lead to an incorrect assessment of the company’s compliance with modern slavery regulation. The same issue also arises if the text is fully extracted but not in the intended order (e.g. columns of text are read as a single block).
 
