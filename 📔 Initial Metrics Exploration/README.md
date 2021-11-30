@@ -10,11 +10,11 @@
 
 
 # Initial Metrics Exploration
-## Proof of concept for extacting supporting text and conducting binary classifications for 16 metrics 
+## Proof of concept for extracting supporting text and conducting binary classifications for 16 metrics 
 
-After extracting the text and understanding the corpus, the project moved to its second phase, focusing on creating the understanding needed to prepare for the training of the machine learning solutions. This phase of the project focuses on analysing the sixteen metrics used to benchmark the statements and identify and extract their associated supporting text (quotes, context, meaning, claims, or facts) from the statements. 
+After extracting the text and understanding the corpus, the project moved to its second phase, focusing on creating the understanding needed to prepare for the training of the machine learning solutions. This project phase analyses the sixteen metrics used to benchmark the statements and identifies and extract their associated supporting text (quotes, context, meaning, claims, or facts) from the statements. 
 
-> Note: This process should be a continuous one, and once it reaches a high level of accuracy, the supporting text could become part of the ground truth data, just as the 'Comments' from [WikiRate](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/b0571d0b34f1ee68856b5b18468d8d3b7d540c19/%F0%9F%97%84%EF%B8%8F%20Data%20and%20text%20extraction/WikiRate/README.md) labelled data.  The 'Comments' are text imputed by annotators to explain the exact part of the text that explains their decision to choose the specific label. In the future, the supporting text could be used to facilitate the creation of a more extensive, cleaner labelled dataset. Also, the supporting text could aid to achieve better performance for the multi-class and multi-label classifications.
+> Note: This process should be a continuous one, and once it reaches a high level of accuracy, the supporting text could become part of the ground truth data, just as the 'Comments' from [WikiRate](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/b0571d0b34f1ee68856b5b18468d8d3b7d540c19/%F0%9F%97%84%EF%B8%8F%20Data%20and%20text%20extraction/WikiRate/README.md) labelled data.  The 'Comments' are text imputed by annotators to explain the exact part of the text that describes their decision to choose the specific label. In the future, the supporting text could be used to facilitate the creation of a more extensive, cleaner labelled dataset. Also, the supporting text could aid to achieve better performance for the multi-class and multi-label classifications.
 
 This directory will introduce the different qualitative and quantitative methods used in the supporting text extraction procedure. It explains the steps taken during this phase to understand each of the sixteen metrics and their unique challenges and opportunities. 
 Alongside this documentation, this work could be used in later phases to label more data and guide the verification of the existing ground truth data. 
@@ -53,9 +53,9 @@ This workshop looked at creating a set of guiding methodologies and keywords tha
 
 Supporting text extraction is the process of defining a set of text characteristics that will most efficiently or meaningfully represent the information that is important for analysis and classification. In the case of Project AIMS, the most important supporting text to extract are the sentences indicating the presence of each metric in the businesses’ statements. Supporting text, in this case, is defined as the sentences that include quotes, context, meaning, claims, or facts that correspond to each metric. 
 
-Supporting text extraction is a process of reducing the dimensions of the representation of a document. Generally, large data sets require a lot of computing resources to process.  Supporting text extraction is the method that selects and/or combines segments of the data (in this case, sentences) into supporting text, effectively reducing the amount of data that must be processed, while still accurately and completely describing the original data set. The supporting text is intended to be informative and non-redundant, facilitating the subsequent learning and generalisation steps, and in some cases leading to better human interpretations. 
+Supporting text extraction is a process of reducing the dimensions of the representation of a document. Generally, large data sets require a lot of computing resources to process.  Supporting text extraction is the method that selects and/or combines segments of the data (in this case, sentences) into supporting text, effectively reducing the amount of data that must be processed while still accurately and completely describing the original data set. The supporting text is intended to be informative and non-redundant, facilitating the subsequent learning and generalisation steps, and in some cases leading to better human interpretations. 
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/672882/screenshots/2314038/media/d0c59fa60407d5123a5e5da6be6f2a06.gif">
-> Note: Machine learning algorithms learn from a predefined set of supporting text from the training data to produce output for the test data. Yet, the main problem in language processing is that machine learning algorithms cannot wdirectly work on the raw text. So, some supporting text extraction techniques are needed to convert text into a matrix (or vector) of supporting text. Some of the most popular methods of supporting text extraction are Bag-of-Words and term frequency-inverse document frequency (TF-IDF).
+> Note: Machine learning algorithms learn from a predefined set of supporting text from the training data to produce output for the test data. Yet, the main problem in language processing is that machine learning algorithms cannot directly work on the raw text. Some supporting text extraction techniques are needed to convert text into a matrix (or vector) of supporting text. Some of the most popular methods of supporting text extraction are Bag-of-Words and term frequency-inverse document frequency (TF-IDF).
 
 Some exploratory tests were executed using diverse computational methods to understand the complexity of identifying the metrics and their associated supporting text in the statements. On top of this, those tests allowed preliminary classifications of the statements.  
 
@@ -124,9 +124,9 @@ This method aims to use heuristics and the domain knowledge gathered via the sem
 ### Methodology:
 In order to build an easily interpretable pipeline, experts' knowledge and feedback were leveraged. Using the list of keywords from the semantic workshop, this method allowed for the extraction of sentences that potentially indicate the presence of the metrics. If a sufficient number of the sentences containing the keywords were found, the statement was classified as positive, meaning it contains the metrics, or else, a random forest model was trained to classify the statement. For this exercise, the list of keywords associated with the metrics from the semantic workshop was used. Those words were enlarged to incorporate more 'business knowledge', for instance, by including a list of synonyms (e.g. for assessment, we added evaluation, rating, etc.).
 
-Based on this list, all the sentences containing these keywords were extracted. All statements for which at least 6 sentences containing keywords were extracted were classified as positive. 
+Based on this list, all the sentences containing these keywords were extracted. All statements for which at least six sentences containing keywords were extracted were classified as positive. 
 
-Based on the assessment of the application of this methodology for the metric ‘Risk Assessment’, by using a simple rule, some statements were classified with rather high accuracy. Using 6 sentences as the threshold, 38% of the statements were classified with an 83% accuracy.
+Based on the assessment of the application of this methodology for the metric ‘Risk Assessment’, by using a simple rule, some statements were classified with rather high accuracy. Using six sentences as the threshold, 38% of the statements were classified with an 83% accuracy.
 
 
 ![Screen Shot 2021-11-30 at 11 33 44 am](https://user-images.githubusercontent.com/64998301/143969615-76cecc2c-744c-4c64-acd3-2b74507a1d4b.png)
@@ -134,7 +134,7 @@ Based on the assessment of the application of this methodology for the metric �
 
 >_Figure explaining the accuracy of rule-based sentence classification based on the ‘Risk Approval’ metric keywords._
 
-However, using the 6 sentences as a threshold leaves 62% of statements to classify. For this, Random Forests were used. For the 62% remaining statements, the sentences containing at least one predefined keyword were kept. 
+However, using the six sentences as a threshold leaves 62% of statements to classify. For this, Random Forests were used. For the 62% remaining statements, the sentences containing at least one predefined keyword were kept. 
 
 Each document was represented using a TF IDF vectorization (with n-gram- meaning a sequence of N words- ranging from 1 to 3) from these sentences. Then, a Random Forest model was trained. 
 
@@ -172,7 +172,7 @@ In this case as well, for some statements, the sentences predicted seem to justi
 This method uses a pre-trained transformer model to identify which segments of which supporting text  (as segments of the statements) would require an annotator’s attention to be labelled. This method classified statements identified supporting text, and scored statements based on their complexity. The latter purpose allowed for creating a list of priority statements that were sent to WikiRate, for manual annotation to augment the ground truth data. 
 
 ### Methodology
-The data was split into paragraphs using the TextTilingTokenizer from the NLTK package. If no paragraphs were detected using this method (due to extraction irregularities), then a paragraph was defined as 8 continuous sentences counting from the beginning of the document.
+The data was split into paragraphs using the TextTilingTokenizer from the NLTK package. If no paragraphs were detected using this method (due to extraction irregularities), then a paragraph was defined as eight continuous sentences counting from the beginning of the document.
 
 Positive class labels were created using manually validated ground truth data related to the text inputted by the annotators when justifying their label choice (WikiRate data column 'Comments'). Positive classifications indicate the metric is present in the statement, while negative classification indicates it is not. Regex-based text cleaning functions were applied to eliminate 'Comments' noise, such as the reviewer name and page numbers.
 
@@ -183,9 +183,9 @@ Negative class labels were created by sampling random sentences from texts that 
 For scoring the statements, after the statement was segmented into paragraphs as described above, every segment of every document was scored with the model. Then, the difference between the positive class prediction (probability) and negative class prediction (probability) for every segment was calculated. The statements with the lowest difference were considered to be the most difficult to label and, thus, prioritised to be sent to WikiRate for manual labelling. 
 
 
-This method used a contextual method, leveraging the 'Commnets' given by annotators, to predict if a sentence could be retrieved as a comment or not. If a sentence can be a comment, it would mean it justifies the presence of the metric in the statement analysed.
+This method used a contextual method, leveraging the 'Comments' given by annotators, to predict if a sentence could be retrieved as a comment or not. If a sentence can be a comment, it would mean it justifies the presence of the metric in the statement analysed.
 
-Using the training set, for each of the three metrics, positive and negative classes were created. The positive classes were created by using the sentences extracted from 'Commnets', where the statement was labelled positively. The negative samples contained sentences randomly sampled from statements, except the sentences present in 'Comments'.
+Using the training set, for each of the three metrics, positive and negative classes were created. The positive classes were created by using the sentences extracted from 'Comments', where the statement was labelled positively. The negative samples contained sentences randomly sampled from statements, except the sentences present in 'Comments'.
 The ALBERT-based model for classifying sentences was trained in two categories, 'in Comment' and 'not in Comment'. This model scores each sentence in the statements. If a sentence gets a probability greater than 0.5, it was predicted as coming from a comment. Then, if a statement had at least one of its sentences being predicted as coming from a comment, it was classified as containing the metric analysed.  
 
 Compared to the previous method, this method outputs the sentence justifying the prediction. 
@@ -234,7 +234,7 @@ When using Snorkel,  utilities from the Snorkel library like LFAnalysis are used
 
 
 **Cross-Validation**
-When developing learned and combined systems, a stratified repeated 5-fold cross-validation is used. Each fold should be drawn 3 times. This means that we train and test it 15 times for every classification algorithm and report the average results of the 15 runs. Initially, stratification should be based on document length in tokens based on a simple whitespace tokenizer (short/medium/long) and industry group.
+When developing learned and combined systems, a stratified repeated 5-fold cross-validation is used. Each fold should be drawn three times. This means that we train and test it 15 times for every classification algorithm and report the average results of the 15 runs. Initially, stratification should be based on document length in tokens based on a simple whitespace tokenizer (short/medium/long) and industry group.
 
 When using cross-validation, every test fold’s ground truth values alongside predicted values,  metric results per each fold, and report the mean (+/- error based on standard deviation) as a final metric result shall be stored. Since this project has very limited data, it was separated into train and test sets. Further validation will be done using future, improved labelled data as our validation data.
 
@@ -247,9 +247,11 @@ Based on the exploratory tests, certain learnings were derived. First of all, th
 
 Yet, some of our models show that based on the structure of the labelled database, there is a great potential to use the 'Comments’ for creating the positive class data where possible since the 'Comments’ are already extracted relevant text by the original reviewer. Yet, until the labelled dataset is entirely cleaned and validated, only internally validated 'Comments’ were used to ensure clean labelled data. In this case, negative class data can be sampled randomly from the texts while ensuring no intersection between the data of positive and negative classes. This method was useful in identifying supporting text without relying on the labels.
 
-The exploratory tests indicate that analysis at a paragraph or sentence level rather than document-level would be more feasible and accurate. This would require a reliable paragraph or sentence extractor. During this exploratory phase, difficulties were faced cutting the text into sentences. Moreover, the quality of the text extracted needs improvement as in many cases the text was not fully extracted and inconsistencies were found in the text field (words without spaces, of “l” written as “1”, etc.). 
+The exploratory tests indicate that analysis at a paragraph or sentence level rather than document-level would be more feasible and accurate. This would require a reliable paragraph or sentence extractor. During this exploratory phase, difficulties were faced cutting the text into sentences. Moreover, the quality of the text extracted needs improvement as in many cases, the text was not fully extracted, and inconsistencies were found in the text field (words without spaces, of “l” written as “1”, etc.). 
 
 
 ## 🙏 Special thanks to the BNPP team for their support with this analysis. 
 <img align="RIGHT" width="200" src="https://user-images.githubusercontent.com/64998301/143174131-743f4dc5-c5b3-4b3f-ba2d-83e0fc413a13.png">
+
+
 
