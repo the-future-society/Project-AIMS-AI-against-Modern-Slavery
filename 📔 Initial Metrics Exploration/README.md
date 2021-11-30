@@ -79,7 +79,7 @@ Search for lemmatized keywords in the lemmatized text
 If matches are found among lemmatized text, save the original sentences containing the processed lemmas as extracted output.
 
 
-### 💡Key findings using this method: 
+### 💡 Key findings using this method: 
 
 While conducting this work, key lessons were drawn. Firstly, the results indicated the need to verify the quality of the labelled dataset. Without this clear benchmark, the results are not strong enough to allow with confidence the integration of the supporting text as part of the ground truth data.  In some cases, manual validation was conducted, following the labels and the comment sections of the ground truth data provided by WikiRate. The 'Comments' from the WikiRate dataset are useful for understanding the context that generates the label. Yet, at this stage, the data was unclear and unstructured. Not all documents included 'Comments’, and when they existed, many were just free text added by the annotators, without directly linking the exact text from the statement, justifying the label’s selection.  To correct this, improvement in the annotation process is required moving forward. 
 
@@ -126,7 +126,7 @@ However, using the 6 sentences as a threshold leaves 62% of statements to classi
 Each document was represented using a TF IDF vectorization (with n-gram- meaning a sequence of N words- ranging from 1 to 3) from these sentences. Then, a Random Forest model was trained. 
 
 
-### 💡Key findings using this method: 
+### 💡 Key findings using this method: 
 This method seems to best perform for the Risk Assessment metric. Using this system shows an average of 74% accuracy. Yet, this frequency-based method does not incorporate much context, which needs to be addressed as it is very important to classify if the statement describes risk assessment. What is more, for some documents, the sentences predicted seem to indicate a positive metric, even if labelled negative. This justifies the need to recheck the quality of the labelled dataset. 
 
 ## C. Hierarchical Attention Network (HAN)
@@ -148,7 +148,7 @@ The advantages of this method are that the attention weights are unique, which f
 _Figure visualising the Hierarchical Attention Network method_  
 
 
-### 💡Key findings using this method: 
+### 💡 Key findings using this method: 
 Based on this initial exploration, this method produces similar results as the rule-based and Random Forest methods. 
 
 >Note: For future exploration, pre-training word embeddings on this projects’ specific corpus would probably improve performance (e.g. using S-BERT). Another possible improvement on this method would be to use transformers instead of bi-GRU RNN for words and sentence encoders.
@@ -182,7 +182,7 @@ Compared to the previous method, this method outputs the sentence justifying the
 
 _Visualisation of Transformers Based Approach Method Using the 'Comments'_  
 
-### 💡Key findings using this method:
+### 💡 Key findings using this method:
 When analysing the three risk-associated metrics, overall, this system is the worst at predicting if a metric is contained in a statement. Nevertheless, considering that it does not use the label at all (just use the comment section), the results are encouraging. However, as this model is trained on very few data points, overall, this system was considered overconfident in predicting a risk metric in the statement. A way of improvement could be to use this task as a pre-training for a BERT backbone that could be then used in HAN. This way, the information contained in the Comment section and the real labels could be used. 
 
 As for the previous approaches, for some documents, the sentences predicted seem to justify a positive metric, even if labelled negative. This indicates the need to clean and verify the ground truth data. 
@@ -223,7 +223,7 @@ When developing learned and combined systems, a stratified repeated 5-fold cross
 
 When using cross-validation, every test fold’s ground truth values alongside predicted values,  metric results per each fold, and report the mean (+/- error based on standard deviation) as a final metric result shall be stored. Since this project has very limited data, it was separated into train and test sets. Further validation will be done using future, improved labelled data as our validation data.
 
-## 💡Key findings 
+## 💡 Key findings 
 This phase of the project was built upon domain knowledge on modern slavery disclosure and proposed four first methods to extract the metrics’ associated supporting text and classify modern slavery statements preliminarily. The methods display about the same accuracy (approximately 70.5% average, with the lowest model performing at 33% accuracy and the highest performance at 91%). All methods can bring insightful supporting text and predictions. **The notebooks attached to this directory explain the exploratory tests done for each of the metrics.**
 
 The best use of those supporting texts will be to suggest part of the statements indicating the metrics’ presence to make the manual labelling quicker or to guide the cleaning of the existing labelled dataset. For instance, in the future, leveraging the help of the volunteers who are now annotating statements on the WikiRate platform, a tagging process can be created to label and validate the quality of the supporting text and their attribution to each metric. This process should be continuously improved in later stages to continue developing and iterating the machine learning models.  
