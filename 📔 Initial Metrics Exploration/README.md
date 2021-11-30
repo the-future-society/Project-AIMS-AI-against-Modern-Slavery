@@ -87,14 +87,14 @@ The rule-based classifier is a simpler method than Snorkel that makes use of a s
 
 ![Screen Shot 2021-11-30 at 11 29 10 am](https://user-images.githubusercontent.com/64998301/143969195-e9c1346a-7af3-4bfb-8398-e6c836811329.png)
 
-_Figure explaining the rule-base method_
+>_Figure explaining the rule-base method_
 
 The basic concept behind the Random Forest (or random decision forest) approach is that a group of 'weak learners' may come together to build a 'strong learner'. What is more, Random Forest is designed to overcome the 'overfitting' problem of decision trees. Random Forest constructs a multitude of decision trees in the training phase and uses majority voting for classification. A Random Forest algorithm is arguably one of the best algorithms for classification.
 
 
 ![Screen Shot 2021-11-30 at 11 31 31 am](https://user-images.githubusercontent.com/64998301/143969500-5535a467-f1f2-4be7-b3cc-15115ea359ba.png)
 
-_Figure explaining the Random Forest method _
+>_Figure explaining the Random Forest method_
 
 The purpose of this method is to use heuristics and provide business expertise to classify part of the statements. This method indicates which supporting text   n this case, sentences) contributed to the classification decision.
 
@@ -103,13 +103,13 @@ In order to build an easily interpretable pipeline, experts' knowledge and feedb
 
 Based on this list, all the sentences containing these keywords were extracted. All statements for which at least 6 sentences containing keywords were extracted were classified as positive. 
 
-Based on the assessment of the application of this methodology for the metric ‘Risk Assessment’, by using a simple rule, some statements were classified with rather high accuracy. Using 6 sentences as the threshold, 38% of the statements were classified with an 83% accuracy (Figure 10).
+Based on the assessment of the application of this methodology for the metric ‘Risk Assessment’, by using a simple rule, some statements were classified with rather high accuracy. Using 6 sentences as the threshold, 38% of the statements were classified with an 83% accuracy.
 
 
 ![Screen Shot 2021-11-30 at 11 33 44 am](https://user-images.githubusercontent.com/64998301/143969615-76cecc2c-744c-4c64-acd3-2b74507a1d4b.png)
 
 
-_Figure explaining the accuracy of rule-based sentence classification based on the keywords for the ‘Risk Approval’ metric._
+>_Figure explaining the accuracy of rule-based sentence classification based on the keywords for the ‘Risk Approval’ metric._
 
 However, using the 6 sentences as a threshold leaves 62% of statements to classify. For this, Random Forests were used. For the 62% remaining statements, the sentences containing at least one predefined keyword were kept. 
 
@@ -129,7 +129,7 @@ Hierarchical Attention Network (HAN) was proposed by Yang et al. in 2016 for doc
 ![Screen Shot 2021-11-30 at 11 34 55 am](https://user-images.githubusercontent.com/64998301/143969732-9c030ed9-93ac-4103-ba56-3d921e10dc49.png)
 
 
-_Figure Explaining the Hierarchical Attention Network method_ 
+>_Figure Explaining the Hierarchical Attention Network method_ 
 
 This method was used for three of our metrics: 
 MSA Risk Assessment
@@ -167,9 +167,9 @@ A pre-trained Roberta model from the Hugging Face model hub was used to fine-tun
 For scoring the statements, after the statement was segmented into paragraphs as described above, every segment of every document was scored with the model. Then, the difference between the positive class prediction (probability) and negative class prediction (probability) for every segment was calculated. The statements with the lowest difference were considered to be the most difficult to label and thus, prioritised to be sent to WikiRate for manual labelling. 
 
 A similar version of this method was applied for three of the metrics:
-MSA Identification of risks
-MSA risk management  
-MSA risk assessment
+-MSA Identification of risks
+-MSA risk management  
+-MSA risk assessment
 
 This method used a contextual method, leveraging the 'Commnets' given by annotators, to predict if a sentence could be retrieved as a comment or not. If a sentence can be a comment, it would mean it justifies the presence of the metric in the statement analysed.
 
