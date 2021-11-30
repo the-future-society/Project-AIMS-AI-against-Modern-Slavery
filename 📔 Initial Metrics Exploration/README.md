@@ -3,8 +3,8 @@
 
 <img align="right" alt="Coding" width="150" src="https://user-images.githubusercontent.com/64998301/143171267-86860e2b-8a25-440e-b778-a860ceac7e99.png">
 
-<img align="center" alt="Coding" width="500" src="https://cdn.dribbble.com/users/672882/screenshots/2314038/media/d0c59fa60407d5123a5e5da6be6f2a06.gif">
 
+<img align="center" alt="Coding" width="500" src="https://cdn.dribbble.com/users/916515/screenshots/5807370/media/717687e26cc7421464a5bd283bb02a92.gif">
 
 
 
@@ -53,7 +53,7 @@ This workshop looked at creating a set of guiding methodologies and keywords tha
 Supporting text extraction is the process of defining a set of text characteristics that will most efficiently or meaningfully represent the information that is important for analysis and classification. In the case of Project AIMS, the most important supporting text to extract are the sentences indicating the presence of each metric in the businesses’ statements. Supporting text, in this case, is defined as the sentences that include quotes, context, meaning, claims, or facts that correspond to each metric. 
 
 Supporting text extraction is a process of reducing the dimensions of the representation of a document. Generally, large data sets require a lot of computing resources to process.  Supporting text extraction is the method that selects and/or combines segments of the data (in this case, sentences) into supporting text, effectively reducing the amount of data that must be processed, while still accurately and completely describing the original data set. The supporting text is intended to be informative and non-redundant, facilitating the subsequent learning and generalisation steps, and in some cases leading to better human interpretations. 
-
+<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/672882/screenshots/2314038/media/d0c59fa60407d5123a5e5da6be6f2a06.gif">
 > Note: Machine learning algorithms learn from a predefined set of supporting text from the training data to produce output for the test data. Yet, the main problem in language processing is that machine learning algorithms cannot wdirectly ork on the raw text. So, some supporting text extraction techniques are needed to convert text into a matrix (or vector) of supporting text. Some of the most popular methods of supporting text extraction are Bag-of-Words and term frequency-inverse document frequency (TF-IDF).
 
 Some exploratory tests were executed using diverse computational methods to understand the complexity of identifying the metrics and their associated supporting text in the statements. On top of this, those tests allowed preliminary classifications of the statements.  
