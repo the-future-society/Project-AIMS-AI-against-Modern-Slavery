@@ -49,6 +49,8 @@ Also, please explain the prediction by pointing to the part of the text that des
 2. See attached the labelled dataset to this directory. We recommend you to access and extract the text from an updated version of this data which can be downloaded following these [instructions](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/tree/main/%F0%9F%97%84%EF%B8%8F%20Data%20and%20text%20extraction/WikiRate). 
 3. Read carefully the description and methodology about the [MSA incidents remediation (revised)](https://wikirate.org/Walk_Free_Foundation+MSA_incidents_remediation_revised)
 4. Check out our initial exploration on the [Incidents_remediation.ipynb](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/main/%F0%9F%93%94%20Initial%20Metrics%20Exploration/Incidents_remediation.ipynb)
+
+
 Please do not hesitate to get in touch if you have any questions. 
 
 
