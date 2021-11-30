@@ -91,9 +91,12 @@ If you intend to share any form of public research and analysis based on the dat
 - [Nicolas Miailhe](http://thefuturesociety.org/people/nicolas-miailhe/), [Yolanda Lannquist](http://thefuturesociety.org/people/yolanda-lannquist/) and [Katharine Bryant](https://www.linkedin.com/in/katharine-bryant-0779b151/) who oversaw the project
 - [Roberto Espinoza](https://www.linkedin.com/in/robeespi/)
 - [Pranamya Korde](https://www.linkedin.com/in/pranmayakorde17/)
+- [Li He](https://www.linkedin.com/in/li-he-94a514194/)
 - [Edgar Rootalu](https://www.linkedin.com/in/edgarrootalu/)
 - [Samuel Clarke](https://www.linkedin.com/in/samckclarke/)
 - [Nicolas Guetta-Jeanrenaud](https://www.linkedin.com/in/nicolas-guetta-jeanrenaud/).
+- [Francisca Sassetti](https://www.linkedin.com/in/franciscasassetti/)
+- [Lewis Hammond](https://www.linkedin.com/in/lrhammond/)
 
 
 ## 🤝 Collaborators
