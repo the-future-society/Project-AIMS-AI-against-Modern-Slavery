@@ -25,9 +25,9 @@ Clear rules for labelling were designed, allowing to make the most of the labell
  
 ## Using the example of the  MSA Approval metric example, join us in building solutions for the other three subprojects: 
 
-- Multi-lebel classification for training metric
-- Multi-lebel classification for whistleblowing mechanism metric 
-- Multi-lebel classification for incidents remediation metric
+- Multi-lebel classification for the training metric
+- Multi-lebel classification for the whistleblowing mechanism metric 
+- Multi-lebel classification for the incidents remediation metric
  
 ### Example: Multi class classification for the approval metric
  
