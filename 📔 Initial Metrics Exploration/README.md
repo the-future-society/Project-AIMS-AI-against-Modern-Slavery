@@ -115,9 +115,9 @@ However, using the 6 sentences as a threshold leaves 62% of statements to classi
 
 Each document was represented using a TF IDF vectorization (with n-gram ranging from 1 to 3) from these sentences. Then, a Random Forest model was trained. 
 This method was used for three of our metrics: 
-MSA Risk Assessment
-MSA Risk Management
-MSA Risk Identification
+- MSA Risk Assessment
+- MSA Risk Management
+- MSA Risk Identification
 
 ### Key findings using this method on the three metrics: 
 This method seems to best perform for the Risk Assessment metric. Using this system shows an average of 74% accuracy. Yet, this frequency-based method does not incorporate much context which needs to be addressed as it is very important to classify if the statement describes risk assessment. What is more, for some documents, the sentences predicted seem to indicate a positive metric, even if labelled negative. This justifies the need to recheck the quality of the labelled dataset. 
