@@ -64,8 +64,8 @@ In Snorkel, users can develop large training datasets in hours or days rather th
 
 When applied to each of the metrics, the output of the system is a prediction about whether a sentence for the statement could be classified as containing relevant information about that metric or not.
 
-For this exploratory task, we used the ground truth data from the WikRate platform as available between October 2020 and January 2021. We recommend you re-run this research with an updated version of this data which can be downloaded following these instructions.
-
+For this exploratory task, we used the ground truth data from the WikRate platform as available between October 2020 and January 2021.** We recommend you to re-run this research with an updated version of this data which can be downloaded following the instructions from [WikiRate direcotry](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/b0571d0b34f1ee68856b5b18468d8d3b7d540c19/%F0%9F%97%84%EF%B8%8F%20Data%20and%20text%20extraction/WikiRate/README.md)
+**
 
 The methodology across those metrics consisted of the main four steps (some containing supplementary steps): 
 Lemmatize - the process of reducing the different forms of a word to one single form, for example, reducing 'builds', 'building', or 'built' to the lemma 'build' - the keywords provided by the experts
