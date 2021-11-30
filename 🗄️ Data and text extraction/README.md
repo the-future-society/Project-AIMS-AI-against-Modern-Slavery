@@ -51,7 +51,7 @@ It's recommended that you use a virtual environment such as [virtualenv](https:/
 Being able to extract the text and assess its quality before using it in building models is of great importance and a key step in ensuring the accuracy of the final tool. For example, if a paragraph of a company’s report is not extracted, the analysis will lead to an incorrect assessment of the company’s compliance with modern slavery regulation. The same issue also arises if the text is fully extracted but not in the intended order (e.g. columns of text are read as a single block).
 
 
-## An older version of the Project AIMS Pipeline looks like this: 
+## An older version of the Project AIMS pipeline 
 > This pipeline is dependent on Lambda Functions for extracting text from original files.
 <img width="924" alt="Screen Shot 2021-11-30 at 8 43 27 pm" src="https://user-images.githubusercontent.com/64998301/144032949-de2ce1e9-91af-47aa-a7e9-f54ad0d78127.png">
 
@@ -126,7 +126,7 @@ At the moment of this design, the `template.yaml` did not configure the automati
 ### Updating the deployment
 When you make code updates to the 'meat' of the function without adding any new libraries, you only have to run the 3rd step of the deployment to update the cloud function with new code. If you add new third-party libraries, then the 2nd step of building a layer needs to be rerun as well. The first step needs to be run only the very first time when creating the function, so you don't need to run it when making code updates.
 
-## An updated version of the text extraction pipeline 
+## A simplified and updated version of the text extraction pipeline 
 <img align="right" alt="Coding" width="600" src="https://cdn.dribbble.com/users/1729935/screenshots/4108239/media/1a4b3d5ebbe44ab8e020793a9960295a.gif">
 
 The first step is to run the ‘prepare’ command that downloads the scrapable list of URLs and sets unique IDs to all of them. 
@@ -185,6 +185,7 @@ The text data from 150 PDF documents ware manually compared using Diffchecker, r
 For both HTML and PDF documents, a combination of both methods is more desirable. Once the results of text retrieval from the statements are satisfactory, all of the extracted text was added as a  new column to Project AIMS’ datasets, generally called ‘text’. 
 
 ## **In each notebook of this repository, the data with the text extracted is linked and openly available.**
+
 
 
 
