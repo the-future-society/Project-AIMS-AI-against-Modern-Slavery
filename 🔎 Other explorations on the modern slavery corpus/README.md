@@ -1,9 +1,12 @@
-## Contributors
 
-If you'd like to contribute to the research then take a look at any of the [issues](https://github.com/the-future-society/modern-slavery-statements-research/issues) or get in touch with [Adriana](mailto:adriana.bora@thefuturesociety.org)
+<img align="left" alt="Coding" width="150" src="https://user-images.githubusercontent.com/64998301/143171138-777e6d3d-3442-4872-8ada-e1bd311a49f9.png">
+
+<img align="right" alt="Coding" width="150" src="https://user-images.githubusercontent.com/64998301/143171267-86860e2b-8a25-440e-b778-a860ceac7e99.png">
 
 
-Take a look at Colab notebooks based on the modern slavery corpus:
+
+## Project AIMS was part of the TWIMLfest AI for Good Hackathon 2020
+### Take a look at key Colab notebooks
 
 - Rey Farhan's initial exploration [Modern Slavery Statements NLP (rey farhan) v1.0.ipynb](https://colab.research.google.com/drive/1Xk3TZ-30CfNmUxxiDRrWh9S3nR74pZlj?usp=sharing).
 - Parth Shah's [exploration of knowledge graphs based on subject-object syntactic relations](https://colab.research.google.com/drive/1Nig3YyHy8MEx5a1gmw_Hj95uYDAO30DV?usp=sharing)
@@ -13,3 +16,4 @@ Take a look at Colab notebooks based on the modern slavery corpus:
 - Daniel Hilgart's [Exploratory Data Analysis of the hackathon dataset](https://github.com/the-future-society/modern-slavery-statements-research/blob/master/notebooks/EDA.ipynb)
 
 
+If you'd like to contribute to the research then take a look at any of the issues or get in touch with [Adriana](mailto:adriana.bora@thefuturesociety.org)
