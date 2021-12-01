@@ -24,7 +24,7 @@ Therefore, [this notebook](https://github.com/the-future-society/Project-AIMS-AI
 - Once you have the PDFs and HTMLs, extract the text with the best tool you can find, and append the text as a column to the dataset
 - Save the dataset
 
-### A proposed version of [this workflow](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/main/%F0%9F%97%84%EF%B8%8F%20Data%20and%20text%20extraction/WikiRate/WikiRate_labeled_data.ipynb) is attached to this directory. A version of the data as available in November 2021 will be available soon. 
+### A proposed version of [this workflow](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/main/%F0%9F%97%84%EF%B8%8F%20Data%20and%20text%20extraction/%F0%9F%87%AC%F0%9F%87%A7%20GOV.UK%20Modern%20slavery%20statement%20registry/GOV.UK%20Modern%20slavery%20statement%20registry.ipynb) is attached to this directory. A version of the data as available in November 2021 will be available soon. 
 
 
 <img align="left" img width="150" alt="Screen Shot 2021-11-25 at 11 16 09 am" src="https://user-images.githubusercontent.com/64998301/143334956-8aba1868-8ad6-4e10-967d-d38999f1f5cf.png">
