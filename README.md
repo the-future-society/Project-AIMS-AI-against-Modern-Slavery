@@ -42,7 +42,7 @@ In response to those shocking statistics, the UK introduced the first national l
 
 An estimated 12,000 - 17,000 modern slavery statements are published each year by UK businesses, with thousands more expected from other countries.
 
-Manually assessing statements is labor intensive and time consuming. Currently, it takes approximately [1 hour for volunteers to manually assess one statement and for the researchers to validate their results](https://wikirate.org/uk_modern_slavery_act_research).
+Manually assessing statements is labour intensive and time-consuming. Currently, it takes approximately [1 hour for volunteers to manually assess one statement and for the researchers to validate their results](https://wikirate.org/uk_modern_slavery_act_research).
 
 
 [The Future Society](https://thefuturesociety.org/), an independent nonprofit think-and-do tank [launched a partnership](https://thefuturesociety.org/2020/06/23/project-aims-artificial-intelligence-against-modern-slavery/) with the [Walk Free Initiative](https://www.minderoo.org/walk-free/) to automate the analysis of modern slavery statements produced by businesses to boost compliance and help combat and eradicate modern slavery. 
@@ -128,6 +128,7 @@ Special thanks to our closest collaborators and their teams:
 <img align="left" width="200" src="https://user-images.githubusercontent.com/64998301/143174301-f5b0459e-f16b-4e9b-8cad-09649a561232.png"> 
 <br />
 <img align="left" width="200" src="https://user-images.githubusercontent.com/64998301/143174322-d354b5a2-5d86-493e-bc55-fd104bc331fb.png">
+
 
 
 
