@@ -9,10 +9,10 @@
 
 ## Student projects
 - Eva's work on the [Signiture metric](https://drive.google.com/drive/folders/1hNNxGmN3CVRjIGlnoadzJHTvrGv6bWPe?usp=sharing). She used imagine classification to identify if the statements are singed. 
-- Charissa's Master of Machine Learning Project - Research on the Whisleblowing metric:
+- Charissa's Master of Machine Learning Project - Research on the Whistleblowing metric:
    - Best performing [model](https://github.com/charissayu/Research_project/blob/main/20211022_doc_SVC_final.ipynb)
    - Other experimented model: [One-stage-sentence weighted model](https://github.com/charissayu/Research_project/blob/main/20210911a.ipynb) and [Two-stage-sentence weighted model](https://github.com/charissayu/Research_project/blob/main/0929_2stages_KLDiv.ipynb)
- 
+- Stay tuned for John Smith's and Elliot Armstrong's Master Research Projects.
 
 
 ## Project AIMS was part of the TWIMLfest AI for Good Hackathon 2020
@@ -27,3 +27,5 @@
 
 
 If you'd like to contribute to the research then take a look at any of the issues or get in touch with [Adriana](mailto:adriana.bora@thefuturesociety.org)
+
+
