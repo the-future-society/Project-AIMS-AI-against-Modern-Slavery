@@ -28,4 +28,3 @@ Therefore, [this notebook](https://github.com/the-future-society/Project-AIMS-AI
 
 <img align="right" img width="200" alt="Screen Shot 2021-11-25 at 11 16 09 am" src="https://user-images.githubusercontent.com/64998301/143334956-8aba1868-8ad6-4e10-967d-d38999f1f5cf.png">
 
-
