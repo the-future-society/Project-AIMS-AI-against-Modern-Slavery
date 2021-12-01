@@ -7,7 +7,6 @@
 
 #🇬🇧 GOV.UK Modern slavery statement registry
 
-<img align="right" width="550"   src="https://cdn.dribbble.com/users/895367/screenshots/2396826/media/9ebe68ebcc3b847d1f186c34ef28fc33.gif">
 
 
 
@@ -17,6 +16,8 @@ In this directory, we present a notebook on how to extract the text from the sta
 Therefore, [this notebook](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/main/%F0%9F%97%84%EF%B8%8F%20Data%20and%20text%20extraction/%F0%9F%87%AC%F0%9F%87%A7%20GOV.UK%20Modern%20slavery%20statement%20registry/GOV.UK%20Modern%20slavery%20statement%20registry.ipynb) is proposing a simple, open solution to extracting the text from PDFs and HTMLs. 
 
 ## The steps are as follows:
+<img align="right" width="550"   src="https://cdn.dribbble.com/users/895367/screenshots/2396826/media/9ebe68ebcc3b847d1f186c34ef28fc33.gif">
+
 - Accesses and downloads the latest version of the .CSV, by accessing  ‘Modern slavery statement summaries (202x)’ from the  GOV.UK Modern slavery statement registry [page](https://modern-slavery-statement-registry.service.gov.uk/download)
 - Once the data is downloaded, access the StatementURL column 
 - For each document, access the fetch the PDF or HTML
