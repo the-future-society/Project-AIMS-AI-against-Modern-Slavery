@@ -10,7 +10,7 @@
 # Check out some of the other explorations done by contributors across the glove 
 
 ## Student projects
-- Eva's work on the [Signiture metric](https://drive.google.com/drive/folders/1hNNxGmN3CVRjIGlnoadzJHTvrGv6bWPe?usp=sharing). She used image classification to identify if the statements were singed. 
+- Eva's work on the [Signature metric](https://drive.google.com/drive/folders/1hNNxGmN3CVRjIGlnoadzJHTvrGv6bWPe?usp=sharing). She used image classification to identify if the statements were singed. 
 - Charissa's Master of Machine Learning Project - Research on the Whistleblowing metric:
    - Best performing [model](https://github.com/charissayu/Research_project/blob/main/20211022_doc_SVC_final.ipynb)
    - Other experimented model: [One-stage-sentence weighted model](https://github.com/charissayu/Research_project/blob/main/20210911a.ipynb) and [Two-stage-sentence weighted model](https://github.com/charissayu/Research_project/blob/main/0929_2stages_KLDiv.ipynb)
