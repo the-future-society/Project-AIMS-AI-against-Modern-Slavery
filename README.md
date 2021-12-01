@@ -80,6 +80,8 @@ By sharing your analysis and contributing to this repository you help the global
 Join our community on Slack and Trello and join our regular meetings where we discuss recent research and development on the project. 
 - 🗓️ Next meeting **xx/xx/xxxx**
 
+### Where to start?
+- Read: a /b /b c 
 
 
 ### Get in touch 💬
@@ -109,6 +111,11 @@ If you intend to share any form of public research and analysis based on the dat
 - [Francisca Sassetti](https://www.linkedin.com/in/franciscasassetti/)
 - [Lewis Hammond](https://www.linkedin.com/in/lrhammond/)
 
+### Advisors
+
+
+
+
 
 ## 🤝 Collaborators
 
@@ -126,6 +133,7 @@ Special thanks to our closest collaborators and their teams:
 <img align="left" width="200" src="https://user-images.githubusercontent.com/64998301/143174301-f5b0459e-f16b-4e9b-8cad-09649a561232.png"> 
 <br />
 <img align="left" width="200" src="https://user-images.githubusercontent.com/64998301/143174322-d354b5a2-5d86-493e-bc55-fd104bc331fb.png">
+
 
 
 
