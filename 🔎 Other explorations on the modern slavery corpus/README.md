@@ -5,6 +5,10 @@
 
 <img align="center" alt="Coding" width="650" src="https://cdn.dribbble.com/users/64533/screenshots/7802393/media/ff0d5805b91cc7e60cddf653280be1cf.jpg?compress=1&resize=1600x1200">
 
+# Check out some of other explorations done by contributors across the glove 
+
+## Student projects
+- Eva's work on the [Signiture metric](https://drive.google.com/drive/folders/1hNNxGmN3CVRjIGlnoadzJHTvrGv6bWPe?usp=sharing). She used imagine classification to identify if the statements are singed. 
 
 
 ## Project AIMS was part of the TWIMLfest AI for Good Hackathon 2020
