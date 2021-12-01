@@ -7,7 +7,7 @@
 
 #🇬🇧 GOV.UK Modern slavery statement registry
 
-<img align="right" width="600"   src="https://cdn.dribbble.com/users/895367/screenshots/2396826/media/9ebe68ebcc3b847d1f186c34ef28fc33.gif">
+<img align="right" width="550"   src="https://cdn.dribbble.com/users/895367/screenshots/2396826/media/9ebe68ebcc3b847d1f186c34ef28fc33.gif">
 
 
 
