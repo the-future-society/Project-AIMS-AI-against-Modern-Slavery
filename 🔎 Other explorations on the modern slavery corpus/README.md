@@ -16,7 +16,6 @@
    - Other experimented model: [One-stage-sentence weighted model](https://github.com/charissayu/Research_project/blob/main/20210911a.ipynb) and [Two-stage-sentence weighted model](https://github.com/charissayu/Research_project/blob/main/0929_2stages_KLDiv.ipynb)
 - Stay tuned for John Smith's and Elliot Armstrong's Master Research Projects.
 
-
 ## Project AIMS was part of the TWIMLfest AI for Good Hackathon 2020
 ### Take a look at key Colab notebooks
 
