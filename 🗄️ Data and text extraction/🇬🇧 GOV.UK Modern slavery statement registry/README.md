@@ -11,7 +11,7 @@
 
 
 In this directory, we present a notebook on how to extract the text from the statements. The UK Mondern Slavery regsitry stores the statemetns in both HTMLs an PDFs. 
-<img align="right" width="400"   src="https://cdn.dribbble.com/users/895367/screenshots/2396826/media/9ebe68ebcc3b847d1f186c34ef28fc33.gif">
+<img align="right" width="500"   src="https://cdn.dribbble.com/users/895367/screenshots/2396826/media/9ebe68ebcc3b847d1f186c34ef28fc33.gif">
 
 
 Therefore, [this notebook](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/main/%F0%9F%97%84%EF%B8%8F%20Data%20and%20text%20extraction/%F0%9F%87%AC%F0%9F%87%A7%20GOV.UK%20Modern%20slavery%20statement%20registry/GOV.UK%20Modern%20slavery%20statement%20registry.ipynb) is proposing a simple, open solution to extracting the text from PDFs and HTMLs. 
