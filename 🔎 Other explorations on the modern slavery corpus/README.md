@@ -28,4 +28,4 @@
 - Daniel Hilgart's [Exploratory Data Analysis of the hackathon dataset](https://github.com/the-future-society/modern-slavery-statements-research/blob/master/notebooks/EDA.ipynb)
 
 
-If you'd like to contribute to the research then take a look at any of the issues or get in touch with [Adriana](mailto:adriana.bora@thefuturesociety.org)
+If you'd like to contribute to the research, or you know any students, classmates or friends who do, then please get in touch with [Adriana](mailto:adriana.bora@thefuturesociety.org). 
