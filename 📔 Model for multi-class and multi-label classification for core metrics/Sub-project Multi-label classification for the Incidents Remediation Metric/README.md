@@ -8,7 +8,7 @@
 
 
 
-#  Sub-project: Multi-lebel classification for the Incidents Remediation Metric
+#  Sub-project: Multi-label classification for the Incidents Remediation Metric
 
 
 For this exercise, please develop a solution for the MSA Incidents Remediation Metric. This solution should be able to detect from each of the modern slavery statements ifhe company disclosed the steps it would take if a supplier or internal department is found to be engaging in any activities related to modern slavery or human trafficking.
