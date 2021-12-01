@@ -9,6 +9,7 @@
 
 ## Student projects
 - Eva's work on the [Signiture metric](https://drive.google.com/drive/folders/1hNNxGmN3CVRjIGlnoadzJHTvrGv6bWPe?usp=sharing). She used imagine classification to identify if the statements are singed. 
+- Charissa's Master of Machine Learning Project - Research on the Whisleblowing metric. 
 
 
 ## Project AIMS was part of the TWIMLfest AI for Good Hackathon 2020
