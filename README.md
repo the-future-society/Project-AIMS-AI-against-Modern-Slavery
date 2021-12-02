@@ -102,6 +102,7 @@ If you intend to share any form of public research and analysis based on the dat
 ### Special thanks to:
 
 - [Nicolas Miailhe](http://thefuturesociety.org/people/nicolas-miailhe/), [Yolanda Lannquist](http://thefuturesociety.org/people/yolanda-lannquist/) and [Katharine Bryant](https://www.linkedin.com/in/katharine-bryant-0779b151/) who oversaw the project
+- [Clement Baccar](https://www.linkedin.com/in/clement-baccar-a23b6768/), [Brian Ulicny](https://www.linkedin.com/in/bulicny/), [Hermès Martinez](https://www.linkedin.com/in/hermes-martinez-7a057bb7/) and [Mathis Linger](https://www.linkedin.com/in/lingermathis/) for their consistant advice 
 - [Roberto Espinoza](https://www.linkedin.com/in/robeespi/)
 - [Pranamya Korde](https://www.linkedin.com/in/pranmayakorde17/)
 - [Li He](https://www.linkedin.com/in/li-he-94a514194/)
@@ -111,7 +112,7 @@ If you intend to share any form of public research and analysis based on the dat
 - [Francisca Sassetti](https://www.linkedin.com/in/franciscasassetti/)
 - [Lewis Hammond](https://www.linkedin.com/in/lrhammond/)
 
-### Advisors
+
 
 
 
