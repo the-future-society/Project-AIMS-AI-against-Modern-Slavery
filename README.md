@@ -134,6 +134,7 @@ Special thanks to our closest collaborators and their teams:
 <br />
 <img align="left" width="200" src="https://user-images.githubusercontent.com/64998301/143174322-d354b5a2-5d86-493e-bc55-fd104bc331fb.png">
 
+<img align="left" width="200" src="https://namr.com/wp-content/uploads/2021/07/logo-namR-2021.png">
 
 
 
