@@ -10,7 +10,7 @@
  
  
  
-The [📔 Initial Metrics Exploration](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/tree/main/%F0%9F%93%94%20Initial%20Metrics%20Exploration)  was followed by a second semantic workshop with the project partners. Based on all the accumulated knowledge, the decision was made to prioritize four of the metrics to explore multi-class and multi-label classification models.  Those four metrics are: 
+The [📔 Initial Metrics Exploration](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/tree/main/%F0%9F%93%94%20Initial%20Metrics%20Exploration)  was followed by a second workshop with the project partners. Based on the accumulated knowledge at that stage, the decision was made to prioritize four of the metrics to explore multi-class and multi-label classification models.  Those four metrics are: 
  
 - Approval
 - Training
