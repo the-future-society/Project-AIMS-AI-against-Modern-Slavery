@@ -25,23 +25,23 @@ The sixteen metrics used in this project are designed by Walk Free, WikiRate and
 
 
 The metrics explored are: 
-1. **MSA Statement Signed** - Was the company’s Modern Slavery Act statement signed by an appropriate person?
-2. **MSA whistleblowing mechanism**  - Does the company have a grievance mechanism in place to facilitate whistle-blowing or the reporting of suspected incidents of slavery or trafficking?
-3. **MSA Business Performance Indicators** - Has the company reviewed business key performance indicators (KPIs) to ensure they are not increasing the risk of modern slavery?
-4. **MSA incidents remediation** - Did the company explain the corrective steps it has taken (or would take) in response to modern slavery incidents in its own operations and/or supply chain?
-5. **MSA Performance Indicators** - Does the company define performance indicators that measure the effectiveness of its actions to combat slavery and trafficking? 
-6. **MSA Ownership Disclosure** - Does the company disclose the ownership structure(s) and/or business model(s) of each of its brands, subsidiaries, and other businesses covered by its Modern Slavery statement?
-7. **MSA Training**  - Does the statement describe training for staff that is specifically geared towards detecting signs of slavery or trafficking?
+1. **[MSA Statement Signed](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/main/%F0%9F%93%94%20Initial%20Metrics%20Exploration/Statement_signed.ipynb)** - Was the company’s Modern Slavery Act statement signed by an appropriate person?
+2. **[MSA whistleblowing mechanism](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/main/%F0%9F%93%94%20Initial%20Metrics%20Exploration/Whistleblowing_mechanism.ipynb)**  - Does the company have a grievance mechanism in place to facilitate whistle-blowing or the reporting of suspected incidents of slavery or trafficking?
+3. **[MSA Business Performance Indicators](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/main/%F0%9F%93%94%20Initial%20Metrics%20Exploration/Business_performance_indicators.ipynb)** - Has the company reviewed business key performance indicators (KPIs) to ensure they are not increasing the risk of modern slavery?
+4. **[MSA incidents remediation](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/main/%F0%9F%93%94%20Initial%20Metrics%20Exploration/Incidents_remediation.ipynb)** - Did the company explain the corrective steps it has taken (or would take) in response to modern slavery incidents in its own operations and/or supply chain?
+5. **[MSA Performance Indicators](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/main/%F0%9F%93%94%20Initial%20Metrics%20Exploration/Performance_indicators.ipynb)** - Does the company define performance indicators that measure the effectiveness of its actions to combat slavery and trafficking? 
+6. **[MSA Ownership Disclosure](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/main/%F0%9F%93%94%20Initial%20Metrics%20Exploration/Ownership_disclosure.ipynb)** - Does the company disclose the ownership structure(s) and/or business model(s) of each of its brands, subsidiaries, and other businesses covered by its Modern Slavery statement?
+7. **[MSA Training](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/main/%F0%9F%93%94%20Initial%20Metrics%20Exploration/Training.ipynb)**  - Does the statement describe training for staff that is specifically geared towards detecting signs of slavery or trafficking?
 8. **MSA Historical Record** -Does the company provide a historic record of their modern slavery statements (either on their website or in their current statement)?
-9. **MSA incidents identified** - Did the company identify any specific incidents related to modern slavery that require(d) remediation?
-10. **MSA Statement Approval** - Was the company's Modern Slavery Act statement explicitly approved by the board of directors (or equivalent management body)?
+9. **[MSA incidents identified](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/main/%F0%9F%93%94%20Initial%20Metrics%20Exploration/Incidents_identified.ipynb)** - Did the company identify any specific incidents related to modern slavery that require(d) remediation?
+10. **[MSA Statement Approval](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/main/%F0%9F%93%94%20Initial%20Metrics%20Exploration/Approval.ipynb)** - Was the company's Modern Slavery Act statement explicitly approved by the board of directors (or equivalent management body)?
 11. **MSA impact on company behaviour**
 Does the company’s statement describe a change in their policy that occurred as a direct result of the UK Modern Slavery Act 2015?
-12. **MSA supply chain disclosure** - Does the company’s statement identify the suppliers in their supply chain and/or the geographic regions where their supply chain operates?
-13. **MSA policy**  - Does the company’s statement detail specific organisational policies or actions to combat slavery in their direct (tier 1) and/or indirect (beyond tier 1) supply chain?
-14. **MSA Identification of risks** - Does the company’s statement identify specific geographic regions, industries, resources or types of workforce where the risk of modern slavery is the greatest?
-15. **MSA risk management** - Does the company continuously monitor suppliers to ensure that they comply with its policies and local laws?
-16. **MSA risk assessment** - How does the company assess the risks of modern slavery and trafficking in their supply chain?
+12. **[MSA supply chain disclosure](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/main/%F0%9F%93%94%20Initial%20Metrics%20Exploration/Supply_chain_disclosure.ipynb)** - Does the company’s statement identify the suppliers in their supply chain and/or the geographic regions where their supply chain operates?
+13. **[MSA policy](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/main/%F0%9F%93%94%20Initial%20Metrics%20Exploration/Policy.ipynb)**  - Does the company’s statement detail specific organisational policies or actions to combat slavery in their direct (tier 1) and/or indirect (beyond tier 1) supply chain?
+14. **[MSA Identification of risks](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/main/%F0%9F%93%94%20Initial%20Metrics%20Exploration/Risk_identification.ipynb)** - Does the company’s statement identify specific geographic regions, industries, resources or types of workforce where the risk of modern slavery is the greatest?
+15. **[MSA risk management](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/main/%F0%9F%93%94%20Initial%20Metrics%20Exploration/Risk_management.ipynb)** - Does the company continuously monitor suppliers to ensure that they comply with its policies and local laws?
+16. **[MSA risk assessment](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/blob/main/%F0%9F%93%94%20Initial%20Metrics%20Exploration/Risk_assessment.ipynb)** - How does the company assess the risks of modern slavery and trafficking in their supply chain?
 
 ## Methodology 
 ### Semantic workshop 
