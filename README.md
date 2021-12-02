@@ -32,7 +32,7 @@ This GitHub contains the following resources:
 [The UN Sustainable Development Goal 8.7](https://sustainabledevelopment.un.org/sdg8) states:
 “Take immediate and effective measures to eradicate forced labour, end modern slavery and human trafficking and secure the prohibition and elimination of the worst forms of child labour, including recruitment and use of child soldiers, and by 2025 end child labour in all its forms.”
 
-Slavery is a multi-billion-dollar transnational crime, and according to the 2018, [Global Slavery Index](https://www.globalslaveryindex.org/2018/findings/highlights/) it affects more than 40.3 M people worldwide - 1 in 4 of whom are children. Of these, 16 million are in forced labor in the private sector, meaning they form part of the supply chains of international corporations supplying our goods and services.
+Slavery is a multi-billion-dollar transnational crime, and according to 2018, [Global Slavery Index](https://www.globalslaveryindex.org/2018/findings/highlights/), it affects more than 40.3 M people worldwide - 1 in 4 of whom are children. Of these, 16 million are in forced labour in the private sector, meaning they form part of the supply chains of international corporations supplying our goods and services.
 
 In response to those shocking statistics, the UK introduced the first national legal framework for combatting modern slavery, the Modern Slavery Act of 2015. California, Australia, the EU, France and the Netherlands have similar legislation, with many more countries expected to follow in the coming years. 
 
@@ -42,7 +42,7 @@ In response to those shocking statistics, the UK introduced the first national l
 
 An estimated 12,000 - 17,000 modern slavery statements are published each year by UK businesses, with thousands more expected from other countries.
 
-Manually assessing statements is labour intensive and time-consuming. Currently, it takes approximately [1 hour for volunteers to manually assess one statement and for the researchers to validate their results](https://wikirate.org/uk_modern_slavery_act_research).
+Manually assessing statements is labour intensive and time-consuming. Currently, it takes approximately [1 hour for volunteers to evaluate manually one statement and for the researchers to validate their results](https://wikirate.org/uk_modern_slavery_act_research).
 
 
 [The Future Society](https://thefuturesociety.org/), an independent nonprofit think-and-do tank [launched a partnership](https://thefuturesociety.org/2020/06/23/project-aims-artificial-intelligence-against-modern-slavery/) with the [Walk Free Initiative](https://www.minderoo.org/walk-free/) to automate the analysis of modern slavery statements produced by businesses to boost compliance and help combat and eradicate modern slavery. 
@@ -61,7 +61,7 @@ The analysis of the statements takes into account a list of “metrics”, adapt
 
 ### Project AIMS in the media and more:
 - Walk Free Foundation [Press Release](https://www.minderoo.org/walk-free/news/artificial-intelligence-to-assist-in-the-fight-against-modern-slavery/)
-- DATA FOR FUTURE podcast episode [#17: AI AGAINST MODERN SLAVERY](https://dataforfuture.org/episodes/ai-against-modern-slavery/) – with Adriana Bora talking about AI the conceptualization of Project AIMS
+- DATA FOR FUTURE podcast episode [#17: AI AGAINST MODERN SLAVERY](https://dataforfuture.org/episodes/ai-against-modern-slavery/) – with Adriana Bora talking about AI the conceptualisation of Project AIMS
 - Project AIMS being presented at the UN World Data Forum [2020](https://youtu.be/1iDmSXJwClA) and [2021](https://www.youtube.com/watch?v=nSGiXbe6gLg&list=PLBc4lThqX-WMnXI1gt95r_hJ4IgZP8tWY&index=42)
 - Project AIMS was selected to be presented as a promising use-case of responsible AI for Social Good at the [Global Partnership on AI (GPAI) Montreal Summit 2020](https://youtu.be/k9-2JMvLJg)
 - Project AIMS at the UNESCO and the World Economic Forum [Girl Trouble: Breaking Through The Bias in AI](https://youtu.be/cgpye788P9Q)
@@ -71,7 +71,7 @@ The analysis of the statements takes into account a list of “metrics”, adapt
 <img align="right" width="550" src="https://cdn.dribbble.com/users/472667/screenshots/15669289/media/d18929f9db262c8c118740dd65d8a395.gif">
 
 
-[The Future Society](https://thefuturesociety.org/our-team/) is now making the work developed between April 2020 to June 2021 ©️ open source, inviting the wider community to contribute to the fight against modern slavery.
+[The Future Society](https://thefuturesociety.org/our-team/) is now doing the work developed between April 2020 to June 2021 ©️ open source, inviting the wider community to contribute to the fight against modern slavery.
 
 By sharing your analysis and contributing to this repository you help the global community to hold multi-national corporations accountable for how they are addressing modern slavery in their supply chains. 
 
@@ -79,9 +79,6 @@ By sharing your analysis and contributing to this repository you help the global
 
 Join our community on Slack and Trello and join our regular meetings where we discuss recent research and development on the project. 
 - 🗓️ Next meeting **xx/xx/xxxx**
-
-### Where to start?
-- Read: a /b /b c 
 
 
 ### Get in touch 💬
@@ -102,7 +99,7 @@ If you intend to share any form of public research and analysis based on the dat
 ### Special thanks to:
 
 - [Nicolas Miailhe](http://thefuturesociety.org/people/nicolas-miailhe/), [Yolanda Lannquist](http://thefuturesociety.org/people/yolanda-lannquist/) and [Katharine Bryant](https://www.linkedin.com/in/katharine-bryant-0779b151/) who oversaw the project
-- [Clement Baccar](https://www.linkedin.com/in/clement-baccar-a23b6768/), [Brian Ulicny](https://www.linkedin.com/in/bulicny/), [Hermès Martinez](https://www.linkedin.com/in/hermes-martinez-7a057bb7/) and [Mathis Linger](https://www.linkedin.com/in/lingermathis/) for their consistant advice 
+- [Clement Baccar](https://www.linkedin.com/in/clement-baccar-a23b6768/), [Brian Ulicny](https://www.linkedin.com/in/bulicny/), [Hermès Martinez](https://www.linkedin.com/in/hermes-martinez-7a057bb7/) and [Mathis Linger](https://www.linkedin.com/in/lingermathis/) for their consistent advice 
 - [Roberto Espinoza](https://www.linkedin.com/in/robeespi/)
 - [Pranamya Korde](https://www.linkedin.com/in/pranmayakorde17/)
 - [Li He](https://www.linkedin.com/in/li-he-94a514194/)
@@ -136,6 +133,7 @@ Special thanks to our closest collaborators and their teams:
 <img align="left" width="200" src="https://user-images.githubusercontent.com/64998301/143174322-d354b5a2-5d86-493e-bc55-fd104bc331fb.png">
 
 <img align="left" width="200" src="https://namr.com/wp-content/uploads/2021/07/logo-namR-2021.png">
+
 
 
 
