@@ -75,7 +75,7 @@ The analysis of the statements takes into account a list of “metrics”, adapt
 
 By sharing your analysis and contributing to this repository you help the global community to hold multi-national corporations accountable for how they are addressing modern slavery in their supply chains. 
 
-Join our community on [Slack](https://join.slack.com/t/slack-knd9804/shared_invite/zt-zqrmnzh2-KezsPrxFMpW_DGL6ko4ytw) and Trello and join our regular meetings where we discuss recent research and development on the project. 
+Join our community on [Slack](https://join.slack.com/t/projectaimsai-fqt6125/shared_invite/zt-zqrmnzh2-KezsPrxFMpW_DGL6ko4ytw) and Trello and join our regular meetings where we discuss recent research and development on the project. 
 - 🗓️ Next meeting **xx/xx/xxxx**
 
 ### Get in touch 💬
