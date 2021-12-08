@@ -99,7 +99,7 @@ If you intend to share any form of public research and analysis based on the dat
 ### Special thanks to:
 
 - [Nicolas Miailhe](http://thefuturesociety.org/people/nicolas-miailhe/), [Yolanda Lannquist](http://thefuturesociety.org/people/yolanda-lannquist/) and [Katharine Bryant](https://www.linkedin.com/in/katharine-bryant-0779b151/) who oversaw the project
-- [Clement Baccar](https://www.linkedin.com/in/clement-baccar-a23b6768/), [Brian Ulicny](https://www.linkedin.com/in/bulicny/), [Hermès Martinez](https://www.linkedin.com/in/hermes-martinez-7a057bb7/) and [Mathis Linger](https://www.linkedin.com/in/lingermathis/) who advised on the project 
+- [Clement Baccar](https://www.linkedin.com/in/clement-baccar-a23b6768/), [Brian Ulicny](https://www.linkedin.com/in/bulicny/), [Hermès Martinez](https://www.linkedin.com/in/hermes-martinez-7a057bb7/), [Mathis Linger](https://www.linkedin.com/in/lingermathis/) and [Sahan Bulathwela](https://www.linkedin.com/in/in4maniac/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAZgenABan_BCFNehPhF0m1Ld0KMdSVj62E) who advised on the project 
 - [Roberto Espinoza](https://www.linkedin.com/in/robeespi/)
 - [Pranamya Korde](https://www.linkedin.com/in/pranmayakorde17/)
 - [Li He](https://www.linkedin.com/in/li-he-94a514194/)
