@@ -60,6 +60,7 @@ The analysis of the statements takes into account a list of “metrics”, adapt
 
 
 ### Project AIMS in the media and more:
+- The [prototype](https://github.com/adrianaeufrosinabora/Adriana-Bora-Master-Thesis-AI-against-Modern-Slavery) build by Adriana in her Master thesis as part of the [médialab Sciences Po](https://medialab.sciencespo.fr/) 
 - Walk Free Foundation [Press Release](https://www.minderoo.org/walk-free/news/artificial-intelligence-to-assist-in-the-fight-against-modern-slavery/)
 - DATA FOR FUTURE podcast episode [#17: AI AGAINST MODERN SLAVERY](https://dataforfuture.org/episodes/ai-against-modern-slavery/) – with Adriana Bora talking about AI the conceptualisation of Project AIMS
 - Project AIMS being presented at the UN World Data Forum [2020](https://youtu.be/1iDmSXJwClA) and [2021](https://www.youtube.com/watch?v=nSGiXbe6gLg&list=PLBc4lThqX-WMnXI1gt95r_hJ4IgZP8tWY&index=42)
