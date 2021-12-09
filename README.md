@@ -1,4 +1,4 @@
-
+​​
 <img align="left" alt="Coding" width="150" src="https://user-images.githubusercontent.com/64998301/143171138-777e6d3d-3442-4872-8ada-e1bd311a49f9.png">
 
 <img align="right" alt="Coding" width="150" src="https://user-images.githubusercontent.com/64998301/143171267-86860e2b-8a25-440e-b778-a860ceac7e99.png">
@@ -54,13 +54,13 @@ The analysis of the statements takes into account a list of “metrics”, adapt
 #### Objectives
 
 1. Build an AI tool to decrease the time required to benchmark Modern Slavery Act-compliant statements.
-2. Provide policymakers and legislators with a greater understanding of these new methods of analysis, fostering their use in other contexts, such as other non-financial reporting initiatives.
+2. Provide policymakers and legislators with a greater understanding of these new analysis methods,, fostering their use in other contexts, such as other non-financial reporting initiatives.
 3. Encourage software developers, data scientists, and social scientists to apply their domain expertise to AI for social good projects and combat modern slavery.
 
 
 
 ### Project AIMS in the media and more:
-- The [prototype](https://github.com/adrianaeufrosinabora/Adriana-Bora-Master-Thesis-AI-against-Modern-Slavery) build by Adriana in her Master thesis as part of the [médialab Sciences Po](https://medialab.sciencespo.fr/) 
+- The [prototype](https://github.com/adrianaeufrosinabora/Adriana-Bora-Master-Thesis-AI-against-Modern-Slavery) built by Adriana in her Master thesis as part of the [médialab Sciences Po](https://medialab.sciencespo.fr/) 
 - Walk Free Foundation [Press Release](https://www.minderoo.org/walk-free/news/artificial-intelligence-to-assist-in-the-fight-against-modern-slavery/)
 - DATA FOR FUTURE podcast episode [#17: AI AGAINST MODERN SLAVERY](https://dataforfuture.org/episodes/ai-against-modern-slavery/) – with Adriana Bora talking about AI the conceptualisation of Project AIMS
 - Project AIMS being presented at the UN World Data Forum [2020](https://youtu.be/1iDmSXJwClA) and [2021](https://www.youtube.com/watch?v=nSGiXbe6gLg&list=PLBc4lThqX-WMnXI1gt95r_hJ4IgZP8tWY&index=42)
@@ -74,7 +74,7 @@ The analysis of the statements takes into account a list of “metrics”, adapt
 
 [The Future Society](https://thefuturesociety.org/our-team/) is now doing the work developed between April 2020 to June 2021 ©️ open source, inviting the wider community to contribute to the fight against modern slavery.
 
-By sharing your analysis and contributing to this repository you help the global community to hold multi-national corporations accountable for how they are addressing modern slavery in their supply chains. 
+By sharing your analysis and contributing to this repository, you help the global community to hold multi-national corporations accountable for how they are addressing modern slavery in their supply chains. 
 
 Join our community on [Slack](https://join.slack.com/t/projectaimsai-fqt6125/shared_invite/zt-zqrmnzh2-KezsPrxFMpW_DGL6ko4ytw) and [Trello](https://trello.com/invite/b/TmP0XgcU/304d196df1e8edbf06066e222f9f3eed/project-aims-github-2022) and join our regular meetings where we discuss recent research and development on the project. 
 - 🗓️ Next meeting **xx/xx/xxxx**
@@ -88,7 +88,7 @@ If you have any questions or you would like to get help with domain expertise or
 
 ### Citation 📝 
 
-If you intend to share any form of public research and analysis based on the data or code provided on this repository, then please include the following citation to your publication: _The Future Society. (2020) Project AIMS (AI against Modern Slavery). Retrieved from https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery _ 
+If you intend to share any form of public research and analysis based on this repository’s data or code, please include the following citation to your publication: _The Future Society. (2020) Project AIMS (AI against Modern Slavery). Retrieved from https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery _ 
 
 ### Main contributors to the GitHub:
 - [Adriana Eufrosina Bora](https://www.linkedin.com/in/adriana-eufrosina-bora-2965a19a/) 
@@ -134,6 +134,7 @@ Special thanks to our closest collaborators and their teams:
 <img align="left" width="200" src="https://user-images.githubusercontent.com/64998301/143174322-d354b5a2-5d86-493e-bc55-fd104bc331fb.png">
 
 <img align="left" width="200" src="https://namr.com/wp-content/uploads/2021/07/logo-namR-2021.png">
+
 
 
 
