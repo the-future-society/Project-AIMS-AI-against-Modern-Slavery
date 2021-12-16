@@ -4,7 +4,9 @@
 <img align="right" alt="Coding" width="150" src="https://user-images.githubusercontent.com/64998301/146294338-7999acb1-e781-46be-82b5-2e5f89d0da58.png">
 
 
-![MasterHead](https://cdn.walkfree.org/content/uploads/2020/10/07102204/16-Akash-woman-panning-etched.png)
+![MasterHead](http://www.endslaverynow.org/media/2828/kay-chernush-slave-labor-1_0.jpg)
+
+- Credit Kay Chernush for the U.S State Department 
 
 
 # Hi 👋  welcome to Project AIMS (AI against Modern Slavery) 
