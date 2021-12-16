@@ -4,10 +4,9 @@
 <img align="right" alt="Coding" width="150" src="https://user-images.githubusercontent.com/64998301/146294338-7999acb1-e781-46be-82b5-2e5f89d0da58.png">
 
 
-![MasterHead](http://www.endslaverynow.org/media/2828/kay-chernush-slave-labor-1_0.jpg)
+![MasterHead](http://www.endslaverynow.org/media/3705/informal-garment-industry-2015-6a.jpg?width=660&height=440&bgcolor=fff)
 
-- Credit Kay Chernush for the U.S State Department 
-
+© [Claudio Montesano Casillas](http://www.endslaverynow.org/blog/articles/beyond-the-label)
 
 # Hi 👋  welcome to Project AIMS (AI against Modern Slavery) 
 
