@@ -55,6 +55,22 @@ Please do not hesitate to get in touch if you have any questions.
 
 
 
+| |
+|Worker remediation
+|Corrective action plan
+|Senior management
+|Cancel contracts
+|In Development
+|No|
+_
+Description|
+_If the company specifies the remediation available for individual workers affected by modern slavery, such as backpayment of wages or support to pursue a claim, please select the “Worker remediation” value.|
+_If the company supports the supplier to respond to instances of modern slavery, please select the “Corrective action plan” value.|
+_If the company specifies that senior management will be informed if instances of modern slavery have been identified, please select the “Senior management” value.|
+_If the company identifies punitive action, by cancelling the contracts of suppliers, please select the “Cancel contracts” value.|
+_If the business indicates it is developing a remediation policy or planning to implement one in the future, please indicate “In Development” and again provide details in the comment.|
+_If no such information exists in the statement, then please select “No”.|
+
 
 
 
