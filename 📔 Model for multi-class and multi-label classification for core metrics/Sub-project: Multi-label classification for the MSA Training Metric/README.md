@@ -31,7 +31,6 @@ Also, please explain the prediction by pointing to the part of the text that des
 
 
 ### Assumptions for the training metric
-![Screen Shot 2021-11-30 at 4 23 36 pm](https://user-images.githubusercontent.com/64998301/143996480-2e3de6b6-4525-4072-8171-dcd15c3b5cc0.png)
 
 | |Employees (all)| Procurement| Recruitment/HR| Leadership| Suppliers| Training provided - not specified to who| In Development| No modern slavery training provided|
 |-|---------------------------|-----------------|-----------------------------|----------------------|--------------|------------------|------|-----|
