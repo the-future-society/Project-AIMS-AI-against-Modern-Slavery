@@ -71,7 +71,7 @@ The analysis of the statements takes into account a list of “metrics”, adapt
 <img align="right" width="450" src="https://cdn.dribbble.com/users/472667/screenshots/15669289/media/d18929f9db262c8c118740dd65d8a395.gif">
 
 
-[The Future Society](https://thefuturesociety.org/our-team/) is now doing the work developed between April 2020 to June 2021 ©️ open source, inviting the wider community to contribute to the fight against modern slavery.
+The work developed by [The Future Society](https://thefuturesociety.org/our-team/) between April 2020 to June 2021 is now ©️ open source, allowing the wider community to contribute to the fight against modern slavery.
 
 By sharing your analysis and contributing to this repository, you help the global community to hold multi-national corporations accountable for how they are addressing modern slavery in their supply chains. 
 
