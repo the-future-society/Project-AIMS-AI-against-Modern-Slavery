@@ -6,7 +6,7 @@
 
 ![MasterHead](http://www.endslaverynow.org/media/3705/informal-garment-industry-2015-6a.jpg?width=660&height=440&bgcolor=fff)
 
-                                         © Claudio Montesano Casillas
+                                             © Claudio Montesano Casillas
 
 # Hi 👋  welcome to Project AIMS (AI against Modern Slavery) 
 
