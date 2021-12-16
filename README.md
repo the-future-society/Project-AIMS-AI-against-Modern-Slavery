@@ -80,10 +80,10 @@ The work developed by [The Future Society](https://thefuturesociety.org/our-team
 By sharing your analysis and contributing to this repository, you help the global community to hold multi-national corporations accountable for how they are addressing modern slavery in their supply chains. 
 
 Join our community on [Slack](https://join.slack.com/t/projectaimsai-fqt6125/shared_invite/zt-zqrmnzh2-KezsPrxFMpW_DGL6ko4ytw) and [Trello](https://trello.com/invite/b/TmP0XgcU/304d196df1e8edbf06066e222f9f3eed/project-aims-github-2022) and join our regular meetings where we discuss recent research and development on the project. 
-- 🗓️  **Next meeting _February 2022**_
+- 🗓️  **Next meeting: February 2022**
 
 ### Get in touch 💬
-If you have any questions or you would like to get help with domain expertise or technical requirements, please get in touch with [Adriana](mailto:adriana.bora@thefuturesociety.org).
+If you want to join us, have any questions or you would like to get help with domain expertise or technical requirements, please get in touch with [Adriana](mailto:adriana.bora@thefuturesociety.org).
 
 >_“This tool will be an innovative way to hold companies to account. It means our teams can speed up the analysis of company statements and it will allow us to focus on the investigation of different sectors and highlight areas that require improvement. Going forward, this will lead to better disclosure of company action to tackle modern slavery in global supply chains.”  -  Katharine Bryant, European Engagement Lead Walk Free Initiative_
 
