@@ -1,6 +1,6 @@
 <img align="left" alt="Coding" width="150" src="https://user-images.githubusercontent.com/64998301/143171138-777e6d3d-3442-4872-8ada-e1bd311a49f9.png">
  
-<img align="right" alt="Coding" width="150" src="https://user-images.githubusercontent.com/64998301/143171267-86860e2b-8a25-440e-b778-a860ceac7e99.png">
+<img align="right" alt="Coding" width="150" src="https://user-images.githubusercontent.com/64998301/146298024-e50a9c98-fa50-4189-9c95-73a218f8cc9a.png">
  
 <img align="center" alt="Coding" width="650" src="https://cdn.dribbble.com/users/2046015/screenshots/4841937/media/3a17ba6103821f4374cb2c9791ddff38.png?compress=1&resize=800x600">
 
