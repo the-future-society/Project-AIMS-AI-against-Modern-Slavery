@@ -1,8 +1,8 @@
 
-![MasterHead](https://cdn.dribbble.com/users/1200484/screenshots/3551681/media/ccc41bc0bba4aa1af6b4939f9872610c.jpg?compress=1&resize=800x600&vertical=top)
+<img align="center" img width="200" alt="https://cdn.dribbble.com/users/1200484/screenshots/3551681/media/ccc41bc0bba4aa1af6b4939f9872610c.jpg?compress=1&resize=800x600&vertical=topg">
 
 
-# Case study: check what are companies already doing to address child labour in supply chains.
+# Case study: check what are companies saying they are doing to address child labour in supply chains
 
 ## For data scientists, students or professionals, access the datasets from the UK and Australia and search if the companies mention child labor/labour in their statements. 
  ### Proposed questions: 
