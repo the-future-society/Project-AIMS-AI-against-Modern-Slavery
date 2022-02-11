@@ -1,6 +1,5 @@
 
-<img align="center" img width="200" alt="https://dribbble.com/shots/3551681-Work-and-Play/attachments/9888363?mode=media">
-
+![MasterHead](https://cdn.dribbble.com/users/1200484/screenshots/3551681/media/ccc41bc0bba4aa1af6b4939f9872610c.jpg?compress=1&resize=800x600&vertical=top)
 
 # Case study: check what are companies saying they are doing to address child labour in supply chains
 
@@ -8,7 +7,7 @@
  ### Proposed questions: 
  - Do the companies move beyond mentioning child labour as part of the definition of modern slavery?
  - Do they present clear steps to address child labour as a subset of modern slavery? If so, what are those? 
- - How many companies identified and reported on any risks of incidents of child labour in the statement? What are the trends observed?
+ - How many companies identified and reported on any risks or incidents of child labour? What are the trends observed?
 
 
  ### Proposed steps 
@@ -16,17 +15,17 @@
 2. Set up a Google Colab notebook (you can also run this locally)
 3. In your Google Colab notebook or .jpynb, provide answers to the following:  
    - What methodology do you propose to ansewer the questions? 
-   - Present the code of the solutions developed and interpret your results.  Ensure that each section of the solution is well described and documented.  
+   - Present the code of the solutions developed and interpret your results.  Ensure that each section of the solution is well documented.  
    - How do you assess the quality of your results? What are the challenges? What would  you recommend to do to improve your initial results? 
 4. Share the link of your Google Colab notebook or your .jpynb with  [Adriana](mailto:adriana.bora@thefuturesociety.org) or present it during our next meeting. 
 
 ## For policymakers, legislators and analysts:
  ### Proposed questions: 
 - What metrics should be designed to benchmark and measure the companies’ response to The Dutch Child Labour Due Diligence Law?
-- How can the existing larger modern slavery legislations should be redesigned to ensure that particular attention is paid to child labour and the urgency to eradicate it by 2025?
+- How can the existing modern slavery legislations should be redesigned to ensure that particular attention is paid to child labour and the urgency to eradicate it by 2025?
 - In your view, how can technology assist in the fight against child labour?
 
-Share your answers with [Adriana](mailto:adriana.bora@thefuturesociety.org) or present them during our next meeting. 
+Share your nswers with [Adriana](mailto:adriana.bora@thefuturesociety.org) or present them during our next meeting. 
 
 
 
