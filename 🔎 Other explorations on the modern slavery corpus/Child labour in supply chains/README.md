@@ -12,7 +12,7 @@
 
 
  ### Proposed steps 
-1. Acess the UK statements from [Archive of BHRRC The Modern Slavery Registry](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/tree/main/%F0%9F%97%84%EF%B8%8F%20Data%20and%20text%20extraction/Archive%20of%20BHRRC%20The%20Modern%20Slavery%20Registry), [GOV.UK Modern slavery statement registry](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/tree/main/%F0%9F%97%84%EF%B8%8F%20Data%20and%20text%20extraction/%F0%9F%87%AC%F0%9F%87%A7%20GOV.UK%20Modern%20slavery%20statement%20registry) and [the Australian Modern Slavery Statements Register] (https://modernslaveryregister.gov.au/).
+1. Acess the UK statements from [Archive of BHRRC The Modern Slavery Registry](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/tree/main/%F0%9F%97%84%EF%B8%8F%20Data%20and%20text%20extraction/Archive%20of%20BHRRC%20The%20Modern%20Slavery%20Registry), [GOV.UK Modern slavery statement registry](https://github.com/the-future-society/Project-AIMS-AI-against-Modern-Slavery/tree/main/%F0%9F%97%84%EF%B8%8F%20Data%20and%20text%20extraction/%F0%9F%87%AC%F0%9F%87%A7%20GOV.UK%20Modern%20slavery%20statement%20registry) and [the Australian Modern Slavery Statements Register](https://modernslaveryregister.gov.au/).
 2. Set up a Google Colab notebook (you can also run this locally)
 3. In your Google Colab notebook or .jpynb, provide answers to the following:  
    - What methodology do you propose to ansewer the questions? 
