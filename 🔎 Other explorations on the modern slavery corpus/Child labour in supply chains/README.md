@@ -1,5 +1,5 @@
 
-<img align="center" img width="200" alt="https://cdn.dribbble.com/users/1200484/screenshots/3551681/media/ccc41bc0bba4aa1af6b4939f9872610c.jpg?compress=1&resize=800x600&vertical=topg">
+<img align="center" img width="200" alt="https://dribbble.com/shots/3551681-Work-and-Play/attachments/9888363?mode=media">
 
 
 # Case study: check what are companies saying they are doing to address child labour in supply chains
