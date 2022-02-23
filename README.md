@@ -80,7 +80,7 @@ The work developed by [The Future Society](https://thefuturesociety.org/our-team
 By sharing your analysis and contributing to this repository, you help the global community to hold multi-national corporations accountable for how they are addressing modern slavery in their supply chains. 
 
 Join our community on [Slack](https://join.slack.com/t/projectaimsai-fqt6125/shared_invite/zt-zqrmnzh2-KezsPrxFMpW_DGL6ko4ytw) and [Trello](https://trello.com/invite/b/TmP0XgcU/304d196df1e8edbf06066e222f9f3eed/project-aims-github-2022) and join our regular meetings where we discuss recent research and development on the project. 
-- 🗓️  **Next meeting: February 2022**
+- 🗓️  **Next meeting: March 2022** 
 
 
 ### Not sure where to start?
