@@ -1,5 +1,4 @@
-<img align="center" alt="Coding" src="http://www.endslaverynow.org/media/3705/informal-garment-industry-2015-6a.jpg?width=660&height=440&bgcolor=fff">
-                                             © Claudio Montesano Casillas
+
 <img align="center" alt="Coding" src="https://user-images.githubusercontent.com/64998301/155444251-d64f72ee-4ee8-418d-90b4-7a831c1154ee.svg">
 
 
@@ -35,6 +34,9 @@ This GitHub contains the following resources:
 “Take immediate and effective measures to eradicate forced labour, end modern slavery and human trafficking and secure the prohibition and elimination of the worst forms of child labour, including recruitment and use of child soldiers, and by 2025 end child labour in all its forms.”
 
 Slavery is a multi-billion-dollar transnational crime, and according to 2018, [Global Slavery Index](https://www.globalslaveryindex.org/2018/findings/highlights/), it affects more than 40.3 M people worldwide - 1 in 4 of whom are children. Of these, 16 million are in forced labour in the private sector, meaning they form part of the supply chains of international corporations supplying our goods and services.
+
+<img align="right" alt="Coding" width="300" src="http://www.endslaverynow.org/media/3705/informal-garment-industry-2015-6a.jpg?width=660&height=440&bgcolor=fff">
+                                             © Claudio Montesano Casillas
 
 In response to those shocking statistics, the UK introduced the first national legal framework for combatting modern slavery, the Modern Slavery Act of 2015. California, Australia, the EU, France and the Netherlands have similar legislation, with many more countries expected to follow in the coming years. 
 
