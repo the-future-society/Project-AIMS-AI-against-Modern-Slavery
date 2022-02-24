@@ -2,7 +2,7 @@
 <img align="left" alt="Coding" width="150" src="https://user-images.githubusercontent.com/64998301/143171138-777e6d3d-3442-4872-8ada-e1bd311a49f9.png">
 
 <img align="right" alt="Coding" width="150" src="https://user-images.githubusercontent.com/64998301/146294338-7999acb1-e781-46be-82b5-2e5f89d0da58.png">
-![MasterHead](![AI-award-2021-banner-01](https://user-images.githubusercontent.com/64998301/155444144-9fe21393-5748-47d7-9251-aae29682c30b.svg))
+![AI-award-2021-banner-01](https://user-images.githubusercontent.com/64998301/155444144-9fe21393-5748-47d7-9251-aae29682c30b.svg)
 
 
 
