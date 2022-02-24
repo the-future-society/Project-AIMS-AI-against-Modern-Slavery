@@ -1,7 +1,4 @@
-
-
-![MasterHead](http://www.endslaverynow.org/media/3705/informal-garment-industry-2015-6a.jpg?width=660&height=440&bgcolor=fff)
-
+<img align="center" alt="Coding" src="http://www.endslaverynow.org/media/3705/informal-garment-industry-2015-6a.jpg?width=660&height=440&bgcolor=fff">
                                              © Claudio Montesano Casillas
 <img align="center" alt="Coding" src="https://user-images.githubusercontent.com/64998301/155444251-d64f72ee-4ee8-418d-90b4-7a831c1154ee.svg">
 
