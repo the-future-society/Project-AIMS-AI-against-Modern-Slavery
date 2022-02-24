@@ -2,6 +2,7 @@
 <img align="left" alt="Coding" width="150" src="https://user-images.githubusercontent.com/64998301/143171138-777e6d3d-3442-4872-8ada-e1bd311a49f9.png">
 
 <img align="right" alt="Coding" width="150" src="https://user-images.githubusercontent.com/64998301/146294338-7999acb1-e781-46be-82b5-2e5f89d0da58.png">
+![MasterHead](https://ircai.org/wp-content/uploads/2022/02/AI-award-2021-banner-01.svg)
 
 
 ![MasterHead](http://www.endslaverynow.org/media/3705/informal-garment-industry-2015-6a.jpg?width=660&height=440&bgcolor=fff)
