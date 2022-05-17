@@ -71,6 +71,10 @@ The analysis of the statements takes into account a list of “metrics”, adapt
 - Project AIMS being presented at the UN World Data Forum [2020](https://youtu.be/1iDmSXJwClA) and [2021](https://www.youtube.com/watch?v=nSGiXbe6gLg&list=PLBc4lThqX-WMnXI1gt95r_hJ4IgZP8tWY&index=42)
 - Project AIMS was selected to be presented as a promising use-case of responsible AI for Social Good at the [Global Partnership on AI (GPAI) Montreal Summit 2020](https://youtu.be/k9-2JMvLJg)
 - Project AIMS at the UNESCO and the World Economic Forum [Girl Trouble: Breaking Through The Bias in AI](https://youtu.be/cgpye788P9Q)
+- International Research Center on Artificial Intelligence under the auspices of UNESCO - [AI Award 2021 – Adriana Bora for Project AIMS](https://thefuturesociety.org/events/ircai-ai-award-2021-adriana-bora-for-project-aims/)
+- [ActuIA](https://lnkd.in/gWQKwKA)
+- [Code 8.7 Symposium: Using Tech-Driven Data to Address Child Labour](https://delta87.org/2022/03/code-8-7-symposium/)
+- [The Good AI Conversation](https://www.youtube.com/watch?v=or_Q-Afgf8A): Can AI enable a more sustainable supply chain?
 
 ## JOIN US 
 
@@ -82,7 +86,7 @@ The work developed by [The Future Society](https://thefuturesociety.org/our-team
 By sharing your analysis and contributing to this repository, you help the global community to hold multi-national corporations accountable for how they are addressing modern slavery in their supply chains. 
 
 Join our community on [Slack](https://join.slack.com/t/projectaimsai-fqt6125/shared_invite/zt-zqrmnzh2-KezsPrxFMpW_DGL6ko4ytw) and [Trello](https://trello.com/invite/b/TmP0XgcU/304d196df1e8edbf06066e222f9f3eed/project-aims-github-2022) and join our regular meetings where we discuss recent research and development on the project. 
-- 🗓️  **Next meeting: March 2022** 
+- 🗓️  **Next meeting: June 2022** 
 
 
 ### Not sure where to start?
@@ -101,7 +105,6 @@ If you intend to share any form of public research and analysis based on this re
 
 ### Main contributors to the GitHub:
 - [Adriana Eufrosina Bora](https://www.linkedin.com/in/adriana-eufrosina-bora-2965a19a/) 
-- [Karyna Bikziantieieva](https://www.linkedin.com/in/karyna-bikziantieieva-48aba1197/)
 - [Rui Wang](https://www.linkedin.com/in/rui-wang-07774221/)
 - [Rodney Phillips](https://www.linkedin.com/in/rodney-levon-phillips/)
 - [Badrul Chowdhury](https://www.linkedin.com/in/badrul-c-301b1473/)
@@ -110,6 +113,7 @@ If you intend to share any form of public research and analysis based on this re
 
 - [Nicolas Miailhe](http://thefuturesociety.org/people/nicolas-miailhe/), [Yolanda Lannquist](http://thefuturesociety.org/people/yolanda-lannquist/) and [Katharine Bryant](https://www.linkedin.com/in/katharine-bryant-0779b151/) who oversaw the project
 - [Clement Baccar](https://www.linkedin.com/in/clement-baccar-a23b6768/), [Brian Ulicny](https://www.linkedin.com/in/bulicny/), [Hermès Martinez](https://www.linkedin.com/in/hermes-martinez-7a057bb7/), [Mathis Linger](https://www.linkedin.com/in/lingermathis/) and [Sahan Bulathwela](https://www.linkedin.com/in/in4maniac/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAZgenABan_BCFNehPhF0m1Ld0KMdSVj62E) who advised on the project 
+- [Karyna Bikziantieieva](https://www.linkedin.com/in/karyna-bikziantieieva-48aba1197/)
 - [Roberto Espinoza](https://www.linkedin.com/in/robeespi/)
 - [Pranamya Korde](https://www.linkedin.com/in/pranmayakorde17/)
 - [Li He](https://www.linkedin.com/in/li-he-94a514194/)
