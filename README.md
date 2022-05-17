@@ -71,10 +71,11 @@ The analysis of the statements takes into account a list of “metrics”, adapt
 - Project AIMS being presented at the UN World Data Forum [2020](https://youtu.be/1iDmSXJwClA) and [2021](https://www.youtube.com/watch?v=nSGiXbe6gLg&list=PLBc4lThqX-WMnXI1gt95r_hJ4IgZP8tWY&index=42)
 - Project AIMS was selected to be presented as a promising use-case of responsible AI for Social Good at the [Global Partnership on AI (GPAI) Montreal Summit 2020](https://youtu.be/k9-2JMvLJg)
 - Project AIMS at the UNESCO and the World Economic Forum [Girl Trouble: Breaking Through The Bias in AI](https://youtu.be/cgpye788P9Q)
+- [Code 8.7 Symposium: Using Tech-Driven Data to Address Child Labour](https://delta87.org/2022/03/code-8-7-symposium/)
 - International Research Center on Artificial Intelligence under the auspices of UNESCO - [AI Award 2021 – Adriana Bora for Project AIMS](https://thefuturesociety.org/events/ircai-ai-award-2021-adriana-bora-for-project-aims/)
 - [ActuIA](https://lnkd.in/gWQKwKA)
-- [Code 8.7 Symposium: Using Tech-Driven Data to Address Child Labour](https://delta87.org/2022/03/code-8-7-symposium/)
 - [The Good AI Conversation](https://www.youtube.com/watch?v=or_Q-Afgf8A): Can AI enable a more sustainable supply chain?
+- [Freedom For Humanity online Summit on Modern Slavery](https://freedomforhumanity.org.au/)
 
 ## JOIN US 
 
