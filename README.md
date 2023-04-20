@@ -35,7 +35,7 @@ This GitHub contains the following resources:
 [The UN Sustainable Development Goal 8.7](https://sustainabledevelopment.un.org/sdg8) states:
 “Take immediate and effective measures to eradicate forced labour, end modern slavery and human trafficking and secure the prohibition and elimination of the worst forms of child labour, including recruitment and use of child soldiers, and by 2025 end child labour in all its forms.”
 
-Slavery is a multi-billion-dollar transnational crime, and according to 2018, [Global Slavery Index](https://www.globalslaveryindex.org/2018/findings/highlights/), it affects more than 40.3 M people worldwide - 1 in 4 of whom are children. Of these, 16 million are in forced labour in the private sector, meaning they form part of the supply chains of international corporations supplying our goods and services.
+Slavery is a multi-billion-dollar transnational crime, and according to 2022, [Global Estimates of Modern Slavery: Forced Labour and Forced Marriage](https://www.ilo.org/global/topics/forced-labour/publications/WCMS_854733/lang--en/index.htm), it affects approximately 50 M people worldwidewith 27.6 million people in forced labour and 22 million people in forced marriage.
 
 (Imagine source: © Claudio Montesano Casillas)
 
@@ -71,7 +71,6 @@ The analysis of the statements takes into account a list of “metrics”, adapt
 - Project AIMS being presented at the UN World Data Forum [2020](https://youtu.be/1iDmSXJwClA) and [2021](https://www.youtube.com/watch?v=nSGiXbe6gLg&list=PLBc4lThqX-WMnXI1gt95r_hJ4IgZP8tWY&index=42)
 - Project AIMS was selected to be presented as a promising use-case of responsible AI for Social Good at the [Global Partnership on AI (GPAI) Montreal Summit 2020](https://youtu.be/k9-2JMvLJg)
 - Project AIMS at the UNESCO and the World Economic Forum [Girl Trouble: Breaking Through The Bias in AI](https://youtu.be/cgpye788P9Q)
-- [Code 8.7 Symposium: Using Tech-Driven Data to Address Child Labour](https://delta87.org/2022/03/code-8-7-symposium/)
 - International Research Center on Artificial Intelligence under the auspices of UNESCO - [AI Award 2021 – Adriana Bora for Project AIMS](https://thefuturesociety.org/events/ircai-ai-award-2021-adriana-bora-for-project-aims/)
 - [ActuIA](https://lnkd.in/gWQKwKA)
 - [The Good AI Conversation](https://www.youtube.com/watch?v=or_Q-Afgf8A): Can AI enable a more sustainable supply chain?
